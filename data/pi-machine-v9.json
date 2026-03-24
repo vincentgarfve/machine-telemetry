@@ -1,0 +1,6136 @@
+{
+  "files": {
+    "gpio_log": {
+      "exists": true,
+      "modified_at": "2026-03-05T04:25:16.959941Z",
+      "path": "/home/pi/Desktop/gpio_change_log.jsonl",
+      "size_bytes": 29103
+    },
+    "machine_log": {
+      "exists": true,
+      "modified_at": "2026-03-24T13:45:10.904885Z",
+      "path": "/home/pi/Desktop/machine/v9/machine_run.log",
+      "size_bytes": 9453086
+    },
+    "runtime_events": {
+      "exists": true,
+      "modified_at": "2026-03-24T13:44:52.133269Z",
+      "path": "/home/pi/Desktop/machine/v9/runtime_stats/events.jsonl",
+      "size_bytes": 1191994
+    },
+    "runtime_state": {
+      "exists": true,
+      "modified_at": "2026-03-24T13:44:52.133269Z",
+      "path": "/home/pi/Desktop/machine/v9/runtime_stats/state.json",
+      "size_bytes": 556
+    }
+  },
+  "generated_at": "2026-03-24T13:45:11.195559Z",
+  "log_tails": {
+    "machine_run_log": [
+      "2026-03-24 14:41:59 STATE -> FINAL_BRIDGE_DOWN_DELAY",
+      "2026-03-24 14:42:00 STATE -> FINAL_TRANSFER_FWD",
+      "2026-03-24 14:42:05 STATE -> FINAL_TRANSFER_AT_FWD_HOLD",
+      "2026-03-24 14:42:08 STATE -> FINAL_TRANSFER_BACK",
+      "2026-03-24 14:42:10 STATE -> FINAL_AFTER_TRANSFER_BACK_DELAY",
+      "2026-03-24 14:42:11 STATE -> FINAL_BRIDGE_UP_BEFORE_WELD",
+      "2026-03-24 14:42:15 STATE -> FINAL_WELD",
+      "2026-03-24 14:42:21 STATE -> CYCLE_DONE",
+      "2026-03-24 14:42:22 STATE -> ROW_INFEED_COUNTING_PRE_GATE | AUTO_RESTART",
+      "2026-03-24 14:42:24 STATE -> ROW_INFEED_COUNTING | pre-gate klar",
+      "2026-03-24 14:42:25 PULSE ok 0.41s -> bottle_count=1",
+      "2026-03-24 14:42:26 PULSE ok 0.34s -> bottle_count=2",
+      "2026-03-24 14:42:27 PULSE ok 0.40s -> bottle_count=3",
+      "2026-03-24 14:42:27 STATE -> ROW_AFTER_CLOSE_SETTLE",
+      "2026-03-24 14:42:30 STATE -> MINI15_PUSH_FWD",
+      "2026-03-24 14:42:32 STATE -> MINI15_PUSH_BACK",
+      "2026-03-24 14:42:33 STATE -> MINI15_OPEN_GATE_NEXT",
+      "2026-03-24 14:42:34 STATE -> ROW_INFEED_COUNTING_PRE_GATE | nästa rad 2/2",
+      "2026-03-24 14:42:35 STATE -> ROW_INFEED_COUNTING | pre-gate klar",
+      "2026-03-24 14:42:38 INFEED: recovery infeed_open band_stop=OFF gap=2.51s count=0/3",
+      "2026-03-24 14:42:38 INFEED: recovery infeed_open band_stop=OFF gap=3.26s count=0/3",
+      "2026-03-24 14:42:39 INFEED: recovery infeed_open band_stop=OFF gap=4.04s count=0/3",
+      "2026-03-24 14:42:40 INFEED: recovery infeed_open band_stop=OFF gap=4.81s count=0/3",
+      "2026-03-24 14:42:41 INFEED: recovery infeed_open band_stop=OFF gap=5.59s count=0/3",
+      "2026-03-24 14:42:41 INFEED: recovery infeed_open band_stop=OFF gap=6.36s count=0/3",
+      "2026-03-24 14:42:42 INFEED: recovery infeed_open band_stop=OFF gap=7.14s count=0/3",
+      "2026-03-24 14:42:43 INFEED: recovery infeed_open band_stop=OFF gap=7.91s count=0/3",
+      "2026-03-24 14:42:44 INFEED: recovery infeed_open band_stop=OFF gap=8.69s count=0/3",
+      "2026-03-24 14:42:45 INFEED: recovery infeed_open band_stop=OFF gap=9.46s count=0/3",
+      "2026-03-24 14:42:45 INFEED: recovery infeed_open band_stop=OFF gap=10.24s count=0/3",
+      "2026-03-24 14:42:46 INFEED: recovery infeed_open band_stop=OFF gap=11.01s count=0/3",
+      "2026-03-24 14:42:47 PULSE ok 0.30s -> bottle_count=1",
+      "2026-03-24 14:42:48 PULSE ok 0.61s -> bottle_count=2",
+      "2026-03-24 14:42:49 PULSE ok 0.40s -> bottle_count=3",
+      "2026-03-24 14:42:49 STATE -> ROW_AFTER_CLOSE_SETTLE",
+      "2026-03-24 14:42:52 STATE -> FINAL_WAIT_BEFORE_SIDE_FENCE_CLOSE",
+      "2026-03-24 14:42:52 STATE -> FINAL_CYL_UP_DELAY_BEFORE_SIDE",
+      "2026-03-24 14:42:53 STATE -> FINAL_SIDE_OUT_SETTLE",
+      "2026-03-24 14:42:53 STATE -> FINAL_BRIDGE_DOWN",
+      "2026-03-24 14:42:56 STATE -> FINAL_BRIDGE_DOWN_DELAY",
+      "2026-03-24 14:42:57 STATE -> FINAL_TRANSFER_FWD",
+      "2026-03-24 14:43:02 STATE -> FINAL_TRANSFER_AT_FWD_HOLD",
+      "2026-03-24 14:43:05 STATE -> FINAL_TRANSFER_BACK",
+      "2026-03-24 14:43:07 STATE -> FINAL_AFTER_TRANSFER_BACK_DELAY",
+      "2026-03-24 14:43:08 STATE -> FINAL_BRIDGE_UP_BEFORE_WELD",
+      "2026-03-24 14:43:12 STATE -> FINAL_WELD",
+      "2026-03-24 14:43:18 STATE -> CYCLE_DONE",
+      "2026-03-24 14:43:19 STATE -> ROW_INFEED_COUNTING_PRE_GATE | AUTO_RESTART",
+      "2026-03-24 14:43:21 STATE -> ROW_INFEED_COUNTING | pre-gate klar",
+      "2026-03-24 14:43:22 PULSE ok 0.38s -> bottle_count=1",
+      "2026-03-24 14:43:23 PULSE ok 0.41s -> bottle_count=2",
+      "2026-03-24 14:43:24 PULSE ok 0.41s -> bottle_count=3",
+      "2026-03-24 14:43:24 STATE -> ROW_AFTER_CLOSE_SETTLE",
+      "2026-03-24 14:43:26 STATE -> MINI15_PUSH_FWD",
+      "2026-03-24 14:43:28 STATE -> MINI15_PUSH_BACK",
+      "2026-03-24 14:43:30 STATE -> MINI15_OPEN_GATE_NEXT",
+      "2026-03-24 14:43:30 STATE -> ROW_INFEED_COUNTING_PRE_GATE | nästa rad 2/2",
+      "2026-03-24 14:43:31 STATE -> ROW_INFEED_COUNTING | pre-gate klar",
+      "2026-03-24 14:43:32 PULSE ok 0.38s -> bottle_count=1",
+      "2026-03-24 14:43:33 PULSE ok 0.41s -> bottle_count=2",
+      "2026-03-24 14:43:34 PULSE ok 0.38s -> bottle_count=3",
+      "2026-03-24 14:43:34 STATE -> ROW_AFTER_CLOSE_SETTLE",
+      "2026-03-24 14:43:37 STATE -> FINAL_WAIT_BEFORE_SIDE_FENCE_CLOSE",
+      "2026-03-24 14:43:37 STATE -> FINAL_CYL_UP_DELAY_BEFORE_SIDE",
+      "2026-03-24 14:43:38 STATE -> FINAL_SIDE_OUT_SETTLE",
+      "2026-03-24 14:43:38 STATE -> FINAL_BRIDGE_DOWN",
+      "2026-03-24 14:43:40 STATE -> FINAL_BRIDGE_DOWN_DELAY",
+      "2026-03-24 14:43:41 STATE -> FINAL_TRANSFER_FWD",
+      "2026-03-24 14:43:46 STATE -> FINAL_TRANSFER_AT_FWD_HOLD",
+      "2026-03-24 14:43:50 STATE -> FINAL_TRANSFER_BACK",
+      "2026-03-24 14:43:52 STATE -> FINAL_AFTER_TRANSFER_BACK_DELAY",
+      "2026-03-24 14:43:53 STATE -> FINAL_BRIDGE_UP_BEFORE_WELD",
+      "2026-03-24 14:43:57 STATE -> FINAL_WELD",
+      "2026-03-24 14:44:03 STATE -> CYCLE_DONE",
+      "2026-03-24 14:44:04 STATE -> ROW_INFEED_COUNTING_PRE_GATE | AUTO_RESTART",
+      "2026-03-24 14:44:06 STATE -> ROW_INFEED_COUNTING | pre-gate klar",
+      "2026-03-24 14:44:07 PULSE ok 0.41s -> bottle_count=1",
+      "2026-03-24 14:44:08 PULSE ok 0.38s -> bottle_count=2",
+      "2026-03-24 14:44:09 PULSE ok 0.40s -> bottle_count=3",
+      "2026-03-24 14:44:09 STATE -> ROW_AFTER_CLOSE_SETTLE",
+      "2026-03-24 14:44:12 STATE -> MINI15_PUSH_FWD",
+      "2026-03-24 14:44:14 STATE -> MINI15_PUSH_BACK",
+      "2026-03-24 14:44:15 STATE -> MINI15_OPEN_GATE_NEXT",
+      "2026-03-24 14:44:15 STATE -> ROW_INFEED_COUNTING_PRE_GATE | nästa rad 2/2",
+      "2026-03-24 14:44:17 STATE -> ROW_INFEED_COUNTING | pre-gate klar",
+      "2026-03-24 14:44:18 PULSE ok 0.38s -> bottle_count=1",
+      "2026-03-24 14:44:19 PULSE ok 0.41s -> bottle_count=2",
+      "2026-03-24 14:44:20 PULSE ok 0.44s -> bottle_count=3",
+      "2026-03-24 14:44:20 STATE -> ROW_AFTER_CLOSE_SETTLE",
+      "2026-03-24 14:44:23 STATE -> FINAL_WAIT_BEFORE_SIDE_FENCE_CLOSE",
+      "2026-03-24 14:44:23 STATE -> FINAL_CYL_UP_DELAY_BEFORE_SIDE",
+      "2026-03-24 14:44:24 STATE -> FINAL_SIDE_OUT_SETTLE",
+      "2026-03-24 14:44:24 STATE -> FINAL_BRIDGE_DOWN",
+      "2026-03-24 14:44:26 STATE -> FINAL_BRIDGE_DOWN_DELAY",
+      "2026-03-24 14:44:27 STATE -> FINAL_TRANSFER_FWD",
+      "2026-03-24 14:44:32 STATE -> FINAL_TRANSFER_AT_FWD_HOLD",
+      "2026-03-24 14:44:36 STATE -> FINAL_TRANSFER_BACK",
+      "2026-03-24 14:44:38 STATE -> FINAL_AFTER_TRANSFER_BACK_DELAY",
+      "2026-03-24 14:44:39 STATE -> FINAL_BRIDGE_UP_BEFORE_WELD",
+      "2026-03-24 14:44:43 STATE -> FINAL_WELD",
+      "2026-03-24 14:44:49 STATE -> CYCLE_DONE",
+      "2026-03-24 14:44:50 STATE -> ROW_INFEED_COUNTING_PRE_GATE | AUTO_RESTART",
+      "2026-03-24 14:44:52 STATE -> ROW_INFEED_COUNTING | pre-gate klar",
+      "2026-03-24 14:44:53 PULSE ok 0.41s -> bottle_count=1",
+      "2026-03-24 14:44:54 PULSE ok 0.41s -> bottle_count=2",
+      "2026-03-24 14:44:55 PULSE ok 0.40s -> bottle_count=3",
+      "2026-03-24 14:44:55 STATE -> ROW_AFTER_CLOSE_SETTLE",
+      "2026-03-24 14:44:58 STATE -> MINI15_PUSH_FWD",
+      "2026-03-24 14:45:00 STATE -> MINI15_PUSH_BACK",
+      "2026-03-24 14:45:01 STATE -> MINI15_OPEN_GATE_NEXT",
+      "2026-03-24 14:45:01 STATE -> ROW_INFEED_COUNTING_PRE_GATE | nästa rad 2/2",
+      "2026-03-24 14:45:03 STATE -> ROW_INFEED_COUNTING | pre-gate klar",
+      "2026-03-24 14:45:04 PULSE ok 0.41s -> bottle_count=1",
+      "2026-03-24 14:45:05 PULSE ok 0.45s -> bottle_count=2",
+      "2026-03-24 14:45:06 PULSE ok 0.44s -> bottle_count=3",
+      "2026-03-24 14:45:06 STATE -> ROW_AFTER_CLOSE_SETTLE",
+      "2026-03-24 14:45:09 STATE -> FINAL_WAIT_BEFORE_SIDE_FENCE_CLOSE",
+      "2026-03-24 14:45:09 STATE -> FINAL_CYL_UP_DELAY_BEFORE_SIDE",
+      "2026-03-24 14:45:10 STATE -> FINAL_SIDE_OUT_SETTLE",
+      "2026-03-24 14:45:10 STATE -> FINAL_BRIDGE_DOWN"
+    ]
+  },
+  "recent_events": [
+    {
+      "lap_s": 31.269,
+      "profile": "15L",
+      "ts": 1774343448.842512,
+      "ts_str": "2026-03-24 10:10:48",
+      "type": "lap_complete"
+    },
+    {
+      "cmd": "STOP",
+      "mode": "IDLE",
+      "note": "STOP -> IDLE",
+      "ts": 1774343454.141679,
+      "ts_str": "2026-03-24 10:10:54",
+      "type": "command"
+    },
+    {
+      "cmd": "START",
+      "mode": "RUNNING",
+      "note": "RUNNING",
+      "ts": 1774343803.5862074,
+      "ts_str": "2026-03-24 10:16:43",
+      "type": "command"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 3.581,
+      "cycle_time_adj_s": 409.999,
+      "cycle_time_s": 413.58,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774343859.8298178,
+      "ts_str": "2026-03-24 10:17:39",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.264,
+      "profile": "15L",
+      "ts": 1774343862.4167397,
+      "ts_str": "2026-03-24 10:17:42",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.265,
+      "cycle_time_adj_s": 42.136,
+      "cycle_time_s": 44.401,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774343904.231026,
+      "ts_str": "2026-03-24 10:18:24",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.277,
+      "profile": "15L",
+      "ts": 1774343906.8222437,
+      "ts_str": "2026-03-24 10:18:26",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.572,
+      "cycle_time_adj_s": 42.163,
+      "cycle_time_s": 44.735,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774343948.9658685,
+      "ts_str": "2026-03-24 10:19:08",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.281,
+      "profile": "15L",
+      "ts": 1774343951.5574188,
+      "ts_str": "2026-03-24 10:19:11",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.199,
+      "cycle_time_adj_s": 41.366,
+      "cycle_time_s": 43.566,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774343992.5315566,
+      "ts_str": "2026-03-24 10:19:52",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.256,
+      "profile": "15L",
+      "ts": 1774343995.1249375,
+      "ts_str": "2026-03-24 10:19:55",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 1.823,
+      "cycle_time_adj_s": 41.086,
+      "cycle_time_s": 42.909,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774344035.440437,
+      "ts_str": "2026-03-24 10:20:35",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.283,
+      "profile": "15L",
+      "ts": 1774344038.0363672,
+      "ts_str": "2026-03-24 10:20:38",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.269,
+      "cycle_time_adj_s": 42.077,
+      "cycle_time_s": 44.346,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774344079.7863736,
+      "ts_str": "2026-03-24 10:21:19",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.268,
+      "profile": "15L",
+      "ts": 1774344082.382417,
+      "ts_str": "2026-03-24 10:21:22",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.443,
+      "cycle_time_adj_s": 41.948,
+      "cycle_time_s": 44.391,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774344124.1772156,
+      "ts_str": "2026-03-24 10:22:04",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.277,
+      "profile": "15L",
+      "ts": 1774344126.768049,
+      "ts_str": "2026-03-24 10:22:06",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.187,
+      "cycle_time_adj_s": 42.475,
+      "cycle_time_s": 44.662,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774344168.8391933,
+      "ts_str": "2026-03-24 10:22:48",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.274,
+      "profile": "15L",
+      "ts": 1774344171.4336076,
+      "ts_str": "2026-03-24 10:22:51",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.066,
+      "cycle_time_adj_s": 41.639,
+      "cycle_time_s": 43.705,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774344212.5445087,
+      "ts_str": "2026-03-24 10:23:32",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.259,
+      "profile": "15L",
+      "ts": 1774344215.1362464,
+      "ts_str": "2026-03-24 10:23:35",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.608,
+      "cycle_time_adj_s": 41.651,
+      "cycle_time_s": 44.258,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774344256.8028715,
+      "ts_str": "2026-03-24 10:24:16",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.281,
+      "profile": "15L",
+      "ts": 1774344259.3963716,
+      "ts_str": "2026-03-24 10:24:19",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.339,
+      "cycle_time_adj_s": 41.844,
+      "cycle_time_s": 44.184,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774344300.9866395,
+      "ts_str": "2026-03-24 10:25:00",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.293,
+      "profile": "15L",
+      "ts": 1774344303.5827491,
+      "ts_str": "2026-03-24 10:25:03",
+      "type": "lap_complete"
+    },
+    {
+      "cmd": "STOP",
+      "mode": "IDLE",
+      "note": "STOP -> IDLE",
+      "ts": 1774344372.8893237,
+      "ts_str": "2026-03-24 10:26:12",
+      "type": "command"
+    },
+    {
+      "cmd": "MANUAL_OUT",
+      "mode": "IDLE",
+      "note": "side_fence=ON",
+      "ts": 1774344377.9090807,
+      "ts_str": "2026-03-24 10:26:17",
+      "type": "command"
+    },
+    {
+      "cmd": "MANUAL_OUT",
+      "mode": "IDLE",
+      "note": "side_fence=OFF",
+      "ts": 1774344383.4863849,
+      "ts_str": "2026-03-24 10:26:23",
+      "type": "command"
+    },
+    {
+      "cmd": "START",
+      "mode": "RUNNING",
+      "note": "RUNNING",
+      "ts": 1774344387.1675768,
+      "ts_str": "2026-03-24 10:26:27",
+      "type": "command"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.17,
+      "cycle_time_adj_s": 124.853,
+      "cycle_time_s": 127.023,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774344428.0096304,
+      "ts_str": "2026-03-24 10:27:08",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.289,
+      "profile": "15L",
+      "ts": 1774344430.6043377,
+      "ts_str": "2026-03-24 10:27:10",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 1.965,
+      "cycle_time_adj_s": 41.299,
+      "cycle_time_s": 43.264,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774344471.27375,
+      "ts_str": "2026-03-24 10:27:51",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.285,
+      "profile": "15L",
+      "ts": 1774344473.8668764,
+      "ts_str": "2026-03-24 10:27:53",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 1.964,
+      "cycle_time_adj_s": 41.32,
+      "cycle_time_s": 43.284,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774344514.5578592,
+      "ts_str": "2026-03-24 10:28:34",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.306,
+      "profile": "15L",
+      "ts": 1774344517.1516416,
+      "ts_str": "2026-03-24 10:28:37",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.704,
+      "cycle_time_adj_s": 43.038,
+      "cycle_time_s": 45.742,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774344560.3002362,
+      "ts_str": "2026-03-24 10:29:20",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.3,
+      "profile": "15L",
+      "ts": 1774344562.8916552,
+      "ts_str": "2026-03-24 10:29:22",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.404,
+      "cycle_time_adj_s": 42.0,
+      "cycle_time_s": 44.404,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774344604.703797,
+      "ts_str": "2026-03-24 10:30:04",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.281,
+      "profile": "15L",
+      "ts": 1774344607.297833,
+      "ts_str": "2026-03-24 10:30:07",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.649,
+      "cycle_time_adj_s": 42.094,
+      "cycle_time_s": 44.743,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774344649.446744,
+      "ts_str": "2026-03-24 10:30:49",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.299,
+      "profile": "15L",
+      "ts": 1774344652.0414753,
+      "ts_str": "2026-03-24 10:30:52",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.544,
+      "cycle_time_adj_s": 41.91,
+      "cycle_time_s": 44.455,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774344693.9012814,
+      "ts_str": "2026-03-24 10:31:33",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.284,
+      "profile": "15L",
+      "ts": 1774344696.4952445,
+      "ts_str": "2026-03-24 10:31:36",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.641,
+      "cycle_time_adj_s": 42.267,
+      "cycle_time_s": 44.907,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774344738.8087475,
+      "ts_str": "2026-03-24 10:32:18",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.293,
+      "profile": "15L",
+      "ts": 1774344741.404359,
+      "ts_str": "2026-03-24 10:32:21",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.539,
+      "cycle_time_adj_s": 42.586,
+      "cycle_time_s": 45.125,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774344783.9340796,
+      "ts_str": "2026-03-24 10:33:03",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.295,
+      "profile": "15L",
+      "ts": 1774344786.5274854,
+      "ts_str": "2026-03-24 10:33:06",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 6.028,
+      "cycle_time_adj_s": 46.591,
+      "cycle_time_s": 52.62,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774344836.5537896,
+      "ts_str": "2026-03-24 10:33:56",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.28,
+      "profile": "15L",
+      "ts": 1774344839.14759,
+      "ts_str": "2026-03-24 10:33:59",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.376,
+      "cycle_time_adj_s": 42.231,
+      "cycle_time_s": 44.607,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774344881.160584,
+      "ts_str": "2026-03-24 10:34:41",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.313,
+      "profile": "15L",
+      "ts": 1774344883.7538645,
+      "ts_str": "2026-03-24 10:34:43",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.235,
+      "cycle_time_adj_s": 41.609,
+      "cycle_time_s": 43.844,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774344925.0047708,
+      "ts_str": "2026-03-24 10:35:25",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.287,
+      "profile": "15L",
+      "ts": 1774344927.599231,
+      "ts_str": "2026-03-24 10:35:27",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.035,
+      "cycle_time_adj_s": 41.538,
+      "cycle_time_s": 43.573,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774344968.5778434,
+      "ts_str": "2026-03-24 10:36:08",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.302,
+      "profile": "15L",
+      "ts": 1774344971.1690097,
+      "ts_str": "2026-03-24 10:36:11",
+      "type": "lap_complete"
+    },
+    {
+      "cmd": "STOP",
+      "mode": "IDLE",
+      "note": "STOP -> IDLE",
+      "ts": 1774344972.579346,
+      "ts_str": "2026-03-24 10:36:12",
+      "type": "command"
+    },
+    {
+      "cmd": "MANUAL_OUT",
+      "mode": "IDLE",
+      "note": "side_fence=ON",
+      "ts": 1774344977.8961275,
+      "ts_str": "2026-03-24 10:36:17",
+      "type": "command"
+    },
+    {
+      "cmd": "MANUAL_OUT",
+      "mode": "IDLE",
+      "note": "side_fence=OFF",
+      "ts": 1774344986.975891,
+      "ts_str": "2026-03-24 10:36:26",
+      "type": "command"
+    },
+    {
+      "cmd": "START",
+      "mode": "RUNNING",
+      "note": "RUNNING",
+      "ts": 1774344990.116236,
+      "ts_str": "2026-03-24 10:36:30",
+      "type": "command"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.178,
+      "cycle_time_adj_s": 60.787,
+      "cycle_time_s": 62.965,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774345031.5425172,
+      "ts_str": "2026-03-24 10:37:11",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.278,
+      "profile": "15L",
+      "ts": 1774345034.1378899,
+      "ts_str": "2026-03-24 10:37:14",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.375,
+      "cycle_time_adj_s": 41.829,
+      "cycle_time_s": 44.204,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774345075.7464914,
+      "ts_str": "2026-03-24 10:37:55",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.301,
+      "profile": "15L",
+      "ts": 1774345078.3416276,
+      "ts_str": "2026-03-24 10:37:58",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 1.859,
+      "cycle_time_adj_s": 41.395,
+      "cycle_time_s": 43.254,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774345119.000389,
+      "ts_str": "2026-03-24 10:38:39",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.309,
+      "profile": "15L",
+      "ts": 1774345121.5941775,
+      "ts_str": "2026-03-24 10:38:41",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.878,
+      "cycle_time_adj_s": 46.289,
+      "cycle_time_s": 49.167,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774345168.1676157,
+      "ts_str": "2026-03-24 10:39:28",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.324,
+      "profile": "15L",
+      "ts": 1774345170.7614567,
+      "ts_str": "2026-03-24 10:39:30",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.335,
+      "cycle_time_adj_s": 42.372,
+      "cycle_time_s": 44.706,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774345212.8738248,
+      "ts_str": "2026-03-24 10:40:12",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.285,
+      "profile": "15L",
+      "ts": 1774345215.469339,
+      "ts_str": "2026-03-24 10:40:15",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.341,
+      "cycle_time_adj_s": 42.307,
+      "cycle_time_s": 44.648,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774345257.5214603,
+      "ts_str": "2026-03-24 10:40:57",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.289,
+      "profile": "15L",
+      "ts": 1774345260.1184325,
+      "ts_str": "2026-03-24 10:41:00",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.378,
+      "cycle_time_adj_s": 41.889,
+      "cycle_time_s": 44.267,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774345301.7880478,
+      "ts_str": "2026-03-24 10:41:41",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.291,
+      "profile": "15L",
+      "ts": 1774345304.3840091,
+      "ts_str": "2026-03-24 10:41:44",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.669,
+      "cycle_time_adj_s": 42.318,
+      "cycle_time_s": 44.988,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774345346.7758453,
+      "ts_str": "2026-03-24 10:42:26",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.278,
+      "profile": "15L",
+      "ts": 1774345349.3659387,
+      "ts_str": "2026-03-24 10:42:29",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.799,
+      "cycle_time_adj_s": 42.453,
+      "cycle_time_s": 45.252,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774345392.0277297,
+      "ts_str": "2026-03-24 10:43:12",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.29,
+      "profile": "15L",
+      "ts": 1774345394.622122,
+      "ts_str": "2026-03-24 10:43:14",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 3.363,
+      "cycle_time_adj_s": 49.051,
+      "cycle_time_s": 52.413,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774345444.4412026,
+      "ts_str": "2026-03-24 10:44:04",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.275,
+      "profile": "15L",
+      "ts": 1774345447.0345545,
+      "ts_str": "2026-03-24 10:44:07",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.524,
+      "cycle_time_adj_s": 127.171,
+      "cycle_time_s": 129.695,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774345574.1360385,
+      "ts_str": "2026-03-24 10:46:14",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.29,
+      "profile": "15L",
+      "ts": 1774345576.7338333,
+      "ts_str": "2026-03-24 10:46:16",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.635,
+      "cycle_time_adj_s": 42.677,
+      "cycle_time_s": 45.312,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774345619.4481952,
+      "ts_str": "2026-03-24 10:46:59",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.289,
+      "profile": "15L",
+      "ts": 1774345622.0433636,
+      "ts_str": "2026-03-24 10:47:02",
+      "type": "lap_complete"
+    },
+    {
+      "cmd": "STOP",
+      "mode": "IDLE",
+      "note": "STOP -> IDLE",
+      "ts": 1774345624.5647259,
+      "ts_str": "2026-03-24 10:47:04",
+      "type": "command"
+    },
+    {
+      "cmd": "MANUAL_OUT",
+      "mode": "IDLE",
+      "note": "bridge_down=ON",
+      "ts": 1774345836.9441578,
+      "ts_str": "2026-03-24 10:50:36",
+      "type": "command"
+    },
+    {
+      "cmd": "MANUAL_OUT",
+      "mode": "IDLE",
+      "note": "bridge_down=OFF",
+      "ts": 1774346025.1733506,
+      "ts_str": "2026-03-24 10:53:45",
+      "type": "command"
+    },
+    {
+      "cmd": "MANUAL_OUT",
+      "mode": "IDLE",
+      "note": "bridge_down=ON",
+      "ts": 1774346030.1351776,
+      "ts_str": "2026-03-24 10:53:50",
+      "type": "command"
+    },
+    {
+      "cmd": "MANUAL_OUT",
+      "mode": "IDLE",
+      "note": "bridge_down=OFF",
+      "ts": 1774346032.1640213,
+      "ts_str": "2026-03-24 10:53:52",
+      "type": "command"
+    },
+    {
+      "cmd": "MANUAL_OUT",
+      "mode": "IDLE",
+      "note": "weld_down=ON",
+      "ts": 1774346036.1098623,
+      "ts_str": "2026-03-24 10:53:56",
+      "type": "command"
+    },
+    {
+      "cmd": "MANUAL_OUT",
+      "mode": "IDLE",
+      "note": "weld_down=OFF",
+      "ts": 1774346039.9368672,
+      "ts_str": "2026-03-24 10:53:59",
+      "type": "command"
+    },
+    {
+      "cmd": "MANUAL_OUT",
+      "mode": "IDLE",
+      "note": "bridge_down=ON",
+      "ts": 1774346076.116631,
+      "ts_str": "2026-03-24 10:54:36",
+      "type": "command"
+    },
+    {
+      "cmd": "MANUAL_OUT",
+      "mode": "IDLE",
+      "note": "bridge_down=OFF",
+      "ts": 1774346122.376076,
+      "ts_str": "2026-03-24 10:55:22",
+      "type": "command"
+    },
+    {
+      "cmd": "MANUAL_OUT",
+      "mode": "IDLE",
+      "note": "weld_down=ON",
+      "ts": 1774346125.2826028,
+      "ts_str": "2026-03-24 10:55:25",
+      "type": "command"
+    },
+    {
+      "cmd": "MANUAL_OUT",
+      "mode": "IDLE",
+      "note": "weld_down=OFF",
+      "ts": 1774346149.2609122,
+      "ts_str": "2026-03-24 10:55:49",
+      "type": "command"
+    },
+    {
+      "cmd": "MANUAL_OUT",
+      "mode": "IDLE",
+      "note": "bridge_down=ON",
+      "ts": 1774346211.9218304,
+      "ts_str": "2026-03-24 10:56:51",
+      "type": "command"
+    },
+    {
+      "cmd": "MANUAL_OUT",
+      "mode": "IDLE",
+      "note": "bridge_down=OFF",
+      "ts": 1774346262.9352024,
+      "ts_str": "2026-03-24 10:57:42",
+      "type": "command"
+    },
+    {
+      "cmd": "MANUAL_OUT",
+      "mode": "IDLE",
+      "note": "weld_down=ON",
+      "ts": 1774346263.9860399,
+      "ts_str": "2026-03-24 10:57:43",
+      "type": "command"
+    },
+    {
+      "cmd": "MANUAL_OUT",
+      "mode": "IDLE",
+      "note": "weld_down=OFF",
+      "ts": 1774346269.4060295,
+      "ts_str": "2026-03-24 10:57:49",
+      "type": "command"
+    },
+    {
+      "cmd": "MANUAL_OUT",
+      "mode": "IDLE",
+      "note": "weld_down=ON",
+      "ts": 1774346306.9180694,
+      "ts_str": "2026-03-24 10:58:26",
+      "type": "command"
+    },
+    {
+      "cmd": "MANUAL_OUT",
+      "mode": "IDLE",
+      "note": "weld_down=OFF",
+      "ts": 1774346313.1992402,
+      "ts_str": "2026-03-24 10:58:33",
+      "type": "command"
+    },
+    {
+      "cmd": "MANUAL_OUT",
+      "mode": "IDLE",
+      "note": "weld_down=ON",
+      "ts": 1774346353.8406315,
+      "ts_str": "2026-03-24 10:59:13",
+      "type": "command"
+    },
+    {
+      "cmd": "MANUAL_OUT",
+      "mode": "IDLE",
+      "note": "weld_down=OFF",
+      "ts": 1774346359.6446044,
+      "ts_str": "2026-03-24 10:59:19",
+      "type": "command"
+    },
+    {
+      "cmd": "START",
+      "mode": "RUNNING",
+      "note": "RUNNING",
+      "ts": 1774346384.9746585,
+      "ts_str": "2026-03-24 10:59:44",
+      "type": "command"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.003,
+      "cycle_time_adj_s": 807.855,
+      "cycle_time_s": 809.858,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774346429.3062115,
+      "ts_str": "2026-03-24 11:00:29",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.286,
+      "profile": "15L",
+      "ts": 1774346431.900445,
+      "ts_str": "2026-03-24 11:00:31",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 1.995,
+      "cycle_time_adj_s": 41.855,
+      "cycle_time_s": 43.85,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774346473.1565158,
+      "ts_str": "2026-03-24 11:01:13",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.288,
+      "profile": "15L",
+      "ts": 1774346475.751186,
+      "ts_str": "2026-03-24 11:01:15",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.31,
+      "cycle_time_adj_s": 41.59,
+      "cycle_time_s": 43.9,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774346517.0561595,
+      "ts_str": "2026-03-24 11:01:57",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.296,
+      "profile": "15L",
+      "ts": 1774346519.6520905,
+      "ts_str": "2026-03-24 11:01:59",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.513,
+      "cycle_time_adj_s": 41.973,
+      "cycle_time_s": 44.486,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774346561.5420403,
+      "ts_str": "2026-03-24 11:02:41",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.297,
+      "profile": "15L",
+      "ts": 1774346564.1358216,
+      "ts_str": "2026-03-24 11:02:44",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.135,
+      "cycle_time_adj_s": 41.732,
+      "cycle_time_s": 43.867,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774346605.4088154,
+      "ts_str": "2026-03-24 11:03:25",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.286,
+      "profile": "15L",
+      "ts": 1774346608.0023816,
+      "ts_str": "2026-03-24 11:03:28",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.645,
+      "cycle_time_adj_s": 41.706,
+      "cycle_time_s": 44.351,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774346649.75965,
+      "ts_str": "2026-03-24 11:04:09",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.275,
+      "profile": "15L",
+      "ts": 1774346652.3535523,
+      "ts_str": "2026-03-24 11:04:12",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 1.921,
+      "cycle_time_adj_s": 41.01,
+      "cycle_time_s": 42.931,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774346692.6903872,
+      "ts_str": "2026-03-24 11:04:52",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.272,
+      "profile": "15L",
+      "ts": 1774346695.2865398,
+      "ts_str": "2026-03-24 11:04:55",
+      "type": "lap_complete"
+    },
+    {
+      "cmd": "STOP",
+      "mode": "IDLE",
+      "note": "STOP -> IDLE",
+      "ts": 1774346725.3969095,
+      "ts_str": "2026-03-24 11:05:25",
+      "type": "command"
+    },
+    {
+      "cmd": "WELD_SERVICE",
+      "mode": "PAUSED",
+      "note": "WELDING",
+      "ts": 1774347090.0351794,
+      "ts_str": "2026-03-24 11:11:30",
+      "type": "command"
+    },
+    {
+      "cmd": "WELD_SERVICE_DONE",
+      "mode": "PAUSED",
+      "note": "Klar",
+      "ts": 1774347096.0504994,
+      "ts_str": "2026-03-24 11:11:36",
+      "type": "command"
+    },
+    {
+      "cmd": "START",
+      "mode": "RUNNING",
+      "note": "RUNNING",
+      "ts": 1774347097.2236469,
+      "ts_str": "2026-03-24 11:11:37",
+      "type": "command"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 4.671,
+      "cycle_time_adj_s": 444.156,
+      "cycle_time_s": 448.827,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774347141.5172775,
+      "ts_str": "2026-03-24 11:12:21",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.285,
+      "profile": "15L",
+      "ts": 1774347144.1109152,
+      "ts_str": "2026-03-24 11:12:24",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.345,
+      "cycle_time_adj_s": 41.696,
+      "cycle_time_s": 44.041,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774347185.5584297,
+      "ts_str": "2026-03-24 11:13:05",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.305,
+      "profile": "15L",
+      "ts": 1774347188.1534476,
+      "ts_str": "2026-03-24 11:13:08",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.2,
+      "cycle_time_adj_s": 42.199,
+      "cycle_time_s": 44.399,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774347229.957765,
+      "ts_str": "2026-03-24 11:13:49",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.283,
+      "profile": "15L",
+      "ts": 1774347232.5535996,
+      "ts_str": "2026-03-24 11:13:52",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 1.923,
+      "cycle_time_adj_s": 41.907,
+      "cycle_time_s": 43.83,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774347273.7875645,
+      "ts_str": "2026-03-24 11:14:33",
+      "type": "cycle_complete"
+    },
+    {
+      "cmd": "STOP",
+      "mode": "IDLE",
+      "note": "STOP -> IDLE",
+      "ts": 1774347273.94999,
+      "ts_str": "2026-03-24 11:14:33",
+      "type": "command"
+    },
+    {
+      "cmd": "MANUAL_OUT",
+      "mode": "IDLE",
+      "note": "side_fence=ON",
+      "ts": 1774347278.758378,
+      "ts_str": "2026-03-24 11:14:38",
+      "type": "command"
+    },
+    {
+      "cmd": "MANUAL_OUT",
+      "mode": "IDLE",
+      "note": "side_fence=OFF",
+      "ts": 1774347282.0365658,
+      "ts_str": "2026-03-24 11:14:42",
+      "type": "command"
+    },
+    {
+      "cmd": "START",
+      "mode": "RUNNING",
+      "note": "RUNNING",
+      "ts": 1774347285.3029013,
+      "ts_str": "2026-03-24 11:14:45",
+      "type": "command"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.305,
+      "cycle_time_adj_s": 52.319,
+      "cycle_time_s": 54.624,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774347328.411936,
+      "ts_str": "2026-03-24 11:15:28",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.26,
+      "profile": "15L",
+      "ts": 1774347331.0055275,
+      "ts_str": "2026-03-24 11:15:31",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.235,
+      "cycle_time_adj_s": 41.455,
+      "cycle_time_s": 43.69,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774347372.1018627,
+      "ts_str": "2026-03-24 11:16:12",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.301,
+      "profile": "15L",
+      "ts": 1774347374.6959152,
+      "ts_str": "2026-03-24 11:16:14",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.443,
+      "cycle_time_adj_s": 41.625,
+      "cycle_time_s": 44.069,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774347416.1706862,
+      "ts_str": "2026-03-24 11:16:56",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.284,
+      "profile": "15L",
+      "ts": 1774347418.7649975,
+      "ts_str": "2026-03-24 11:16:58",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.376,
+      "cycle_time_adj_s": 42.134,
+      "cycle_time_s": 44.51,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774347460.6803083,
+      "ts_str": "2026-03-24 11:17:40",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.291,
+      "profile": "15L",
+      "ts": 1774347463.275263,
+      "ts_str": "2026-03-24 11:17:43",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.266,
+      "cycle_time_adj_s": 42.114,
+      "cycle_time_s": 44.38,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774347505.060419,
+      "ts_str": "2026-03-24 11:18:25",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.275,
+      "profile": "15L",
+      "ts": 1774347507.653961,
+      "ts_str": "2026-03-24 11:18:27",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.503,
+      "cycle_time_adj_s": 42.447,
+      "cycle_time_s": 44.95,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774347550.0101788,
+      "ts_str": "2026-03-24 11:19:10",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.274,
+      "profile": "15L",
+      "ts": 1774347552.6015651,
+      "ts_str": "2026-03-24 11:19:12",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.501,
+      "cycle_time_adj_s": 42.501,
+      "cycle_time_s": 45.002,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774347595.01256,
+      "ts_str": "2026-03-24 11:19:55",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.289,
+      "profile": "15L",
+      "ts": 1774347597.6059425,
+      "ts_str": "2026-03-24 11:19:57",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.4,
+      "cycle_time_adj_s": 42.524,
+      "cycle_time_s": 44.924,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774347639.9360776,
+      "ts_str": "2026-03-24 11:20:39",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.285,
+      "profile": "15L",
+      "ts": 1774347642.5313427,
+      "ts_str": "2026-03-24 11:20:42",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.497,
+      "cycle_time_adj_s": 42.685,
+      "cycle_time_s": 45.181,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774347685.117222,
+      "ts_str": "2026-03-24 11:21:25",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.281,
+      "profile": "15L",
+      "ts": 1774347687.7099528,
+      "ts_str": "2026-03-24 11:21:27",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 5.193,
+      "cycle_time_adj_s": 42.716,
+      "cycle_time_s": 47.91,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774347733.0269876,
+      "ts_str": "2026-03-24 11:22:13",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.291,
+      "profile": "15L",
+      "ts": 1774347735.6220582,
+      "ts_str": "2026-03-24 11:22:15",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.461,
+      "cycle_time_adj_s": 63.939,
+      "cycle_time_s": 66.401,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774347799.427536,
+      "ts_str": "2026-03-24 11:23:19",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.28,
+      "profile": "15L",
+      "ts": 1774347802.0219765,
+      "ts_str": "2026-03-24 11:23:22",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.151,
+      "cycle_time_adj_s": 111.464,
+      "cycle_time_s": 113.615,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774347913.0425847,
+      "ts_str": "2026-03-24 11:25:13",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.253,
+      "profile": "15L",
+      "ts": 1774347915.6399307,
+      "ts_str": "2026-03-24 11:25:15",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.401,
+      "cycle_time_adj_s": 42.745,
+      "cycle_time_s": 45.146,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774347958.1885195,
+      "ts_str": "2026-03-24 11:25:58",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.281,
+      "profile": "15L",
+      "ts": 1774347960.7839487,
+      "ts_str": "2026-03-24 11:26:00",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.374,
+      "cycle_time_adj_s": 42.516,
+      "cycle_time_s": 44.89,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774348003.078843,
+      "ts_str": "2026-03-24 11:26:43",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.31,
+      "profile": "15L",
+      "ts": 1774348005.6744916,
+      "ts_str": "2026-03-24 11:26:45",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.579,
+      "cycle_time_adj_s": 42.389,
+      "cycle_time_s": 44.968,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774348048.04733,
+      "ts_str": "2026-03-24 11:27:28",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.283,
+      "profile": "15L",
+      "ts": 1774348050.6431365,
+      "ts_str": "2026-03-24 11:27:30",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.214,
+      "cycle_time_adj_s": 99.138,
+      "cycle_time_s": 101.352,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774348149.3991551,
+      "ts_str": "2026-03-24 11:29:09",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.288,
+      "profile": "15L",
+      "ts": 1774348151.994195,
+      "ts_str": "2026-03-24 11:29:11",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.335,
+      "cycle_time_adj_s": 42.372,
+      "cycle_time_s": 44.707,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774348194.1061487,
+      "ts_str": "2026-03-24 11:29:54",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.258,
+      "profile": "15L",
+      "ts": 1774348196.6964607,
+      "ts_str": "2026-03-24 11:29:56",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.367,
+      "cycle_time_adj_s": 42.098,
+      "cycle_time_s": 44.465,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774348238.5709035,
+      "ts_str": "2026-03-24 11:30:38",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.275,
+      "profile": "15L",
+      "ts": 1774348241.166052,
+      "ts_str": "2026-03-24 11:30:41",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.189,
+      "cycle_time_adj_s": 41.533,
+      "cycle_time_s": 43.722,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774348282.2929256,
+      "ts_str": "2026-03-24 11:31:22",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.299,
+      "profile": "15L",
+      "ts": 1774348284.88798,
+      "ts_str": "2026-03-24 11:31:24",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 1.92,
+      "cycle_time_adj_s": 41.22,
+      "cycle_time_s": 43.14,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774348325.4328775,
+      "ts_str": "2026-03-24 11:32:05",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.271,
+      "profile": "15L",
+      "ts": 1774348328.0184596,
+      "ts_str": "2026-03-24 11:32:08",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.234,
+      "cycle_time_adj_s": 41.872,
+      "cycle_time_s": 44.106,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774348369.539242,
+      "ts_str": "2026-03-24 11:32:49",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.291,
+      "profile": "15L",
+      "ts": 1774348372.1378224,
+      "ts_str": "2026-03-24 11:32:52",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.647,
+      "cycle_time_adj_s": 42.313,
+      "cycle_time_s": 44.96,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774348414.498847,
+      "ts_str": "2026-03-24 11:33:34",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.291,
+      "profile": "15L",
+      "ts": 1774348417.092389,
+      "ts_str": "2026-03-24 11:33:37",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.717,
+      "cycle_time_adj_s": 41.769,
+      "cycle_time_s": 44.485,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774348458.9842892,
+      "ts_str": "2026-03-24 11:34:18",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.287,
+      "profile": "15L",
+      "ts": 1774348461.5779467,
+      "ts_str": "2026-03-24 11:34:21",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.543,
+      "cycle_time_adj_s": 41.562,
+      "cycle_time_s": 44.105,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774348503.089582,
+      "ts_str": "2026-03-24 11:35:03",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.28,
+      "profile": "15L",
+      "ts": 1774348505.6843543,
+      "ts_str": "2026-03-24 11:35:05",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.305,
+      "cycle_time_adj_s": 42.117,
+      "cycle_time_s": 44.423,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774348547.5121858,
+      "ts_str": "2026-03-24 11:35:47",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.277,
+      "profile": "15L",
+      "ts": 1774348550.1057103,
+      "ts_str": "2026-03-24 11:35:50",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.307,
+      "cycle_time_adj_s": 41.899,
+      "cycle_time_s": 44.206,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774348591.7179,
+      "ts_str": "2026-03-24 11:36:31",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.28,
+      "profile": "15L",
+      "ts": 1774348594.3119524,
+      "ts_str": "2026-03-24 11:36:34",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.474,
+      "cycle_time_adj_s": 42.398,
+      "cycle_time_s": 44.872,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774348636.5898755,
+      "ts_str": "2026-03-24 11:37:16",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.296,
+      "profile": "15L",
+      "ts": 1774348639.1813846,
+      "ts_str": "2026-03-24 11:37:19",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.576,
+      "cycle_time_adj_s": 41.702,
+      "cycle_time_s": 44.278,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774348680.8675957,
+      "ts_str": "2026-03-24 11:38:00",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.287,
+      "profile": "15L",
+      "ts": 1774348683.462004,
+      "ts_str": "2026-03-24 11:38:03",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.37,
+      "cycle_time_adj_s": 42.081,
+      "cycle_time_s": 44.451,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774348725.3188703,
+      "ts_str": "2026-03-24 11:38:45",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.276,
+      "profile": "15L",
+      "ts": 1774348727.9089546,
+      "ts_str": "2026-03-24 11:38:47",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.401,
+      "cycle_time_adj_s": 42.083,
+      "cycle_time_s": 44.484,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774348769.8025045,
+      "ts_str": "2026-03-24 11:39:29",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.291,
+      "profile": "15L",
+      "ts": 1774348772.398791,
+      "ts_str": "2026-03-24 11:39:32",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.61,
+      "cycle_time_adj_s": 42.334,
+      "cycle_time_s": 44.944,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774348814.746342,
+      "ts_str": "2026-03-24 11:40:14",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.316,
+      "profile": "15L",
+      "ts": 1774348817.33909,
+      "ts_str": "2026-03-24 11:40:17",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.163,
+      "cycle_time_adj_s": 42.227,
+      "cycle_time_s": 44.39,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774348859.1363902,
+      "ts_str": "2026-03-24 11:40:59",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.26,
+      "profile": "15L",
+      "ts": 1774348861.7320108,
+      "ts_str": "2026-03-24 11:41:01",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.271,
+      "cycle_time_adj_s": 41.465,
+      "cycle_time_s": 43.735,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774348902.871869,
+      "ts_str": "2026-03-24 11:41:42",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.291,
+      "profile": "15L",
+      "ts": 1774348905.4686644,
+      "ts_str": "2026-03-24 11:41:45",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.573,
+      "cycle_time_adj_s": 42.188,
+      "cycle_time_s": 44.761,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774348947.633242,
+      "ts_str": "2026-03-24 11:42:27",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.288,
+      "profile": "15L",
+      "ts": 1774348950.2280135,
+      "ts_str": "2026-03-24 11:42:30",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.642,
+      "cycle_time_adj_s": 42.542,
+      "cycle_time_s": 45.184,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774348992.8173344,
+      "ts_str": "2026-03-24 11:43:12",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.282,
+      "profile": "15L",
+      "ts": 1774348995.410392,
+      "ts_str": "2026-03-24 11:43:15",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.097,
+      "cycle_time_adj_s": 41.221,
+      "cycle_time_s": 43.319,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774349036.1361976,
+      "ts_str": "2026-03-24 11:43:56",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.285,
+      "profile": "15L",
+      "ts": 1774349038.7269647,
+      "ts_str": "2026-03-24 11:43:58",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.742,
+      "cycle_time_adj_s": 43.007,
+      "cycle_time_s": 45.749,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774349081.884984,
+      "ts_str": "2026-03-24 11:44:41",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.287,
+      "profile": "15L",
+      "ts": 1774349084.4785755,
+      "ts_str": "2026-03-24 11:44:44",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.237,
+      "cycle_time_adj_s": 41.951,
+      "cycle_time_s": 44.189,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774349126.0735636,
+      "ts_str": "2026-03-24 11:45:26",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.286,
+      "profile": "15L",
+      "ts": 1774349128.667365,
+      "ts_str": "2026-03-24 11:45:28",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.204,
+      "cycle_time_adj_s": 42.124,
+      "cycle_time_s": 44.328,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774349170.401587,
+      "ts_str": "2026-03-24 11:46:10",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.291,
+      "profile": "15L",
+      "ts": 1774349172.9966426,
+      "ts_str": "2026-03-24 11:46:12",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.44,
+      "cycle_time_adj_s": 42.579,
+      "cycle_time_s": 45.019,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774349215.4203632,
+      "ts_str": "2026-03-24 11:46:55",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.286,
+      "profile": "15L",
+      "ts": 1774349218.0131571,
+      "ts_str": "2026-03-24 11:46:58",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.338,
+      "cycle_time_adj_s": 42.604,
+      "cycle_time_s": 44.941,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774349260.36154,
+      "ts_str": "2026-03-24 11:47:40",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.28,
+      "profile": "15L",
+      "ts": 1774349262.9559052,
+      "ts_str": "2026-03-24 11:47:42",
+      "type": "lap_complete"
+    },
+    {
+      "cmd": "STOP",
+      "mode": "IDLE",
+      "note": "STOP -> IDLE",
+      "ts": 1774349302.8122818,
+      "ts_str": "2026-03-24 11:48:22",
+      "type": "command"
+    },
+    {
+      "cmd": "WELD_SERVICE",
+      "mode": "PAUSED",
+      "note": "WELDING",
+      "ts": 1774349482.2082107,
+      "ts_str": "2026-03-24 11:51:22",
+      "type": "command"
+    },
+    {
+      "cmd": "WELD_SERVICE_DONE",
+      "mode": "PAUSED",
+      "note": "Klar",
+      "ts": 1774349488.232871,
+      "ts_str": "2026-03-24 11:51:28",
+      "type": "command"
+    },
+    {
+      "cmd": "START",
+      "mode": "RUNNING",
+      "note": "RUNNING",
+      "ts": 1774349488.9566665,
+      "ts_str": "2026-03-24 11:51:28",
+      "type": "command"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 3.465,
+      "cycle_time_adj_s": 268.265,
+      "cycle_time_s": 271.73,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774349532.0917354,
+      "ts_str": "2026-03-24 11:52:12",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.283,
+      "profile": "15L",
+      "ts": 1774349534.6857104,
+      "ts_str": "2026-03-24 11:52:14",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.403,
+      "cycle_time_adj_s": 42.03,
+      "cycle_time_s": 44.433,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774349576.524733,
+      "ts_str": "2026-03-24 11:52:56",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.279,
+      "profile": "15L",
+      "ts": 1774349579.1183703,
+      "ts_str": "2026-03-24 11:52:59",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.377,
+      "cycle_time_adj_s": 41.725,
+      "cycle_time_s": 44.102,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774349620.62687,
+      "ts_str": "2026-03-24 11:53:40",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.296,
+      "profile": "15L",
+      "ts": 1774349623.2201297,
+      "ts_str": "2026-03-24 11:53:43",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.439,
+      "cycle_time_adj_s": 41.683,
+      "cycle_time_s": 44.122,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774349664.7491057,
+      "ts_str": "2026-03-24 11:54:24",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.275,
+      "profile": "15L",
+      "ts": 1774349667.3452637,
+      "ts_str": "2026-03-24 11:54:27",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.278,
+      "cycle_time_adj_s": 41.685,
+      "cycle_time_s": 43.962,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774349708.7114468,
+      "ts_str": "2026-03-24 11:55:08",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.29,
+      "profile": "15L",
+      "ts": 1774349711.3070967,
+      "ts_str": "2026-03-24 11:55:11",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.377,
+      "cycle_time_adj_s": 41.703,
+      "cycle_time_s": 44.08,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774349752.7910209,
+      "ts_str": "2026-03-24 11:55:52",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.305,
+      "profile": "15L",
+      "ts": 1774349755.3851352,
+      "ts_str": "2026-03-24 11:55:55",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 5.493,
+      "cycle_time_adj_s": 53.258,
+      "cycle_time_s": 58.75,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774349811.5413451,
+      "ts_str": "2026-03-24 11:56:51",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.253,
+      "profile": "15L",
+      "ts": 1774349814.1311147,
+      "ts_str": "2026-03-24 11:56:54",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 1.95,
+      "cycle_time_adj_s": 41.445,
+      "cycle_time_s": 43.395,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774349854.936048,
+      "ts_str": "2026-03-24 11:57:34",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.282,
+      "profile": "15L",
+      "ts": 1774349857.5325732,
+      "ts_str": "2026-03-24 11:57:37",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 1.92,
+      "cycle_time_adj_s": 41.965,
+      "cycle_time_s": 43.885,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774349898.8211641,
+      "ts_str": "2026-03-24 11:58:18",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.236,
+      "profile": "15L",
+      "ts": 1774349901.4065278,
+      "ts_str": "2026-03-24 11:58:21",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.403,
+      "cycle_time_adj_s": 42.042,
+      "cycle_time_s": 44.445,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774349943.2665155,
+      "ts_str": "2026-03-24 11:59:03",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.284,
+      "profile": "15L",
+      "ts": 1774349945.8600035,
+      "ts_str": "2026-03-24 11:59:05",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.101,
+      "cycle_time_adj_s": 41.998,
+      "cycle_time_s": 44.099,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774349987.3658817,
+      "ts_str": "2026-03-24 11:59:47",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.294,
+      "profile": "15L",
+      "ts": 1774349989.9618654,
+      "ts_str": "2026-03-24 11:59:49",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.54,
+      "cycle_time_adj_s": 41.672,
+      "cycle_time_s": 44.211,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774350031.5773153,
+      "ts_str": "2026-03-24 12:00:31",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.283,
+      "profile": "15L",
+      "ts": 1774350034.1750963,
+      "ts_str": "2026-03-24 12:00:34",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.241,
+      "cycle_time_adj_s": 42.101,
+      "cycle_time_s": 44.342,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774350075.9195251,
+      "ts_str": "2026-03-24 12:01:15",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.284,
+      "profile": "15L",
+      "ts": 1774350078.5124228,
+      "ts_str": "2026-03-24 12:01:18",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.614,
+      "cycle_time_adj_s": 41.716,
+      "cycle_time_s": 44.33,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774350120.249585,
+      "ts_str": "2026-03-24 12:02:00",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.291,
+      "profile": "15L",
+      "ts": 1774350122.8432128,
+      "ts_str": "2026-03-24 12:02:02",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.986,
+      "cycle_time_adj_s": 42.324,
+      "cycle_time_s": 45.311,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774350165.5602145,
+      "ts_str": "2026-03-24 12:02:45",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.296,
+      "profile": "15L",
+      "ts": 1774350168.1548805,
+      "ts_str": "2026-03-24 12:02:48",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.231,
+      "cycle_time_adj_s": 42.051,
+      "cycle_time_s": 44.282,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774350209.842232,
+      "ts_str": "2026-03-24 12:03:29",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.283,
+      "profile": "15L",
+      "ts": 1774350212.435866,
+      "ts_str": "2026-03-24 12:03:32",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.309,
+      "cycle_time_adj_s": 41.926,
+      "cycle_time_s": 44.235,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774350254.0772738,
+      "ts_str": "2026-03-24 12:04:14",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.289,
+      "profile": "15L",
+      "ts": 1774350256.671045,
+      "ts_str": "2026-03-24 12:04:16",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.205,
+      "cycle_time_adj_s": 42.111,
+      "cycle_time_s": 44.316,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774350298.3927915,
+      "ts_str": "2026-03-24 12:04:58",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.291,
+      "profile": "15L",
+      "ts": 1774350300.9873185,
+      "ts_str": "2026-03-24 12:05:00",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.501,
+      "cycle_time_adj_s": 42.605,
+      "cycle_time_s": 45.106,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774350343.4990234,
+      "ts_str": "2026-03-24 12:05:43",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.299,
+      "profile": "15L",
+      "ts": 1774350346.0948079,
+      "ts_str": "2026-03-24 12:05:46",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.473,
+      "cycle_time_adj_s": 42.308,
+      "cycle_time_s": 44.781,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774350388.280046,
+      "ts_str": "2026-03-24 12:06:28",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.272,
+      "profile": "15L",
+      "ts": 1774350390.8718405,
+      "ts_str": "2026-03-24 12:06:30",
+      "type": "lap_complete"
+    },
+    {
+      "cmd": "STOP",
+      "mode": "IDLE",
+      "note": "STOP -> IDLE",
+      "ts": 1774350430.251157,
+      "ts_str": "2026-03-24 12:07:10",
+      "type": "command"
+    },
+    {
+      "cmd": "START",
+      "mode": "RUNNING",
+      "note": "RUNNING",
+      "ts": 1774350430.3398595,
+      "ts_str": "2026-03-24 12:07:10",
+      "type": "command"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.44,
+      "cycle_time_adj_s": 3420.816,
+      "cycle_time_s": 3423.257,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774353811.5366,
+      "ts_str": "2026-03-24 13:03:31",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.312,
+      "profile": "15L",
+      "ts": 1774353814.130295,
+      "ts_str": "2026-03-24 13:03:34",
+      "type": "lap_complete"
+    },
+    {
+      "cmd": "STOP",
+      "mode": "IDLE",
+      "note": "STOP -> IDLE",
+      "ts": 1774353935.432508,
+      "ts_str": "2026-03-24 13:05:35",
+      "type": "command"
+    },
+    {
+      "cmd": "SAFETY_ACK",
+      "mode": "IDLE",
+      "note": "Kvitterad",
+      "ts": 1774353937.2429483,
+      "ts_str": "2026-03-24 13:05:37",
+      "type": "command"
+    },
+    {
+      "cmd": "START",
+      "mode": "RUNNING",
+      "note": "RUNNING",
+      "ts": 1774353938.7176368,
+      "ts_str": "2026-03-24 13:05:38",
+      "type": "command"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 1.971,
+      "cycle_time_adj_s": 768.007,
+      "cycle_time_s": 769.978,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774354581.514445,
+      "ts_str": "2026-03-24 13:16:21",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.297,
+      "profile": "15L",
+      "ts": 1774354584.110085,
+      "ts_str": "2026-03-24 13:16:24",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 1.928,
+      "cycle_time_adj_s": 42.311,
+      "cycle_time_s": 44.239,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774354625.7535837,
+      "ts_str": "2026-03-24 13:17:05",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.268,
+      "profile": "15L",
+      "ts": 1774354628.3521004,
+      "ts_str": "2026-03-24 13:17:08",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.504,
+      "cycle_time_adj_s": 42.152,
+      "cycle_time_s": 44.656,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774354670.4095385,
+      "ts_str": "2026-03-24 13:17:50",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.266,
+      "profile": "15L",
+      "ts": 1774354673.0062606,
+      "ts_str": "2026-03-24 13:17:53",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.716,
+      "cycle_time_adj_s": 42.173,
+      "cycle_time_s": 44.89,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774354715.2991273,
+      "ts_str": "2026-03-24 13:18:35",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.294,
+      "profile": "15L",
+      "ts": 1774354717.8946488,
+      "ts_str": "2026-03-24 13:18:37",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.341,
+      "cycle_time_adj_s": 41.512,
+      "cycle_time_s": 43.853,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774354759.1523092,
+      "ts_str": "2026-03-24 13:19:19",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.263,
+      "profile": "15L",
+      "ts": 1774354761.7469552,
+      "ts_str": "2026-03-24 13:19:21",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.276,
+      "cycle_time_adj_s": 41.471,
+      "cycle_time_s": 43.747,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774354802.8992455,
+      "ts_str": "2026-03-24 13:20:02",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.286,
+      "profile": "15L",
+      "ts": 1774354805.4945533,
+      "ts_str": "2026-03-24 13:20:05",
+      "type": "lap_complete"
+    },
+    {
+      "cmd": "STOP",
+      "mode": "IDLE",
+      "note": "STOP -> IDLE",
+      "ts": 1774354808.603396,
+      "ts_str": "2026-03-24 13:20:08",
+      "type": "command"
+    },
+    {
+      "cmd": "SAFETY_ACK",
+      "mode": "IDLE",
+      "note": "Kvitterad",
+      "ts": 1774354809.7284915,
+      "ts_str": "2026-03-24 13:20:09",
+      "type": "command"
+    },
+    {
+      "cmd": "START",
+      "mode": "RUNNING",
+      "note": "RUNNING",
+      "ts": 1774355152.2025712,
+      "ts_str": "2026-03-24 13:25:52",
+      "type": "command"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.417,
+      "cycle_time_adj_s": 392.208,
+      "cycle_time_s": 394.625,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774355197.5239632,
+      "ts_str": "2026-03-24 13:26:37",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.296,
+      "profile": "15L",
+      "ts": 1774355200.117651,
+      "ts_str": "2026-03-24 13:26:40",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.394,
+      "cycle_time_adj_s": 41.624,
+      "cycle_time_s": 44.018,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774355241.5415232,
+      "ts_str": "2026-03-24 13:27:21",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.255,
+      "profile": "15L",
+      "ts": 1774355244.1377301,
+      "ts_str": "2026-03-24 13:27:24",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.404,
+      "cycle_time_adj_s": 42.321,
+      "cycle_time_s": 44.725,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774355286.2666605,
+      "ts_str": "2026-03-24 13:28:06",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.272,
+      "profile": "15L",
+      "ts": 1774355288.8607364,
+      "ts_str": "2026-03-24 13:28:08",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.51,
+      "cycle_time_adj_s": 42.38,
+      "cycle_time_s": 44.89,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774355331.15619,
+      "ts_str": "2026-03-24 13:28:51",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.266,
+      "profile": "15L",
+      "ts": 1774355333.75262,
+      "ts_str": "2026-03-24 13:28:53",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.481,
+      "cycle_time_adj_s": 41.952,
+      "cycle_time_s": 44.433,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774355375.5892982,
+      "ts_str": "2026-03-24 13:29:35",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.28,
+      "profile": "15L",
+      "ts": 1774355378.1820772,
+      "ts_str": "2026-03-24 13:29:38",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.266,
+      "cycle_time_adj_s": 42.279,
+      "cycle_time_s": 44.545,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774355420.1342137,
+      "ts_str": "2026-03-24 13:30:20",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.293,
+      "profile": "15L",
+      "ts": 1774355422.7251198,
+      "ts_str": "2026-03-24 13:30:22",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.433,
+      "cycle_time_adj_s": 41.911,
+      "cycle_time_s": 44.344,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774355464.4777195,
+      "ts_str": "2026-03-24 13:31:04",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.288,
+      "profile": "15L",
+      "ts": 1774355467.074778,
+      "ts_str": "2026-03-24 13:31:07",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 1.923,
+      "cycle_time_adj_s": 41.184,
+      "cycle_time_s": 43.107,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774355507.5843258,
+      "ts_str": "2026-03-24 13:31:47",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.251,
+      "profile": "15L",
+      "ts": 1774355510.1773784,
+      "ts_str": "2026-03-24 13:31:50",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.126,
+      "cycle_time_adj_s": 41.881,
+      "cycle_time_s": 44.007,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774355551.5911815,
+      "ts_str": "2026-03-24 13:32:31",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.288,
+      "profile": "15L",
+      "ts": 1774355554.18558,
+      "ts_str": "2026-03-24 13:32:34",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 1.923,
+      "cycle_time_adj_s": 41.25,
+      "cycle_time_s": 43.173,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774355594.7637854,
+      "ts_str": "2026-03-24 13:33:14",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.288,
+      "profile": "15L",
+      "ts": 1774355597.359262,
+      "ts_str": "2026-03-24 13:33:17",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.129,
+      "cycle_time_adj_s": 41.882,
+      "cycle_time_s": 44.011,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774355638.7751997,
+      "ts_str": "2026-03-24 13:33:58",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.261,
+      "profile": "15L",
+      "ts": 1774355641.36989,
+      "ts_str": "2026-03-24 13:34:01",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.507,
+      "cycle_time_adj_s": 41.419,
+      "cycle_time_s": 43.926,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774355682.7012334,
+      "ts_str": "2026-03-24 13:34:42",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.28,
+      "profile": "15L",
+      "ts": 1774355685.2944071,
+      "ts_str": "2026-03-24 13:34:45",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.399,
+      "cycle_time_adj_s": 42.539,
+      "cycle_time_s": 44.938,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774355727.63916,
+      "ts_str": "2026-03-24 13:35:27",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.297,
+      "profile": "15L",
+      "ts": 1774355730.2325332,
+      "ts_str": "2026-03-24 13:35:30",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.396,
+      "cycle_time_adj_s": 42.353,
+      "cycle_time_s": 44.75,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774355772.3886876,
+      "ts_str": "2026-03-24 13:36:12",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.258,
+      "profile": "15L",
+      "ts": 1774355774.9818566,
+      "ts_str": "2026-03-24 13:36:14",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.465,
+      "cycle_time_adj_s": 42.78,
+      "cycle_time_s": 45.245,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774355817.6341045,
+      "ts_str": "2026-03-24 13:36:57",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.308,
+      "profile": "15L",
+      "ts": 1774355820.230139,
+      "ts_str": "2026-03-24 13:37:00",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.596,
+      "cycle_time_adj_s": 44.412,
+      "cycle_time_s": 47.009,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774355864.6427863,
+      "ts_str": "2026-03-24 13:37:44",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.284,
+      "profile": "15L",
+      "ts": 1774355867.235878,
+      "ts_str": "2026-03-24 13:37:47",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.299,
+      "cycle_time_adj_s": 90.091,
+      "cycle_time_s": 92.39,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774355957.0326633,
+      "ts_str": "2026-03-24 13:39:17",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.265,
+      "profile": "15L",
+      "ts": 1774355959.6186063,
+      "ts_str": "2026-03-24 13:39:19",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.355,
+      "cycle_time_adj_s": 109.305,
+      "cycle_time_s": 111.66,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774356068.6926582,
+      "ts_str": "2026-03-24 13:41:08",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.264,
+      "profile": "15L",
+      "ts": 1774356071.280228,
+      "ts_str": "2026-03-24 13:41:11",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.32,
+      "cycle_time_adj_s": 79.294,
+      "cycle_time_s": 81.613,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774356150.3058884,
+      "ts_str": "2026-03-24 13:42:30",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.276,
+      "profile": "15L",
+      "ts": 1774356152.8998394,
+      "ts_str": "2026-03-24 13:42:32",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.589,
+      "cycle_time_adj_s": 51.675,
+      "cycle_time_s": 54.264,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774356204.5694683,
+      "ts_str": "2026-03-24 13:43:24",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.34,
+      "profile": "15L",
+      "ts": 1774356207.1624115,
+      "ts_str": "2026-03-24 13:43:27",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.453,
+      "cycle_time_adj_s": 42.978,
+      "cycle_time_s": 45.432,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774356250.0010653,
+      "ts_str": "2026-03-24 13:44:10",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.301,
+      "profile": "15L",
+      "ts": 1774356252.5957816,
+      "ts_str": "2026-03-24 13:44:12",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.937,
+      "cycle_time_adj_s": 45.481,
+      "cycle_time_s": 48.418,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774356298.4187698,
+      "ts_str": "2026-03-24 13:44:58",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.284,
+      "profile": "15L",
+      "ts": 1774356301.0191977,
+      "ts_str": "2026-03-24 13:45:01",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.798,
+      "cycle_time_adj_s": 56.772,
+      "cycle_time_s": 59.57,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774356357.9887896,
+      "ts_str": "2026-03-24 13:45:57",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.295,
+      "profile": "15L",
+      "ts": 1774356360.584384,
+      "ts_str": "2026-03-24 13:46:00",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.092,
+      "cycle_time_adj_s": 45.928,
+      "cycle_time_s": 48.02,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774356406.008808,
+      "ts_str": "2026-03-24 13:46:46",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.291,
+      "profile": "15L",
+      "ts": 1774356408.6044033,
+      "ts_str": "2026-03-24 13:46:48",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.307,
+      "cycle_time_adj_s": 422.438,
+      "cycle_time_s": 424.745,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774356830.7540095,
+      "ts_str": "2026-03-24 13:53:50",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.27,
+      "profile": "15L",
+      "ts": 1774356833.3457258,
+      "ts_str": "2026-03-24 13:53:53",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.396,
+      "cycle_time_adj_s": 42.464,
+      "cycle_time_s": 44.861,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774356875.6146355,
+      "ts_str": "2026-03-24 13:54:35",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.301,
+      "profile": "15L",
+      "ts": 1774356878.205926,
+      "ts_str": "2026-03-24 13:54:38",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.645,
+      "cycle_time_adj_s": 42.078,
+      "cycle_time_s": 44.723,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774356920.3381202,
+      "ts_str": "2026-03-24 13:55:20",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.286,
+      "profile": "15L",
+      "ts": 1774356922.9313943,
+      "ts_str": "2026-03-24 13:55:22",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.466,
+      "cycle_time_adj_s": 42.601,
+      "cycle_time_s": 45.067,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774356965.404859,
+      "ts_str": "2026-03-24 13:56:05",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.298,
+      "profile": "15L",
+      "ts": 1774356967.9946811,
+      "ts_str": "2026-03-24 13:56:07",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.44,
+      "cycle_time_adj_s": 42.546,
+      "cycle_time_s": 44.986,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774357010.3906016,
+      "ts_str": "2026-03-24 13:56:50",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.286,
+      "profile": "15L",
+      "ts": 1774357012.989661,
+      "ts_str": "2026-03-24 13:56:52",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.444,
+      "cycle_time_adj_s": 42.528,
+      "cycle_time_s": 44.972,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774357055.3627596,
+      "ts_str": "2026-03-24 13:57:35",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.282,
+      "profile": "15L",
+      "ts": 1774357057.9555883,
+      "ts_str": "2026-03-24 13:57:37",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.804,
+      "cycle_time_adj_s": 277.539,
+      "cycle_time_s": 280.343,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774357335.7054732,
+      "ts_str": "2026-03-24 14:02:15",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.284,
+      "profile": "15L",
+      "ts": 1774357338.2993968,
+      "ts_str": "2026-03-24 14:02:18",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.374,
+      "cycle_time_adj_s": 77.968,
+      "cycle_time_s": 80.342,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774357416.0475938,
+      "ts_str": "2026-03-24 14:03:36",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.308,
+      "profile": "15L",
+      "ts": 1774357418.6370695,
+      "ts_str": "2026-03-24 14:03:38",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.406,
+      "cycle_time_adj_s": 42.368,
+      "cycle_time_s": 44.774,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774357460.8215802,
+      "ts_str": "2026-03-24 14:04:20",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.298,
+      "profile": "15L",
+      "ts": 1774357463.4102454,
+      "ts_str": "2026-03-24 14:04:23",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.472,
+      "cycle_time_adj_s": 42.376,
+      "cycle_time_s": 44.848,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774357505.6691275,
+      "ts_str": "2026-03-24 14:05:05",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.239,
+      "profile": "15L",
+      "ts": 1774357508.2596076,
+      "ts_str": "2026-03-24 14:05:08",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.295,
+      "cycle_time_adj_s": 42.3,
+      "cycle_time_s": 44.594,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774357550.2633839,
+      "ts_str": "2026-03-24 14:05:50",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.269,
+      "profile": "15L",
+      "ts": 1774357552.8529072,
+      "ts_str": "2026-03-24 14:05:52",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.461,
+      "cycle_time_adj_s": 42.993,
+      "cycle_time_s": 45.454,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774357595.7178051,
+      "ts_str": "2026-03-24 14:06:35",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.28,
+      "profile": "15L",
+      "ts": 1774357598.3166907,
+      "ts_str": "2026-03-24 14:06:38",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.197,
+      "cycle_time_adj_s": 41.55,
+      "cycle_time_s": 43.746,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774357639.4642644,
+      "ts_str": "2026-03-24 14:07:19",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.267,
+      "profile": "15L",
+      "ts": 1774357642.0570815,
+      "ts_str": "2026-03-24 14:07:22",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.575,
+      "cycle_time_adj_s": 42.017,
+      "cycle_time_s": 44.592,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774357684.0559187,
+      "ts_str": "2026-03-24 14:08:04",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.261,
+      "profile": "15L",
+      "ts": 1774357686.6575365,
+      "ts_str": "2026-03-24 14:08:06",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.442,
+      "cycle_time_adj_s": 41.759,
+      "cycle_time_s": 44.201,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774357728.2567706,
+      "ts_str": "2026-03-24 14:08:48",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.284,
+      "profile": "15L",
+      "ts": 1774357730.8473086,
+      "ts_str": "2026-03-24 14:08:50",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.467,
+      "cycle_time_adj_s": 42.918,
+      "cycle_time_s": 45.385,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774357773.6416953,
+      "ts_str": "2026-03-24 14:09:33",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.263,
+      "profile": "15L",
+      "ts": 1774357776.2318983,
+      "ts_str": "2026-03-24 14:09:36",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.403,
+      "cycle_time_adj_s": 42.541,
+      "cycle_time_s": 44.945,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774357818.5865,
+      "ts_str": "2026-03-24 14:10:18",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.306,
+      "profile": "15L",
+      "ts": 1774357821.185898,
+      "ts_str": "2026-03-24 14:10:21",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.393,
+      "cycle_time_adj_s": 44.762,
+      "cycle_time_s": 47.154,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774357865.7409632,
+      "ts_str": "2026-03-24 14:11:05",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.286,
+      "profile": "15L",
+      "ts": 1774357868.3306236,
+      "ts_str": "2026-03-24 14:11:08",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.447,
+      "cycle_time_adj_s": 916.067,
+      "cycle_time_s": 918.514,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774358784.2551608,
+      "ts_str": "2026-03-24 14:26:24",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.276,
+      "profile": "15L",
+      "ts": 1774358786.8494325,
+      "ts_str": "2026-03-24 14:26:26",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.436,
+      "cycle_time_adj_s": 42.856,
+      "cycle_time_s": 45.292,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774358829.546872,
+      "ts_str": "2026-03-24 14:27:09",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.291,
+      "profile": "15L",
+      "ts": 1774358832.142476,
+      "ts_str": "2026-03-24 14:27:12",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.406,
+      "cycle_time_adj_s": 55.665,
+      "cycle_time_s": 58.072,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774358887.6183968,
+      "ts_str": "2026-03-24 14:28:07",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.272,
+      "profile": "15L",
+      "ts": 1774358890.2138805,
+      "ts_str": "2026-03-24 14:28:10",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.251,
+      "cycle_time_adj_s": 71.528,
+      "cycle_time_s": 73.779,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774358961.3975062,
+      "ts_str": "2026-03-24 14:29:21",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.289,
+      "profile": "15L",
+      "ts": 1774358963.9925528,
+      "ts_str": "2026-03-24 14:29:23",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.517,
+      "cycle_time_adj_s": 44.913,
+      "cycle_time_s": 47.43,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774359008.8276792,
+      "ts_str": "2026-03-24 14:30:08",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.308,
+      "profile": "15L",
+      "ts": 1774359011.4208734,
+      "ts_str": "2026-03-24 14:30:11",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.528,
+      "cycle_time_adj_s": 43.108,
+      "cycle_time_s": 45.636,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774359054.4636738,
+      "ts_str": "2026-03-24 14:30:54",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.306,
+      "profile": "15L",
+      "ts": 1774359057.062196,
+      "ts_str": "2026-03-24 14:30:57",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.426,
+      "cycle_time_adj_s": 44.184,
+      "cycle_time_s": 46.61,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774359101.0736213,
+      "ts_str": "2026-03-24 14:31:41",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.238,
+      "profile": "15L",
+      "ts": 1774359103.6661472,
+      "ts_str": "2026-03-24 14:31:43",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.423,
+      "cycle_time_adj_s": 42.701,
+      "cycle_time_s": 45.124,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774359146.197129,
+      "ts_str": "2026-03-24 14:32:26",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.265,
+      "profile": "15L",
+      "ts": 1774359148.7821696,
+      "ts_str": "2026-03-24 14:32:28",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.504,
+      "cycle_time_adj_s": 42.407,
+      "cycle_time_s": 44.912,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774359191.1087713,
+      "ts_str": "2026-03-24 14:33:11",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.287,
+      "profile": "15L",
+      "ts": 1774359193.6933713,
+      "ts_str": "2026-03-24 14:33:13",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.374,
+      "cycle_time_adj_s": 42.179,
+      "cycle_time_s": 44.552,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774359235.6611102,
+      "ts_str": "2026-03-24 14:33:55",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.229,
+      "profile": "15L",
+      "ts": 1774359238.246668,
+      "ts_str": "2026-03-24 14:33:58",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.437,
+      "cycle_time_adj_s": 42.384,
+      "cycle_time_s": 44.821,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774359280.4819326,
+      "ts_str": "2026-03-24 14:34:40",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.267,
+      "profile": "15L",
+      "ts": 1774359283.0750659,
+      "ts_str": "2026-03-24 14:34:43",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.44,
+      "cycle_time_adj_s": 42.55,
+      "cycle_time_s": 44.99,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774359325.4717164,
+      "ts_str": "2026-03-24 14:35:25",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.251,
+      "profile": "15L",
+      "ts": 1774359328.059772,
+      "ts_str": "2026-03-24 14:35:28",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.24,
+      "cycle_time_adj_s": 186.951,
+      "cycle_time_s": 189.191,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774359514.6623223,
+      "ts_str": "2026-03-24 14:38:34",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.284,
+      "profile": "15L",
+      "ts": 1774359517.2551966,
+      "ts_str": "2026-03-24 14:38:37",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.489,
+      "cycle_time_adj_s": 178.269,
+      "cycle_time_s": 180.757,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774359695.419698,
+      "ts_str": "2026-03-24 14:41:35",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.265,
+      "profile": "15L",
+      "ts": 1774359698.0091748,
+      "ts_str": "2026-03-24 14:41:38",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 3.067,
+      "cycle_time_adj_s": 43.483,
+      "cycle_time_s": 46.55,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774359741.9695935,
+      "ts_str": "2026-03-24 14:42:21",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.256,
+      "profile": "15L",
+      "ts": 1774359744.5631933,
+      "ts_str": "2026-03-24 14:42:24",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.475,
+      "cycle_time_adj_s": 54.16,
+      "cycle_time_s": 56.635,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774359798.6043303,
+      "ts_str": "2026-03-24 14:43:18",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.28,
+      "profile": "15L",
+      "ts": 1774359801.1950617,
+      "ts_str": "2026-03-24 14:43:21",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.36,
+      "cycle_time_adj_s": 42.622,
+      "cycle_time_s": 44.981,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774359843.5857835,
+      "ts_str": "2026-03-24 14:44:03",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.294,
+      "profile": "15L",
+      "ts": 1774359846.1789823,
+      "ts_str": "2026-03-24 14:44:06",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.418,
+      "cycle_time_adj_s": 43.547,
+      "cycle_time_s": 45.965,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774359889.550788,
+      "ts_str": "2026-03-24 14:44:49",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.278,
+      "profile": "15L",
+      "ts": 1774359892.137581,
+      "ts_str": "2026-03-24 14:44:52",
+      "type": "lap_complete"
+    }
+  ],
+  "recent_gpio_changes": [
+    {
+      "interval_s": 0.2,
+      "pins": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27
+      ],
+      "ts": 1772661718.2709131,
+      "ts_str": "2026-03-04 23:01:58",
+      "type": "session_start"
+    },
+    {
+      "interval_s": 0.2,
+      "pins": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27
+      ],
+      "ts": 1772661766.0459952,
+      "ts_str": "2026-03-04 23:02:46",
+      "type": "session_start"
+    },
+    {
+      "states": {
+        "10": {
+          "func": "input",
+          "level": 0,
+          "mode": "ip",
+          "pull": "DOWN"
+        },
+        "11": {
+          "func": "input",
+          "level": 0,
+          "mode": "ip",
+          "pull": "DOWN"
+        },
+        "12": {
+          "func": "output",
+          "level": 1,
+          "mode": "op",
+          "pull": "NONE"
+        },
+        "13": {
+          "func": "output",
+          "level": 1,
+          "mode": "op",
+          "pull": "NONE"
+        },
+        "14": {
+          "func": "TXD1",
+          "level": 1,
+          "mode": "a5",
+          "pull": "NONE"
+        },
+        "15": {
+          "func": "RXD1",
+          "level": 1,
+          "mode": "a5",
+          "pull": "UP"
+        },
+        "16": {
+          "func": "output",
+          "level": 1,
+          "mode": "op",
+          "pull": "NONE"
+        },
+        "17": {
+          "func": "output",
+          "level": 1,
+          "mode": "op",
+          "pull": "NONE"
+        },
+        "18": {
+          "func": "input",
+          "level": 0,
+          "mode": "ip",
+          "pull": "DOWN"
+        },
+        "19": {
+          "func": "input",
+          "level": 1,
+          "mode": "ip",
+          "pull": "UP"
+        },
+        "2": {
+          "func": "SDA1",
+          "level": 1,
+          "mode": "a0",
+          "pull": "UP"
+        },
+        "20": {
+          "func": "input",
+          "level": 0,
+          "mode": "ip",
+          "pull": "DOWN"
+        },
+        "21": {
+          "func": "input",
+          "level": 0,
+          "mode": "ip",
+          "pull": "UP"
+        },
+        "22": {
+          "func": "input",
+          "level": 0,
+          "mode": "ip",
+          "pull": "DOWN"
+        },
+        "23": {
+          "func": "input",
+          "level": 0,
+          "mode": "ip",
+          "pull": "DOWN"
+        },
+        "24": {
+          "func": "output",
+          "level": 1,
+          "mode": "op",
+          "pull": "NONE"
+        },
+        "25": {
+          "func": "output",
+          "level": 1,
+          "mode": "op",
+          "pull": "NONE"
+        },
+        "26": {
+          "func": "input",
+          "level": 0,
+          "mode": "ip",
+          "pull": "DOWN"
+        },
+        "27": {
+          "func": "output",
+          "level": 0,
+          "mode": "op",
+          "pull": "NONE"
+        },
+        "3": {
+          "func": "SCL1",
+          "level": 1,
+          "mode": "a0",
+          "pull": "UP"
+        },
+        "4": {
+          "func": "input",
+          "level": 1,
+          "mode": "ip",
+          "pull": "UP"
+        },
+        "5": {
+          "func": "output",
+          "level": 1,
+          "mode": "op",
+          "pull": "NONE"
+        },
+        "6": {
+          "func": "input",
+          "level": 1,
+          "mode": "ip",
+          "pull": "UP"
+        },
+        "7": {
+          "func": "input",
+          "level": 1,
+          "mode": "ip",
+          "pull": "UP"
+        },
+        "8": {
+          "func": "input",
+          "level": 1,
+          "mode": "ip",
+          "pull": "UP"
+        },
+        "9": {
+          "func": "input",
+          "level": 0,
+          "mode": "ip",
+          "pull": "DOWN"
+        }
+      },
+      "ts": 1772661766.0493627,
+      "ts_str": "2026-03-04 23:02:46",
+      "type": "snapshot"
+    },
+    {
+      "from": 1,
+      "func": "output",
+      "mode": "op",
+      "pin": 12,
+      "pull": "NONE",
+      "to": 0,
+      "ts": 1772662170.4669743,
+      "ts_str": "2026-03-04 23:09:30",
+      "type": "edge"
+    },
+    {
+      "from": 1,
+      "func": "input",
+      "mode": "ip",
+      "pin": 19,
+      "pull": "UP",
+      "to": 0,
+      "ts": 1772662177.6785693,
+      "ts_str": "2026-03-04 23:09:37",
+      "type": "edge"
+    },
+    {
+      "from": 0,
+      "func": "input",
+      "mode": "ip",
+      "pin": 19,
+      "pull": "UP",
+      "to": 1,
+      "ts": 1772662178.092376,
+      "ts_str": "2026-03-04 23:09:38",
+      "type": "edge"
+    },
+    {
+      "from": 0,
+      "func": "output",
+      "mode": "op",
+      "pin": 12,
+      "pull": "NONE",
+      "to": 1,
+      "ts": 1772662187.5970056,
+      "ts_str": "2026-03-04 23:09:47",
+      "type": "edge"
+    },
+    {
+      "from": 1,
+      "func": "input",
+      "mode": "ip",
+      "pin": 19,
+      "pull": "UP",
+      "to": 0,
+      "ts": 1772662548.1101818,
+      "ts_str": "2026-03-04 23:15:48",
+      "type": "edge"
+    },
+    {
+      "from": 0,
+      "func": "input",
+      "mode": "ip",
+      "pin": 19,
+      "pull": "UP",
+      "to": 1,
+      "ts": 1772662548.3133056,
+      "ts_str": "2026-03-04 23:15:48",
+      "type": "edge"
+    },
+    {
+      "from": 1,
+      "func": "input",
+      "mode": "ip",
+      "pin": 19,
+      "pull": "UP",
+      "to": 0,
+      "ts": 1772662557.5718057,
+      "ts_str": "2026-03-04 23:15:57",
+      "type": "edge"
+    },
+    {
+      "from": 0,
+      "func": "input",
+      "mode": "ip",
+      "pin": 19,
+      "pull": "UP",
+      "to": 1,
+      "ts": 1772662557.985321,
+      "ts_str": "2026-03-04 23:15:57",
+      "type": "edge"
+    },
+    {
+      "from": 1,
+      "func": "input",
+      "mode": "ip",
+      "pin": 19,
+      "pull": "UP",
+      "to": 0,
+      "ts": 1772663451.964073,
+      "ts_str": "2026-03-04 23:30:51",
+      "type": "edge"
+    },
+    {
+      "from": 0,
+      "func": "input",
+      "mode": "ip",
+      "pin": 19,
+      "pull": "UP",
+      "to": 1,
+      "ts": 1772663452.1702394,
+      "ts_str": "2026-03-04 23:30:52",
+      "type": "edge"
+    },
+    {
+      "from": 1,
+      "func": "input",
+      "mode": "ip",
+      "pin": 19,
+      "pull": "UP",
+      "to": 0,
+      "ts": 1772664220.9531717,
+      "ts_str": "2026-03-04 23:43:40",
+      "type": "edge"
+    },
+    {
+      "from": 0,
+      "func": "input",
+      "mode": "ip",
+      "pin": 19,
+      "pull": "UP",
+      "to": 1,
+      "ts": 1772664221.1601741,
+      "ts_str": "2026-03-04 23:43:41",
+      "type": "edge"
+    },
+    {
+      "from": 0,
+      "func": "input",
+      "mode": "ip",
+      "pin": 23,
+      "pull": "UP",
+      "to": 1,
+      "ts": 1772665152.6438148,
+      "ts_str": "2026-03-04 23:59:12",
+      "type": "edge"
+    },
+    {
+      "from": 1,
+      "func": "input",
+      "mode": "ip",
+      "pin": 19,
+      "pull": "UP",
+      "to": 0,
+      "ts": 1772665155.3304775,
+      "ts_str": "2026-03-04 23:59:15",
+      "type": "edge"
+    },
+    {
+      "from": 0,
+      "func": "input",
+      "mode": "ip",
+      "pin": 19,
+      "pull": "UP",
+      "to": 1,
+      "ts": 1772665155.5373,
+      "ts_str": "2026-03-04 23:59:15",
+      "type": "edge"
+    },
+    {
+      "from": 1,
+      "func": "output",
+      "mode": "op",
+      "pin": 12,
+      "pull": "NONE",
+      "to": 0,
+      "ts": 1772665165.657732,
+      "ts_str": "2026-03-04 23:59:25",
+      "type": "edge"
+    },
+    {
+      "from": 1,
+      "func": "input",
+      "mode": "ip",
+      "pin": 19,
+      "pull": "UP",
+      "to": 0,
+      "ts": 1772665167.5163963,
+      "ts_str": "2026-03-04 23:59:27",
+      "type": "edge"
+    },
+    {
+      "from": 0,
+      "func": "input",
+      "mode": "ip",
+      "pin": 19,
+      "pull": "UP",
+      "to": 1,
+      "ts": 1772665168.1349669,
+      "ts_str": "2026-03-04 23:59:28",
+      "type": "edge"
+    },
+    {
+      "from": 1,
+      "func": "input",
+      "mode": "ip",
+      "pin": 19,
+      "pull": "UP",
+      "to": 0,
+      "ts": 1772665168.7541904,
+      "ts_str": "2026-03-04 23:59:28",
+      "type": "edge"
+    },
+    {
+      "from": 0,
+      "func": "input",
+      "mode": "ip",
+      "pin": 19,
+      "pull": "UP",
+      "to": 1,
+      "ts": 1772665169.5800855,
+      "ts_str": "2026-03-04 23:59:29",
+      "type": "edge"
+    },
+    {
+      "from": 1,
+      "func": "input",
+      "mode": "ip",
+      "pin": 19,
+      "pull": "UP",
+      "to": 0,
+      "ts": 1772665169.9931874,
+      "ts_str": "2026-03-04 23:59:29",
+      "type": "edge"
+    },
+    {
+      "from": 0,
+      "func": "input",
+      "mode": "ip",
+      "pin": 19,
+      "pull": "UP",
+      "to": 1,
+      "ts": 1772665170.8201954,
+      "ts_str": "2026-03-04 23:59:30",
+      "type": "edge"
+    },
+    {
+      "from": 1,
+      "func": "input",
+      "mode": "ip",
+      "pin": 19,
+      "pull": "UP",
+      "to": 0,
+      "ts": 1772665172.4740174,
+      "ts_str": "2026-03-04 23:59:32",
+      "type": "edge"
+    },
+    {
+      "from": 0,
+      "func": "input",
+      "mode": "ip",
+      "pin": 19,
+      "pull": "UP",
+      "to": 1,
+      "ts": 1772665172.680908,
+      "ts_str": "2026-03-04 23:59:32",
+      "type": "edge"
+    },
+    {
+      "from": 1,
+      "func": "input",
+      "mode": "ip",
+      "pin": 19,
+      "pull": "UP",
+      "to": 0,
+      "ts": 1772665172.8872845,
+      "ts_str": "2026-03-04 23:59:32",
+      "type": "edge"
+    },
+    {
+      "from": 0,
+      "func": "input",
+      "mode": "ip",
+      "pin": 19,
+      "pull": "UP",
+      "to": 1,
+      "ts": 1772665173.713244,
+      "ts_str": "2026-03-04 23:59:33",
+      "type": "edge"
+    },
+    {
+      "from": 1,
+      "func": "input",
+      "mode": "ip",
+      "pin": 19,
+      "pull": "UP",
+      "to": 0,
+      "ts": 1772665174.5386534,
+      "ts_str": "2026-03-04 23:59:34",
+      "type": "edge"
+    },
+    {
+      "from": 0,
+      "func": "input",
+      "mode": "ip",
+      "pin": 19,
+      "pull": "UP",
+      "to": 1,
+      "ts": 1772665175.1589425,
+      "ts_str": "2026-03-04 23:59:35",
+      "type": "edge"
+    },
+    {
+      "from": 1,
+      "func": "input",
+      "mode": "ip",
+      "pin": 19,
+      "pull": "UP",
+      "to": 0,
+      "ts": 1772665175.7787628,
+      "ts_str": "2026-03-04 23:59:35",
+      "type": "edge"
+    },
+    {
+      "from": 0,
+      "func": "input",
+      "mode": "ip",
+      "pin": 19,
+      "pull": "UP",
+      "to": 1,
+      "ts": 1772665178.049203,
+      "ts_str": "2026-03-04 23:59:38",
+      "type": "edge"
+    },
+    {
+      "from": 1,
+      "func": "input",
+      "mode": "ip",
+      "pin": 19,
+      "pull": "UP",
+      "to": 0,
+      "ts": 1772665178.6695695,
+      "ts_str": "2026-03-04 23:59:38",
+      "type": "edge"
+    },
+    {
+      "from": 0,
+      "func": "input",
+      "mode": "ip",
+      "pin": 19,
+      "pull": "UP",
+      "to": 1,
+      "ts": 1772665180.323852,
+      "ts_str": "2026-03-04 23:59:40",
+      "type": "edge"
+    },
+    {
+      "from": 1,
+      "func": "input",
+      "mode": "ip",
+      "pin": 23,
+      "pull": "UP",
+      "to": 0,
+      "ts": 1772665185.2582855,
+      "ts_str": "2026-03-04 23:59:45",
+      "type": "edge"
+    },
+    {
+      "from": 0,
+      "func": "input",
+      "mode": "ip",
+      "pin": 23,
+      "pull": "UP",
+      "to": 1,
+      "ts": 1772665186.4763405,
+      "ts_str": "2026-03-04 23:59:46",
+      "type": "edge"
+    },
+    {
+      "from": 1,
+      "func": "input",
+      "mode": "ip",
+      "pin": 19,
+      "pull": "UP",
+      "to": 0,
+      "ts": 1772665187.491316,
+      "ts_str": "2026-03-04 23:59:47",
+      "type": "edge"
+    },
+    {
+      "from": 0,
+      "func": "input",
+      "mode": "ip",
+      "pin": 19,
+      "pull": "UP",
+      "to": 1,
+      "ts": 1772665188.5065079,
+      "ts_str": "2026-03-04 23:59:48",
+      "type": "edge"
+    },
+    {
+      "from": 0,
+      "func": "output",
+      "mode": "op",
+      "pin": 12,
+      "pull": "NONE",
+      "to": 1,
+      "ts": 1772665191.391263,
+      "ts_str": "2026-03-04 23:59:51",
+      "type": "edge"
+    },
+    {
+      "from": 1,
+      "func": "output",
+      "mode": "op",
+      "pin": 12,
+      "pull": "NONE",
+      "to": 0,
+      "ts": 1772665356.94425,
+      "ts_str": "2026-03-05 00:02:36",
+      "type": "edge"
+    },
+    {
+      "from": 1,
+      "func": "input",
+      "mode": "ip",
+      "pin": 19,
+      "pull": "UP",
+      "to": 0,
+      "ts": 1772665358.805945,
+      "ts_str": "2026-03-05 00:02:38",
+      "type": "edge"
+    },
+    {
+      "from": 0,
+      "func": "input",
+      "mode": "ip",
+      "pin": 19,
+      "pull": "UP",
+      "to": 1,
+      "ts": 1772665359.012885,
+      "ts_str": "2026-03-05 00:02:39",
+      "type": "edge"
+    },
+    {
+      "from": 1,
+      "func": "input",
+      "mode": "ip",
+      "pin": 19,
+      "pull": "UP",
+      "to": 0,
+      "ts": 1772665360.252887,
+      "ts_str": "2026-03-05 00:02:40",
+      "type": "edge"
+    },
+    {
+      "from": 0,
+      "func": "input",
+      "mode": "ip",
+      "pin": 19,
+      "pull": "UP",
+      "to": 1,
+      "ts": 1772665360.8621647,
+      "ts_str": "2026-03-05 00:02:40",
+      "type": "edge"
+    },
+    {
+      "from": 1,
+      "func": "input",
+      "mode": "ip",
+      "pin": 19,
+      "pull": "UP",
+      "to": 0,
+      "ts": 1772665362.0804017,
+      "ts_str": "2026-03-05 00:02:42",
+      "type": "edge"
+    },
+    {
+      "from": 0,
+      "func": "input",
+      "mode": "ip",
+      "pin": 19,
+      "pull": "UP",
+      "to": 1,
+      "ts": 1772665363.7049747,
+      "ts_str": "2026-03-05 00:02:43",
+      "type": "edge"
+    },
+    {
+      "from": 1,
+      "func": "input",
+      "mode": "ip",
+      "pin": 19,
+      "pull": "UP",
+      "to": 0,
+      "ts": 1772665364.1110373,
+      "ts_str": "2026-03-05 00:02:44",
+      "type": "edge"
+    },
+    {
+      "from": 0,
+      "func": "input",
+      "mode": "ip",
+      "pin": 19,
+      "pull": "UP",
+      "to": 1,
+      "ts": 1772665364.7202482,
+      "ts_str": "2026-03-05 00:02:44",
+      "type": "edge"
+    },
+    {
+      "from": 1,
+      "func": "input",
+      "mode": "ip",
+      "pin": 19,
+      "pull": "UP",
+      "to": 0,
+      "ts": 1772665365.1264145,
+      "ts_str": "2026-03-05 00:02:45",
+      "type": "edge"
+    },
+    {
+      "from": 0,
+      "func": "input",
+      "mode": "ip",
+      "pin": 19,
+      "pull": "UP",
+      "to": 1,
+      "ts": 1772665367.3991826,
+      "ts_str": "2026-03-05 00:02:47",
+      "type": "edge"
+    },
+    {
+      "from": 1,
+      "func": "input",
+      "mode": "ip",
+      "pin": 23,
+      "pull": "UP",
+      "to": 0,
+      "ts": 1772665368.6375837,
+      "ts_str": "2026-03-05 00:02:48",
+      "type": "edge"
+    },
+    {
+      "from": 0,
+      "func": "input",
+      "mode": "ip",
+      "pin": 23,
+      "pull": "UP",
+      "to": 1,
+      "ts": 1772665369.4636748,
+      "ts_str": "2026-03-05 00:02:49",
+      "type": "edge"
+    },
+    {
+      "from": 1,
+      "func": "input",
+      "mode": "ip",
+      "pin": 23,
+      "pull": "UP",
+      "to": 0,
+      "ts": 1772665370.911173,
+      "ts_str": "2026-03-05 00:02:50",
+      "type": "edge"
+    },
+    {
+      "from": 0,
+      "func": "input",
+      "mode": "ip",
+      "pin": 23,
+      "pull": "UP",
+      "to": 1,
+      "ts": 1772665371.5307503,
+      "ts_str": "2026-03-05 00:02:51",
+      "type": "edge"
+    },
+    {
+      "from": 1,
+      "func": "input",
+      "mode": "ip",
+      "pin": 19,
+      "pull": "UP",
+      "to": 0,
+      "ts": 1772665371.7376268,
+      "ts_str": "2026-03-05 00:02:51",
+      "type": "edge"
+    },
+    {
+      "from": 0,
+      "func": "input",
+      "mode": "ip",
+      "pin": 19,
+      "pull": "UP",
+      "to": 1,
+      "ts": 1772665373.1832106,
+      "ts_str": "2026-03-05 00:02:53",
+      "type": "edge"
+    },
+    {
+      "from": 1,
+      "func": "input",
+      "mode": "ip",
+      "pin": 19,
+      "pull": "UP",
+      "to": 0,
+      "ts": 1772665373.3901608,
+      "ts_str": "2026-03-05 00:02:53",
+      "type": "edge"
+    },
+    {
+      "from": 0,
+      "func": "input",
+      "mode": "ip",
+      "pin": 19,
+      "pull": "UP",
+      "to": 1,
+      "ts": 1772665373.8019621,
+      "ts_str": "2026-03-05 00:02:53",
+      "type": "edge"
+    },
+    {
+      "from": 1,
+      "func": "input",
+      "mode": "ip",
+      "pin": 19,
+      "pull": "UP",
+      "to": 0,
+      "ts": 1772665380.4120083,
+      "ts_str": "2026-03-05 00:03:00",
+      "type": "edge"
+    },
+    {
+      "from": 0,
+      "func": "input",
+      "mode": "ip",
+      "pin": 19,
+      "pull": "UP",
+      "to": 1,
+      "ts": 1772665380.824235,
+      "ts_str": "2026-03-05 00:03:00",
+      "type": "edge"
+    },
+    {
+      "from": 1,
+      "func": "input",
+      "mode": "ip",
+      "pin": 19,
+      "pull": "UP",
+      "to": 0,
+      "ts": 1772665381.6502361,
+      "ts_str": "2026-03-05 00:03:01",
+      "type": "edge"
+    },
+    {
+      "from": 0,
+      "func": "input",
+      "mode": "ip",
+      "pin": 19,
+      "pull": "UP",
+      "to": 1,
+      "ts": 1772665382.8901782,
+      "ts_str": "2026-03-05 00:03:02",
+      "type": "edge"
+    },
+    {
+      "from": 1,
+      "func": "input",
+      "mode": "ip",
+      "pin": 19,
+      "pull": "UP",
+      "to": 0,
+      "ts": 1772665384.749405,
+      "ts_str": "2026-03-05 00:03:04",
+      "type": "edge"
+    },
+    {
+      "from": 0,
+      "func": "input",
+      "mode": "ip",
+      "pin": 19,
+      "pull": "UP",
+      "to": 1,
+      "ts": 1772665385.9892242,
+      "ts_str": "2026-03-05 00:03:05",
+      "type": "edge"
+    },
+    {
+      "from": 1,
+      "func": "input",
+      "mode": "ip",
+      "pin": 19,
+      "pull": "UP",
+      "to": 0,
+      "ts": 1772665403.7543044,
+      "ts_str": "2026-03-05 00:03:23",
+      "type": "edge"
+    },
+    {
+      "from": 0,
+      "func": "input",
+      "mode": "ip",
+      "pin": 19,
+      "pull": "UP",
+      "to": 1,
+      "ts": 1772665404.5804696,
+      "ts_str": "2026-03-05 00:03:24",
+      "type": "edge"
+    },
+    {
+      "from": 1,
+      "func": "input",
+      "mode": "ip",
+      "pin": 19,
+      "pull": "UP",
+      "to": 0,
+      "ts": 1772665407.4734464,
+      "ts_str": "2026-03-05 00:03:27",
+      "type": "edge"
+    },
+    {
+      "from": 0,
+      "func": "input",
+      "mode": "ip",
+      "pin": 19,
+      "pull": "UP",
+      "to": 1,
+      "ts": 1772665407.6803246,
+      "ts_str": "2026-03-05 00:03:27",
+      "type": "edge"
+    },
+    {
+      "from": 1,
+      "func": "input",
+      "mode": "ip",
+      "pin": 19,
+      "pull": "UP",
+      "to": 0,
+      "ts": 1772665408.093161,
+      "ts_str": "2026-03-05 00:03:28",
+      "type": "edge"
+    },
+    {
+      "from": 0,
+      "func": "input",
+      "mode": "ip",
+      "pin": 19,
+      "pull": "UP",
+      "to": 1,
+      "ts": 1772665408.3003576,
+      "ts_str": "2026-03-05 00:03:28",
+      "type": "edge"
+    },
+    {
+      "from": 1,
+      "func": "input",
+      "mode": "ip",
+      "pin": 19,
+      "pull": "UP",
+      "to": 0,
+      "ts": 1772665408.5073843,
+      "ts_str": "2026-03-05 00:03:28",
+      "type": "edge"
+    },
+    {
+      "from": 0,
+      "func": "input",
+      "mode": "ip",
+      "pin": 19,
+      "pull": "UP",
+      "to": 1,
+      "ts": 1772665408.9207637,
+      "ts_str": "2026-03-05 00:03:28",
+      "type": "edge"
+    },
+    {
+      "from": 1,
+      "func": "input",
+      "mode": "ip",
+      "pin": 19,
+      "pull": "UP",
+      "to": 0,
+      "ts": 1772665419.0442767,
+      "ts_str": "2026-03-05 00:03:39",
+      "type": "edge"
+    },
+    {
+      "from": 0,
+      "func": "input",
+      "mode": "ip",
+      "pin": 19,
+      "pull": "UP",
+      "to": 1,
+      "ts": 1772665419.665153,
+      "ts_str": "2026-03-05 00:03:39",
+      "type": "edge"
+    },
+    {
+      "from": 1,
+      "func": "input",
+      "mode": "ip",
+      "pin": 19,
+      "pull": "UP",
+      "to": 0,
+      "ts": 1772665419.8720992,
+      "ts_str": "2026-03-05 00:03:39",
+      "type": "edge"
+    },
+    {
+      "from": 0,
+      "func": "input",
+      "mode": "ip",
+      "pin": 19,
+      "pull": "UP",
+      "to": 1,
+      "ts": 1772665421.525521,
+      "ts_str": "2026-03-05 00:03:41",
+      "type": "edge"
+    },
+    {
+      "from": 1,
+      "func": "input",
+      "mode": "ip",
+      "pin": 19,
+      "pull": "UP",
+      "to": 0,
+      "ts": 1772665421.7323358,
+      "ts_str": "2026-03-05 00:03:41",
+      "type": "edge"
+    },
+    {
+      "from": 0,
+      "func": "input",
+      "mode": "ip",
+      "pin": 19,
+      "pull": "UP",
+      "to": 1,
+      "ts": 1772665422.962692,
+      "ts_str": "2026-03-05 00:03:42",
+      "type": "edge"
+    },
+    {
+      "from": 1,
+      "func": "input",
+      "mode": "ip",
+      "pin": 19,
+      "pull": "UP",
+      "to": 0,
+      "ts": 1772665423.3687875,
+      "ts_str": "2026-03-05 00:03:43",
+      "type": "edge"
+    },
+    {
+      "from": 0,
+      "func": "input",
+      "mode": "ip",
+      "pin": 19,
+      "pull": "UP",
+      "to": 1,
+      "ts": 1772665423.7748742,
+      "ts_str": "2026-03-05 00:03:43",
+      "type": "edge"
+    },
+    {
+      "from": 1,
+      "func": "input",
+      "mode": "ip",
+      "pin": 19,
+      "pull": "UP",
+      "to": 0,
+      "ts": 1772665425.1960788,
+      "ts_str": "2026-03-05 00:03:45",
+      "type": "edge"
+    },
+    {
+      "from": 0,
+      "func": "input",
+      "mode": "ip",
+      "pin": 19,
+      "pull": "UP",
+      "to": 1,
+      "ts": 1772665426.00817,
+      "ts_str": "2026-03-05 00:03:46",
+      "type": "edge"
+    },
+    {
+      "from": 1,
+      "func": "input",
+      "mode": "ip",
+      "pin": 19,
+      "pull": "UP",
+      "to": 0,
+      "ts": 1772665431.3547578,
+      "ts_str": "2026-03-05 00:03:51",
+      "type": "edge"
+    },
+    {
+      "from": 0,
+      "func": "input",
+      "mode": "ip",
+      "pin": 19,
+      "pull": "UP",
+      "to": 1,
+      "ts": 1772665434.0402973,
+      "ts_str": "2026-03-05 00:03:54",
+      "type": "edge"
+    },
+    {
+      "from": 1,
+      "func": "input",
+      "mode": "ip",
+      "pin": 19,
+      "pull": "UP",
+      "to": 0,
+      "ts": 1772665435.0737054,
+      "ts_str": "2026-03-05 00:03:55",
+      "type": "edge"
+    },
+    {
+      "from": 0,
+      "func": "input",
+      "mode": "ip",
+      "pin": 19,
+      "pull": "UP",
+      "to": 1,
+      "ts": 1772665436.933169,
+      "ts_str": "2026-03-05 00:03:56",
+      "type": "edge"
+    },
+    {
+      "from": 1,
+      "func": "input",
+      "mode": "ip",
+      "pin": 19,
+      "pull": "UP",
+      "to": 0,
+      "ts": 1772665437.7599838,
+      "ts_str": "2026-03-05 00:03:57",
+      "type": "edge"
+    },
+    {
+      "from": 0,
+      "func": "input",
+      "mode": "ip",
+      "pin": 19,
+      "pull": "UP",
+      "to": 1,
+      "ts": 1772665440.0322871,
+      "ts_str": "2026-03-05 00:04:00",
+      "type": "edge"
+    },
+    {
+      "from": 0,
+      "func": "output",
+      "mode": "op",
+      "pin": 12,
+      "pull": "NONE",
+      "to": 1,
+      "ts": 1772665602.3395772,
+      "ts_str": "2026-03-05 00:06:42",
+      "type": "edge"
+    },
+    {
+      "from": 1,
+      "func": "output",
+      "mode": "op",
+      "pin": 12,
+      "pull": "NONE",
+      "to": 0,
+      "ts": 1772666656.1122456,
+      "ts_str": "2026-03-05 00:24:16",
+      "type": "edge"
+    },
+    {
+      "from": 1,
+      "func": "input",
+      "mode": "ip",
+      "pin": 19,
+      "pull": "UP",
+      "to": 0,
+      "ts": 1772666657.762665,
+      "ts_str": "2026-03-05 00:24:17",
+      "type": "edge"
+    },
+    {
+      "from": 0,
+      "func": "input",
+      "mode": "ip",
+      "pin": 19,
+      "pull": "UP",
+      "to": 1,
+      "ts": 1772666658.3826115,
+      "ts_str": "2026-03-05 00:24:18",
+      "type": "edge"
+    },
+    {
+      "from": 1,
+      "func": "input",
+      "mode": "ip",
+      "pin": 19,
+      "pull": "UP",
+      "to": 0,
+      "ts": 1772666659.4146616,
+      "ts_str": "2026-03-05 00:24:19",
+      "type": "edge"
+    },
+    {
+      "from": 0,
+      "func": "input",
+      "mode": "ip",
+      "pin": 19,
+      "pull": "UP",
+      "to": 1,
+      "ts": 1772666659.828201,
+      "ts_str": "2026-03-05 00:24:19",
+      "type": "edge"
+    },
+    {
+      "from": 1,
+      "func": "input",
+      "mode": "ip",
+      "pin": 19,
+      "pull": "UP",
+      "to": 0,
+      "ts": 1772666661.4793572,
+      "ts_str": "2026-03-05 00:24:21",
+      "type": "edge"
+    },
+    {
+      "from": 0,
+      "func": "output",
+      "mode": "op",
+      "pin": 12,
+      "pull": "NONE",
+      "to": 1,
+      "ts": 1772666662.0994475,
+      "ts_str": "2026-03-05 00:24:22",
+      "type": "edge"
+    },
+    {
+      "from": 0,
+      "func": "input",
+      "mode": "ip",
+      "pin": 19,
+      "pull": "UP",
+      "to": 1,
+      "ts": 1772666662.0994475,
+      "ts_str": "2026-03-05 00:24:22",
+      "type": "edge"
+    },
+    {
+      "from": 1,
+      "func": "input",
+      "mode": "ip",
+      "pin": 23,
+      "pull": "UP",
+      "to": 0,
+      "ts": 1772666663.5455978,
+      "ts_str": "2026-03-05 00:24:23",
+      "type": "edge"
+    },
+    {
+      "from": 1,
+      "func": "output",
+      "mode": "op",
+      "pin": 5,
+      "pull": "NONE",
+      "to": 0,
+      "ts": 1772666664.5789404,
+      "ts_str": "2026-03-05 00:24:24",
+      "type": "edge"
+    },
+    {
+      "from": 0,
+      "func": "output",
+      "mode": "op",
+      "pin": 5,
+      "pull": "NONE",
+      "to": 1,
+      "ts": 1772666666.6436524,
+      "ts_str": "2026-03-05 00:24:26",
+      "type": "edge"
+    },
+    {
+      "from": 1,
+      "func": "output",
+      "mode": "op",
+      "pin": 12,
+      "pull": "NONE",
+      "to": 0,
+      "ts": 1772666667.8829882,
+      "ts_str": "2026-03-05 00:24:27",
+      "type": "edge"
+    },
+    {
+      "from": 0,
+      "func": "input",
+      "mode": "ip",
+      "pin": 23,
+      "pull": "UP",
+      "to": 1,
+      "ts": 1772666691.1379132,
+      "ts_str": "2026-03-05 00:24:51",
+      "type": "edge"
+    },
+    {
+      "from": 1,
+      "func": "input",
+      "mode": "ip",
+      "pin": 19,
+      "pull": "UP",
+      "to": 0,
+      "ts": 1772666691.5507958,
+      "ts_str": "2026-03-05 00:24:51",
+      "type": "edge"
+    },
+    {
+      "from": 0,
+      "func": "input",
+      "mode": "ip",
+      "pin": 19,
+      "pull": "UP",
+      "to": 1,
+      "ts": 1772666692.3775713,
+      "ts_str": "2026-03-05 00:24:52",
+      "type": "edge"
+    },
+    {
+      "from": 1,
+      "func": "input",
+      "mode": "ip",
+      "pin": 19,
+      "pull": "UP",
+      "to": 0,
+      "ts": 1772666692.9977844,
+      "ts_str": "2026-03-05 00:24:52",
+      "type": "edge"
+    },
+    {
+      "from": 0,
+      "func": "input",
+      "mode": "ip",
+      "pin": 19,
+      "pull": "UP",
+      "to": 1,
+      "ts": 1772666693.82498,
+      "ts_str": "2026-03-05 00:24:53",
+      "type": "edge"
+    },
+    {
+      "from": 1,
+      "func": "input",
+      "mode": "ip",
+      "pin": 19,
+      "pull": "UP",
+      "to": 0,
+      "ts": 1772666694.445849,
+      "ts_str": "2026-03-05 00:24:54",
+      "type": "edge"
+    },
+    {
+      "from": 0,
+      "func": "output",
+      "mode": "op",
+      "pin": 12,
+      "pull": "NONE",
+      "to": 1,
+      "ts": 1772666695.06589,
+      "ts_str": "2026-03-05 00:24:55",
+      "type": "edge"
+    },
+    {
+      "from": 0,
+      "func": "input",
+      "mode": "ip",
+      "pin": 19,
+      "pull": "UP",
+      "to": 1,
+      "ts": 1772666695.06589,
+      "ts_str": "2026-03-05 00:24:55",
+      "type": "edge"
+    },
+    {
+      "from": 1,
+      "func": "input",
+      "mode": "ip",
+      "pin": 23,
+      "pull": "UP",
+      "to": 0,
+      "ts": 1772666695.6861722,
+      "ts_str": "2026-03-05 00:24:55",
+      "type": "edge"
+    },
+    {
+      "from": 1,
+      "func": "output",
+      "mode": "op",
+      "pin": 13,
+      "pull": "NONE",
+      "to": 0,
+      "ts": 1772666697.750796,
+      "ts_str": "2026-03-05 00:24:57",
+      "type": "edge"
+    },
+    {
+      "from": 0,
+      "func": "output",
+      "mode": "op",
+      "pin": 27,
+      "pull": "NONE",
+      "to": 1,
+      "ts": 1772666699.1974888,
+      "ts_str": "2026-03-05 00:24:59",
+      "type": "edge"
+    },
+    {
+      "from": 0,
+      "func": "input",
+      "mode": "ip",
+      "pin": 23,
+      "pull": "UP",
+      "to": 1,
+      "ts": 1772666701.8840811,
+      "ts_str": "2026-03-05 00:25:01",
+      "type": "edge"
+    },
+    {
+      "from": 1,
+      "func": "output",
+      "mode": "op",
+      "pin": 17,
+      "pull": "NONE",
+      "to": 0,
+      "ts": 1772666702.2968724,
+      "ts_str": "2026-03-05 00:25:02",
+      "type": "edge"
+    },
+    {
+      "from": 1,
+      "func": "output",
+      "mode": "op",
+      "pin": 24,
+      "pull": "NONE",
+      "to": 0,
+      "ts": 1772666707.668611,
+      "ts_str": "2026-03-05 00:25:07",
+      "type": "edge"
+    },
+    {
+      "from": 0,
+      "func": "output",
+      "mode": "op",
+      "pin": 17,
+      "pull": "NONE",
+      "to": 1,
+      "ts": 1772666710.7653608,
+      "ts_str": "2026-03-05 00:25:10",
+      "type": "edge"
+    },
+    {
+      "from": 0,
+      "func": "output",
+      "mode": "op",
+      "pin": 13,
+      "pull": "NONE",
+      "to": 1,
+      "ts": 1772666712.8318381,
+      "ts_str": "2026-03-05 00:25:12",
+      "type": "edge"
+    },
+    {
+      "from": 1,
+      "func": "output",
+      "mode": "op",
+      "pin": 27,
+      "pull": "NONE",
+      "to": 0,
+      "ts": 1772666713.8652918,
+      "ts_str": "2026-03-05 00:25:13",
+      "type": "edge"
+    },
+    {
+      "from": 0,
+      "func": "output",
+      "mode": "op",
+      "pin": 24,
+      "pull": "NONE",
+      "to": 1,
+      "ts": 1772666715.3108819,
+      "ts_str": "2026-03-05 00:25:15",
+      "type": "edge"
+    },
+    {
+      "from": 1,
+      "func": "input",
+      "mode": "ip",
+      "pin": 23,
+      "pull": "UP",
+      "to": 0,
+      "ts": 1772666727.0861688,
+      "ts_str": "2026-03-05 00:25:27",
+      "type": "edge"
+    },
+    {
+      "from": 0,
+      "func": "input",
+      "mode": "ip",
+      "pin": 23,
+      "pull": "UP",
+      "to": 1,
+      "ts": 1772666728.5330853,
+      "ts_str": "2026-03-05 00:25:28",
+      "type": "edge"
+    },
+    {
+      "from": 1,
+      "func": "input",
+      "mode": "ip",
+      "pin": 23,
+      "pull": "UP",
+      "to": 0,
+      "ts": 1772666728.9469087,
+      "ts_str": "2026-03-05 00:25:28",
+      "type": "edge"
+    },
+    {
+      "from": 0,
+      "func": "input",
+      "mode": "ip",
+      "pin": 23,
+      "pull": "UP",
+      "to": 1,
+      "ts": 1772666730.3779619,
+      "ts_str": "2026-03-05 00:25:30",
+      "type": "edge"
+    },
+    {
+      "from": 1,
+      "func": "input",
+      "mode": "ip",
+      "pin": 23,
+      "pull": "UP",
+      "to": 0,
+      "ts": 1772666730.987632,
+      "ts_str": "2026-03-05 00:25:30",
+      "type": "edge"
+    },
+    {
+      "from": 0,
+      "func": "input",
+      "mode": "ip",
+      "pin": 23,
+      "pull": "UP",
+      "to": 1,
+      "ts": 1772666734.6501775,
+      "ts_str": "2026-03-05 00:25:34",
+      "type": "edge"
+    },
+    {
+      "from": 1,
+      "func": "input",
+      "mode": "ip",
+      "pin": 23,
+      "pull": "UP",
+      "to": 0,
+      "ts": 1772666734.8570974,
+      "ts_str": "2026-03-05 00:25:34",
+      "type": "edge"
+    },
+    {
+      "from": 0,
+      "func": "input",
+      "mode": "ip",
+      "pin": 23,
+      "pull": "UP",
+      "to": 1,
+      "ts": 1772666735.47731,
+      "ts_str": "2026-03-05 00:25:35",
+      "type": "edge"
+    },
+    {
+      "from": 1,
+      "func": "input",
+      "mode": "ip",
+      "pin": 23,
+      "pull": "UP",
+      "to": 0,
+      "ts": 1772666737.5436718,
+      "ts_str": "2026-03-05 00:25:37",
+      "type": "edge"
+    },
+    {
+      "from": 0,
+      "func": "input",
+      "mode": "ip",
+      "pin": 23,
+      "pull": "UP",
+      "to": 1,
+      "ts": 1772666740.2290301,
+      "ts_str": "2026-03-05 00:25:40",
+      "type": "edge"
+    },
+    {
+      "from": 1,
+      "func": "input",
+      "mode": "ip",
+      "pin": 23,
+      "pull": "UP",
+      "to": 0,
+      "ts": 1772666741.4676301,
+      "ts_str": "2026-03-05 00:25:41",
+      "type": "edge"
+    },
+    {
+      "from": 0,
+      "func": "input",
+      "mode": "ip",
+      "pin": 23,
+      "pull": "UP",
+      "to": 1,
+      "ts": 1772666743.7407496,
+      "ts_str": "2026-03-05 00:25:43",
+      "type": "edge"
+    },
+    {
+      "from": 1,
+      "func": "input",
+      "mode": "ip",
+      "pin": 23,
+      "pull": "UP",
+      "to": 0,
+      "ts": 1772666744.9807525,
+      "ts_str": "2026-03-05 00:25:44",
+      "type": "edge"
+    },
+    {
+      "from": 0,
+      "func": "input",
+      "mode": "ip",
+      "pin": 23,
+      "pull": "UP",
+      "to": 1,
+      "ts": 1772666746.634434,
+      "ts_str": "2026-03-05 00:25:46",
+      "type": "edge"
+    },
+    {
+      "from": 1,
+      "func": "input",
+      "mode": "ip",
+      "pin": 23,
+      "pull": "UP",
+      "to": 0,
+      "ts": 1772666748.906597,
+      "ts_str": "2026-03-05 00:25:48",
+      "type": "edge"
+    },
+    {
+      "from": 0,
+      "func": "input",
+      "mode": "ip",
+      "pin": 23,
+      "pull": "UP",
+      "to": 1,
+      "ts": 1772666750.1455305,
+      "ts_str": "2026-03-05 00:25:50",
+      "type": "edge"
+    },
+    {
+      "from": 1,
+      "func": "output",
+      "mode": "op",
+      "pin": 12,
+      "pull": "NONE",
+      "to": 0,
+      "ts": 1772667581.8751435,
+      "ts_str": "2026-03-05 00:39:41",
+      "type": "edge"
+    },
+    {
+      "from": 1,
+      "func": "input",
+      "mode": "ip",
+      "pin": 19,
+      "pull": "UP",
+      "to": 0,
+      "ts": 1772667583.1138184,
+      "ts_str": "2026-03-05 00:39:43",
+      "type": "edge"
+    },
+    {
+      "from": 0,
+      "func": "input",
+      "mode": "ip",
+      "pin": 19,
+      "pull": "UP",
+      "to": 1,
+      "ts": 1772667583.9420764,
+      "ts_str": "2026-03-05 00:39:43",
+      "type": "edge"
+    },
+    {
+      "from": 1,
+      "func": "input",
+      "mode": "ip",
+      "pin": 19,
+      "pull": "UP",
+      "to": 0,
+      "ts": 1772667584.3552306,
+      "ts_str": "2026-03-05 00:39:44",
+      "type": "edge"
+    },
+    {
+      "from": 0,
+      "func": "input",
+      "mode": "ip",
+      "pin": 19,
+      "pull": "UP",
+      "to": 1,
+      "ts": 1772667585.1821656,
+      "ts_str": "2026-03-05 00:39:45",
+      "type": "edge"
+    },
+    {
+      "from": 1,
+      "func": "input",
+      "mode": "ip",
+      "pin": 19,
+      "pull": "UP",
+      "to": 0,
+      "ts": 1772667585.801648,
+      "ts_str": "2026-03-05 00:39:45",
+      "type": "edge"
+    },
+    {
+      "from": 0,
+      "func": "output",
+      "mode": "op",
+      "pin": 12,
+      "pull": "NONE",
+      "to": 1,
+      "ts": 1772667586.8348653,
+      "ts_str": "2026-03-05 00:39:46",
+      "type": "edge"
+    },
+    {
+      "from": 0,
+      "func": "input",
+      "mode": "ip",
+      "pin": 19,
+      "pull": "UP",
+      "to": 1,
+      "ts": 1772667586.8348653,
+      "ts_str": "2026-03-05 00:39:46",
+      "type": "edge"
+    },
+    {
+      "from": 1,
+      "func": "input",
+      "mode": "ip",
+      "pin": 19,
+      "pull": "UP",
+      "to": 0,
+      "ts": 1772667587.455131,
+      "ts_str": "2026-03-05 00:39:47",
+      "type": "edge"
+    },
+    {
+      "from": 0,
+      "func": "input",
+      "mode": "ip",
+      "pin": 19,
+      "pull": "UP",
+      "to": 1,
+      "ts": 1772667587.6612227,
+      "ts_str": "2026-03-05 00:39:47",
+      "type": "edge"
+    },
+    {
+      "from": 1,
+      "func": "input",
+      "mode": "ip",
+      "pin": 23,
+      "pull": "UP",
+      "to": 0,
+      "ts": 1772667588.0740485,
+      "ts_str": "2026-03-05 00:39:48",
+      "type": "edge"
+    },
+    {
+      "from": 0,
+      "func": "input",
+      "mode": "ip",
+      "pin": 23,
+      "pull": "UP",
+      "to": 1,
+      "ts": 1772667593.238685,
+      "ts_str": "2026-03-05 00:39:53",
+      "type": "edge"
+    },
+    {
+      "from": 1,
+      "func": "output",
+      "mode": "op",
+      "pin": 5,
+      "pull": "NONE",
+      "to": 0,
+      "ts": 1772667612.359727,
+      "ts_str": "2026-03-05 00:40:12",
+      "type": "edge"
+    },
+    {
+      "from": 0,
+      "func": "output",
+      "mode": "op",
+      "pin": 5,
+      "pull": "NONE",
+      "to": 1,
+      "ts": 1772667614.4252944,
+      "ts_str": "2026-03-05 00:40:14",
+      "type": "edge"
+    },
+    {
+      "from": 1,
+      "func": "output",
+      "mode": "op",
+      "pin": 12,
+      "pull": "NONE",
+      "to": 0,
+      "ts": 1772667615.6644819,
+      "ts_str": "2026-03-05 00:40:15",
+      "type": "edge"
+    },
+    {
+      "from": 0,
+      "func": "output",
+      "mode": "op",
+      "pin": 12,
+      "pull": "NONE",
+      "to": 1,
+      "ts": 1772667620.8282192,
+      "ts_str": "2026-03-05 00:40:20",
+      "type": "edge"
+    },
+    {
+      "from": 1,
+      "func": "output",
+      "mode": "op",
+      "pin": 12,
+      "pull": "NONE",
+      "to": 0,
+      "ts": 1772667706.0366046,
+      "ts_str": "2026-03-05 00:41:46",
+      "type": "edge"
+    },
+    {
+      "from": 1,
+      "func": "input",
+      "mode": "ip",
+      "pin": 19,
+      "pull": "UP",
+      "to": 0,
+      "ts": 1772667707.068394,
+      "ts_str": "2026-03-05 00:41:47",
+      "type": "edge"
+    },
+    {
+      "from": 0,
+      "func": "input",
+      "mode": "ip",
+      "pin": 19,
+      "pull": "UP",
+      "to": 1,
+      "ts": 1772667707.4824543,
+      "ts_str": "2026-03-05 00:41:47",
+      "type": "edge"
+    },
+    {
+      "from": 1,
+      "func": "input",
+      "mode": "ip",
+      "pin": 19,
+      "pull": "UP",
+      "to": 0,
+      "ts": 1772667708.1020372,
+      "ts_str": "2026-03-05 00:41:48",
+      "type": "edge"
+    },
+    {
+      "from": 0,
+      "func": "input",
+      "mode": "ip",
+      "pin": 19,
+      "pull": "UP",
+      "to": 1,
+      "ts": 1772667708.5156198,
+      "ts_str": "2026-03-05 00:41:48",
+      "type": "edge"
+    },
+    {
+      "from": 1,
+      "func": "input",
+      "mode": "ip",
+      "pin": 23,
+      "pull": "UP",
+      "to": 0,
+      "ts": 1772667708.7225218,
+      "ts_str": "2026-03-05 00:41:48",
+      "type": "edge"
+    },
+    {
+      "from": 0,
+      "func": "input",
+      "mode": "ip",
+      "pin": 23,
+      "pull": "UP",
+      "to": 1,
+      "ts": 1772667708.929439,
+      "ts_str": "2026-03-05 00:41:48",
+      "type": "edge"
+    },
+    {
+      "from": 1,
+      "func": "input",
+      "mode": "ip",
+      "pin": 19,
+      "pull": "UP",
+      "to": 0,
+      "ts": 1772667709.3430216,
+      "ts_str": "2026-03-05 00:41:49",
+      "type": "edge"
+    },
+    {
+      "from": 0,
+      "func": "output",
+      "mode": "op",
+      "pin": 12,
+      "pull": "NONE",
+      "to": 1,
+      "ts": 1772667709.7564912,
+      "ts_str": "2026-03-05 00:41:49",
+      "type": "edge"
+    },
+    {
+      "from": 0,
+      "func": "input",
+      "mode": "ip",
+      "pin": 19,
+      "pull": "UP",
+      "to": 1,
+      "ts": 1772667709.7564912,
+      "ts_str": "2026-03-05 00:41:49",
+      "type": "edge"
+    },
+    {
+      "from": 1,
+      "func": "input",
+      "mode": "ip",
+      "pin": 23,
+      "pull": "UP",
+      "to": 0,
+      "ts": 1772667709.7564912,
+      "ts_str": "2026-03-05 00:41:49",
+      "type": "edge"
+    },
+    {
+      "from": 0,
+      "func": "input",
+      "mode": "ip",
+      "pin": 23,
+      "pull": "UP",
+      "to": 1,
+      "ts": 1772667713.2660475,
+      "ts_str": "2026-03-05 00:41:53",
+      "type": "edge"
+    },
+    {
+      "from": 0,
+      "func": "input",
+      "mode": "ip",
+      "pin": 21,
+      "pull": "UP",
+      "to": 1,
+      "ts": 1772667724.747929,
+      "ts_str": "2026-03-05 00:42:04",
+      "type": "edge"
+    },
+    {
+      "from": 1,
+      "func": "input",
+      "mode": "ip",
+      "pin": 21,
+      "pull": "UP",
+      "to": 0,
+      "ts": 1772667726.4011955,
+      "ts_str": "2026-03-05 00:42:06",
+      "type": "edge"
+    },
+    {
+      "from": 0,
+      "func": "input",
+      "mode": "ip",
+      "pin": 21,
+      "pull": "UP",
+      "to": 1,
+      "ts": 1772667726.6083264,
+      "ts_str": "2026-03-05 00:42:06",
+      "type": "edge"
+    },
+    {
+      "from": 1,
+      "func": "input",
+      "mode": "ip",
+      "pin": 21,
+      "pull": "UP",
+      "to": 0,
+      "ts": 1772667727.0210607,
+      "ts_str": "2026-03-05 00:42:07",
+      "type": "edge"
+    },
+    {
+      "from": 0,
+      "func": "input",
+      "mode": "ip",
+      "pin": 21,
+      "pull": "UP",
+      "to": 1,
+      "ts": 1772667727.2270863,
+      "ts_str": "2026-03-05 00:42:07",
+      "type": "edge"
+    },
+    {
+      "from": 1,
+      "func": "input",
+      "mode": "ip",
+      "pin": 23,
+      "pull": "UP",
+      "to": 0,
+      "ts": 1772667732.5991626,
+      "ts_str": "2026-03-05 00:42:12",
+      "type": "edge"
+    },
+    {
+      "from": 0,
+      "func": "input",
+      "mode": "ip",
+      "pin": 23,
+      "pull": "UP",
+      "to": 1,
+      "ts": 1772667732.8060822,
+      "ts_str": "2026-03-05 00:42:12",
+      "type": "edge"
+    },
+    {
+      "from": 1,
+      "func": "input",
+      "mode": "ip",
+      "pin": 19,
+      "pull": "UP",
+      "to": 0,
+      "ts": 1772667733.013032,
+      "ts_str": "2026-03-05 00:42:13",
+      "type": "edge"
+    },
+    {
+      "from": 0,
+      "func": "input",
+      "mode": "ip",
+      "pin": 19,
+      "pull": "UP",
+      "to": 1,
+      "ts": 1772667733.2198958,
+      "ts_str": "2026-03-05 00:42:13",
+      "type": "edge"
+    },
+    {
+      "from": 1,
+      "func": "output",
+      "mode": "op",
+      "pin": 5,
+      "pull": "NONE",
+      "to": 0,
+      "ts": 1772667742.3073223,
+      "ts_str": "2026-03-05 00:42:22",
+      "type": "edge"
+    },
+    {
+      "from": 0,
+      "func": "output",
+      "mode": "op",
+      "pin": 5,
+      "pull": "NONE",
+      "to": 1,
+      "ts": 1772667744.1672974,
+      "ts_str": "2026-03-05 00:42:24",
+      "type": "edge"
+    },
+    {
+      "from": 1,
+      "func": "output",
+      "mode": "op",
+      "pin": 12,
+      "pull": "NONE",
+      "to": 0,
+      "ts": 1772667745.406503,
+      "ts_str": "2026-03-05 00:42:25",
+      "type": "edge"
+    },
+    {
+      "from": 1,
+      "func": "input",
+      "mode": "ip",
+      "pin": 19,
+      "pull": "UP",
+      "to": 0,
+      "ts": 1772667746.6468241,
+      "ts_str": "2026-03-05 00:42:26",
+      "type": "edge"
+    },
+    {
+      "from": 0,
+      "func": "input",
+      "mode": "ip",
+      "pin": 19,
+      "pull": "UP",
+      "to": 1,
+      "ts": 1772667747.060243,
+      "ts_str": "2026-03-05 00:42:27",
+      "type": "edge"
+    },
+    {
+      "from": 0,
+      "func": "output",
+      "mode": "op",
+      "pin": 12,
+      "pull": "NONE",
+      "to": 1,
+      "ts": 1772667758.6232479,
+      "ts_str": "2026-03-05 00:42:38",
+      "type": "edge"
+    },
+    {
+      "ts": 1772684716.9603848,
+      "ts_str": "2026-03-05 05:25:16",
+      "type": "session_end"
+    }
+  ],
+  "runtime_state": {
+    "bottles_by_profile": {
+      "05L": 0,
+      "15L": 14208
+    },
+    "cycles_by_profile": {
+      "05L": 0,
+      "15L": 2368
+    },
+    "data_since_ts": 1772176762.3823276,
+    "data_since_ts_str": "2026-02-27 08:19:22",
+    "events_total": 6930,
+    "last_cycle_ts": 1774359889.550788,
+    "last_cycle_ts_str": "2026-03-24 14:44:49",
+    "last_reset_ts": 1772176762.3823276,
+    "last_reset_ts_str": "2026-02-27 08:19:22",
+    "sessions_total": 172,
+    "total_bottles": 14208,
+    "total_cycles": 2368,
+    "updated_ts": 1774359892.1384459,
+    "updated_ts_str": "2026-03-24 14:44:52"
+  },
+  "runtime_summary": {
+    "avg_count_sensor_time_s": 2.464,
+    "avg_cycle_time_adj_s": 91.498,
+    "avg_cycle_time_s": 93.962,
+    "avg_lap_s": 31.283,
+    "last_event_ts": "2026-03-24 14:44:52",
+    "last_event_type": "lap_complete",
+    "recent_cycle_events": 175,
+    "recent_lap_events": 175
+  },
+  "service_status": {
+    "active_state": "active",
+    "description": "Machine UI v9 (Flask)",
+    "exec_status": "0",
+    "id": "machine-v9.service",
+    "main_pid": "1012",
+    "service": "machine-v9.service",
+    "started_at": "Tue 2026-03-24 08:55:51 CET",
+    "sub_state": "running"
+  },
+  "source": {
+    "current_profile": "15L",
+    "hostname": "raspberrypi",
+    "machine_base_dir": "/home/pi/Desktop/machine/v9",
+    "machine_service": "machine-v9.service"
+  },
+  "stroke_logs": [
+    {
+      "exists": true,
+      "modified_at": "2026-01-14T23:03:03.263727Z",
+      "path": "/home/pi/Desktop/stroke_logs/transfer_fwd_stroke_times_20260115_000253.log",
+      "size_bytes": 365,
+      "tail": [
+        "[2026-01-15 00:02:53] START measure for 'transfer_fwd' (GPIO17, active_low=True)",
+        "[2026-01-15 00:02:53] CSV: stroke_logs/transfer_fwd_stroke_times_20260115_000253.csv",
+        "",
+        "TANGENTER: SPACE=start/stop, e=ALLA OFF, s=status, q=quit",
+        "När du trycker SPACE (start): output togglas och timer startar.",
+        "När du trycker SPACE igen (stop): tid loggas.",
+        "",
+        "[2026-01-15 00:03:03] QUIT"
+      ]
+    },
+    {
+      "exists": true,
+      "modified_at": "2026-01-14T23:03:03.263727Z",
+      "path": "/home/pi/Desktop/stroke_logs/transfer_fwd_stroke_times_20260115_000253.csv",
+      "size_bytes": 46,
+      "tail": [
+        "timestamp,output,from_state,to_state,seconds"
+      ]
+    }
+  ],
+  "system": {
+    "loadavg": [
+      0.53,
+      0.393,
+      0.459
+    ]
+  }
+}
