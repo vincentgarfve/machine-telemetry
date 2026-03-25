@@ -8,71 +8,26 @@
     },
     "machine_log": {
       "exists": true,
-      "modified_at": "2026-03-25T08:30:50.925344Z",
+      "modified_at": "2026-03-25T08:33:21.018836Z",
       "path": "/home/pi/Desktop/machine/v9/machine_run.log",
-      "size_bytes": 10132415
+      "size_bytes": 10134943
     },
     "runtime_events": {
       "exists": true,
-      "modified_at": "2026-03-25T08:30:30.929678Z",
+      "modified_at": "2026-03-25T08:33:06.235083Z",
       "path": "/home/pi/Desktop/machine/v9/runtime_stats/events.jsonl",
-      "size_bytes": 1231190
+      "size_bytes": 1232098
     },
     "runtime_state": {
       "exists": true,
-      "modified_at": "2026-03-25T08:30:30.929678Z",
+      "modified_at": "2026-03-25T08:31:16.076924Z",
       "path": "/home/pi/Desktop/machine/v9/runtime_stats/state.json",
       "size_bytes": 557
     }
   },
-  "generated_at": "2026-03-25T08:30:51.281548Z",
+  "generated_at": "2026-03-25T08:33:21.365812Z",
   "log_tails": {
     "machine_run_log": [
-      "2026-03-25 09:27:47 STATE -> FINAL_TRANSFER_BACK",
-      "2026-03-25 09:27:49 STATE -> FINAL_AFTER_TRANSFER_BACK_DELAY",
-      "2026-03-25 09:27:50 STATE -> FINAL_BRIDGE_UP_BEFORE_WELD",
-      "2026-03-25 09:27:54 STATE -> FINAL_WELD",
-      "2026-03-25 09:28:00 STATE -> CYCLE_DONE",
-      "2026-03-25 09:28:01 STATE -> ROW_INFEED_COUNTING_PRE_GATE | AUTO_RESTART",
-      "2026-03-25 09:28:03 STATE -> ROW_INFEED_COUNTING | pre-gate klar",
-      "2026-03-25 09:28:04 PULSE ok 0.59s -> bottle_count=1",
-      "2026-03-25 09:28:05 PULSE ok 0.41s -> bottle_count=2",
-      "2026-03-25 09:28:06 PULSE ok 0.38s -> bottle_count=3",
-      "2026-03-25 09:28:06 STATE -> ROW_AFTER_CLOSE_SETTLE",
-      "2026-03-25 09:28:08 STATE -> MINI15_PUSH_FWD",
-      "2026-03-25 09:28:10 STATE -> MINI15_PUSH_BACK",
-      "2026-03-25 09:28:12 STATE -> MINI15_OPEN_GATE_NEXT",
-      "2026-03-25 09:28:12 STATE -> ROW_INFEED_COUNTING_PRE_GATE | nästa rad 2/2",
-      "2026-03-25 09:28:14 STATE -> ROW_INFEED_COUNTING | pre-gate klar",
-      "2026-03-25 09:28:14 PULSE ok 0.38s -> bottle_count=1",
-      "2026-03-25 09:28:16 PULSE ok 0.48s -> bottle_count=2",
-      "2026-03-25 09:28:17 PULSE ok 0.41s -> bottle_count=3",
-      "2026-03-25 09:28:17 STATE -> ROW_AFTER_CLOSE_SETTLE",
-      "2026-03-25 09:28:19 STATE -> FINAL_WAIT_BEFORE_SIDE_FENCE_CLOSE",
-      "2026-03-25 09:28:19 STATE -> FINAL_CYL_UP_DELAY_BEFORE_SIDE",
-      "2026-03-25 09:28:20 STATE -> FINAL_SIDE_OUT_SETTLE",
-      "2026-03-25 09:28:21 STATE -> FINAL_BRIDGE_DOWN",
-      "2026-03-25 09:28:23 STATE -> FINAL_BRIDGE_DOWN_DELAY",
-      "2026-03-25 09:28:24 STATE -> FINAL_TRANSFER_FWD",
-      "2026-03-25 09:28:29 STATE -> FINAL_TRANSFER_AT_FWD_HOLD",
-      "2026-03-25 09:28:32 STATE -> FINAL_TRANSFER_BACK",
-      "2026-03-25 09:28:34 STATE -> FINAL_AFTER_TRANSFER_BACK_DELAY",
-      "2026-03-25 09:28:35 STATE -> FINAL_BRIDGE_UP_BEFORE_WELD",
-      "2026-03-25 09:28:39 STATE -> FINAL_WELD",
-      "2026-03-25 09:28:45 STATE -> CYCLE_DONE",
-      "2026-03-25 09:28:46 STATE -> ROW_INFEED_COUNTING_PRE_GATE | AUTO_RESTART",
-      "2026-03-25 09:28:48 STATE -> ROW_INFEED_COUNTING | pre-gate klar",
-      "2026-03-25 09:28:49 PULSE ok 0.41s -> bottle_count=1",
-      "2026-03-25 09:28:50 PULSE ok 0.42s -> bottle_count=2",
-      "2026-03-25 09:28:51 PULSE ok 0.41s -> bottle_count=3",
-      "2026-03-25 09:28:51 STATE -> ROW_AFTER_CLOSE_SETTLE",
-      "2026-03-25 09:28:53 STATE -> MINI15_PUSH_FWD",
-      "2026-03-25 09:28:55 STATE -> MINI15_PUSH_BACK",
-      "2026-03-25 09:28:57 STATE -> MINI15_OPEN_GATE_NEXT",
-      "2026-03-25 09:28:57 STATE -> ROW_INFEED_COUNTING_PRE_GATE | nästa rad 2/2",
-      "2026-03-25 09:28:59 STATE -> ROW_INFEED_COUNTING | pre-gate klar",
-      "2026-03-25 09:29:00 PULSE ok 0.41s -> bottle_count=1",
-      "2026-03-25 09:29:01 PULSE ok 0.55s -> bottle_count=2",
       "2026-03-25 09:29:02 PULSE ok 0.41s -> bottle_count=3",
       "2026-03-25 09:29:02 STATE -> ROW_AFTER_CLOSE_SETTLE",
       "2026-03-25 09:29:04 STATE -> FINAL_WAIT_BEFORE_SIDE_FENCE_CLOSE",
@@ -147,67 +102,55 @@
       "2026-03-25 09:30:47 STATE -> FINAL_CYL_UP_DELAY_BEFORE_SIDE",
       "2026-03-25 09:30:48 STATE -> FINAL_SIDE_OUT_SETTLE",
       "2026-03-25 09:30:48 STATE -> FINAL_BRIDGE_DOWN",
-      "2026-03-25 09:30:50 STATE -> FINAL_BRIDGE_DOWN_DELAY"
+      "2026-03-25 09:30:50 STATE -> FINAL_BRIDGE_DOWN_DELAY",
+      "2026-03-25 09:30:51 STATE -> FINAL_TRANSFER_FWD",
+      "2026-03-25 09:30:56 STATE -> FINAL_TRANSFER_AT_FWD_HOLD",
+      "2026-03-25 09:31:00 STATE -> FINAL_TRANSFER_BACK",
+      "2026-03-25 09:31:02 STATE -> FINAL_AFTER_TRANSFER_BACK_DELAY",
+      "2026-03-25 09:31:03 STATE -> FINAL_BRIDGE_UP_BEFORE_WELD",
+      "2026-03-25 09:31:07 STATE -> FINAL_WELD",
+      "2026-03-25 09:31:13 STATE -> CYCLE_DONE",
+      "2026-03-25 09:31:14 STATE -> ROW_INFEED_COUNTING_PRE_GATE | AUTO_RESTART",
+      "2026-03-25 09:31:16 STATE -> ROW_INFEED_COUNTING | pre-gate klar",
+      "2026-03-25 09:31:16 PULSE ok 0.41s -> bottle_count=1",
+      "2026-03-25 09:31:18 PULSE ok 0.41s -> bottle_count=2",
+      "2026-03-25 09:31:19 PULSE ok 0.41s -> bottle_count=3",
+      "2026-03-25 09:31:19 STATE -> ROW_AFTER_CLOSE_SETTLE",
+      "2026-03-25 09:31:21 STATE -> MINI15_PUSH_FWD",
+      "2026-03-25 09:31:23 STATE -> MINI15_PUSH_BACK",
+      "2026-03-25 09:31:24 STATE -> MINI15_OPEN_GATE_NEXT",
+      "2026-03-25 09:31:25 STATE -> ROW_INFEED_COUNTING_PRE_GATE | nästa rad 2/2",
+      "2026-03-25 09:31:26 STATE -> ROW_INFEED_COUNTING | pre-gate klar",
+      "2026-03-25 09:31:27 PULSE ok 0.41s -> bottle_count=1",
+      "2026-03-25 09:31:28 PULSE ok 0.41s -> bottle_count=2",
+      "2026-03-25 09:31:29 PULSE ok 0.45s -> bottle_count=3",
+      "2026-03-25 09:31:29 STATE -> ROW_AFTER_CLOSE_SETTLE",
+      "2026-03-25 09:31:32 STATE -> FINAL_WAIT_BEFORE_SIDE_FENCE_CLOSE",
+      "2026-03-25 09:31:32 STATE -> FINAL_CYL_UP_DELAY_BEFORE_SIDE",
+      "2026-03-25 09:31:33 STATE -> FINAL_SIDE_OUT_SETTLE",
+      "2026-03-25 09:31:33 STATE -> FINAL_BRIDGE_DOWN",
+      "2026-03-25 09:31:35 STATE -> FINAL_BRIDGE_DOWN_DELAY",
+      "2026-03-25 09:31:36 STATE -> FINAL_TRANSFER_FWD",
+      "2026-03-25 09:31:41 STATE -> FINAL_TRANSFER_AT_FWD_HOLD",
+      "2026-03-25 09:33:06 INFEED: recovery infeed_open band_stop=OFF gap=96.51s count=0/3",
+      "2026-03-25 09:33:06 INFEED: recovery infeed_open band_stop=OFF gap=97.27s count=0/3",
+      "2026-03-25 09:33:07 INFEED: recovery infeed_open band_stop=OFF gap=98.02s count=0/3",
+      "2026-03-25 09:33:08 PULSE ok 0.45s -> bottle_count=1",
+      "2026-03-25 09:33:09 PULSE ok 0.41s -> bottle_count=2",
+      "2026-03-25 09:33:10 PULSE ok 0.41s -> bottle_count=3",
+      "2026-03-25 09:33:10 STATE -> ROW_AFTER_CLOSE_SETTLE",
+      "2026-03-25 09:33:13 STATE -> MINI15_PUSH_FWD",
+      "2026-03-25 09:33:15 STATE -> MINI15_PUSH_BACK",
+      "2026-03-25 09:33:16 STATE -> MINI15_OPEN_GATE_NEXT",
+      "2026-03-25 09:33:16 STATE -> ROW_INFEED_COUNTING_PRE_GATE | nästa rad 2/2",
+      "2026-03-25 09:33:18 STATE -> ROW_INFEED_COUNTING | pre-gate klar",
+      "2026-03-25 09:33:18 PULSE ok 0.38s -> bottle_count=1",
+      "2026-03-25 09:33:19 PULSE ok 0.45s -> bottle_count=2",
+      "2026-03-25 09:33:21 PULSE ok 0.45s -> bottle_count=3",
+      "2026-03-25 09:33:21 STATE -> ROW_AFTER_CLOSE_SETTLE"
     ]
   },
   "recent_events": [
-    {
-      "bottles": 6,
-      "count_sensor_time_s": 2.377,
-      "cycle_time_adj_s": 41.725,
-      "cycle_time_s": 44.102,
-      "cycles": 1,
-      "profile": "15L",
-      "recipe_state": "CYCLE_DONE",
-      "ts": 1774349620.62687,
-      "ts_str": "2026-03-24 11:53:40",
-      "type": "cycle_complete"
-    },
-    {
-      "lap_s": 31.296,
-      "profile": "15L",
-      "ts": 1774349623.2201297,
-      "ts_str": "2026-03-24 11:53:43",
-      "type": "lap_complete"
-    },
-    {
-      "bottles": 6,
-      "count_sensor_time_s": 2.439,
-      "cycle_time_adj_s": 41.683,
-      "cycle_time_s": 44.122,
-      "cycles": 1,
-      "profile": "15L",
-      "recipe_state": "CYCLE_DONE",
-      "ts": 1774349664.7491057,
-      "ts_str": "2026-03-24 11:54:24",
-      "type": "cycle_complete"
-    },
-    {
-      "lap_s": 31.275,
-      "profile": "15L",
-      "ts": 1774349667.3452637,
-      "ts_str": "2026-03-24 11:54:27",
-      "type": "lap_complete"
-    },
-    {
-      "bottles": 6,
-      "count_sensor_time_s": 2.278,
-      "cycle_time_adj_s": 41.685,
-      "cycle_time_s": 43.962,
-      "cycles": 1,
-      "profile": "15L",
-      "recipe_state": "CYCLE_DONE",
-      "ts": 1774349708.7114468,
-      "ts_str": "2026-03-24 11:55:08",
-      "type": "cycle_complete"
-    },
-    {
-      "lap_s": 31.29,
-      "profile": "15L",
-      "ts": 1774349711.3070967,
-      "ts_str": "2026-03-24 11:55:11",
-      "type": "lap_complete"
-    },
     {
       "bottles": 6,
       "count_sensor_time_s": 2.377,
@@ -3907,6 +3850,57 @@
       "ts": 1774427430.9340205,
       "ts_str": "2026-03-25 09:30:30",
       "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.533,
+      "cycle_time_adj_s": 42.614,
+      "cycle_time_s": 45.147,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774427473.4821165,
+      "ts_str": "2026-03-25 09:31:13",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.233,
+      "profile": "15L",
+      "ts": 1774427476.0785367,
+      "ts_str": "2026-03-25 09:31:16",
+      "type": "lap_complete"
+    },
+    {
+      "cmd": "STOP",
+      "mode": "IDLE",
+      "note": "STOP -> IDLE",
+      "ts": 1774427504.6757586,
+      "ts_str": "2026-03-25 09:31:44",
+      "type": "command"
+    },
+    {
+      "cmd": "WELD_SERVICE",
+      "mode": "PAUSED",
+      "note": "WELDING",
+      "ts": 1774427580.203284,
+      "ts_str": "2026-03-25 09:33:00",
+      "type": "command"
+    },
+    {
+      "cmd": "WELD_SERVICE_DONE",
+      "mode": "PAUSED",
+      "note": "Klar",
+      "ts": 1774427586.2111113,
+      "ts_str": "2026-03-25 09:33:06",
+      "type": "command"
+    },
+    {
+      "cmd": "START",
+      "mode": "RUNNING",
+      "note": "RUNNING",
+      "ts": 1774427586.2374022,
+      "ts_str": "2026-03-25 09:33:06",
+      "type": "command"
     }
   ],
   "recent_gpio_changes": [
@@ -6086,34 +6080,34 @@
   "runtime_state": {
     "bottles_by_profile": {
       "05L": 0,
-      "15L": 14814
+      "15L": 14820
     },
     "cycles_by_profile": {
       "05L": 0,
-      "15L": 2469
+      "15L": 2470
     },
     "data_since_ts": 1772176762.3823276,
     "data_since_ts_str": "2026-02-27 08:19:22",
-    "events_total": 7152,
-    "last_cycle_ts": 1774427428.3349638,
-    "last_cycle_ts_str": "2026-03-25 09:30:28",
+    "events_total": 7154,
+    "last_cycle_ts": 1774427473.4821165,
+    "last_cycle_ts_str": "2026-03-25 09:31:13",
     "last_reset_ts": 1772176762.3823276,
     "last_reset_ts_str": "2026-02-27 08:19:22",
     "sessions_total": 173,
-    "total_bottles": 14814,
-    "total_cycles": 2469,
-    "updated_ts": 1774427430.9349597,
-    "updated_ts_str": "2026-03-25 09:30:30"
+    "total_bottles": 14820,
+    "total_cycles": 2470,
+    "updated_ts": 1774427476.0794964,
+    "updated_ts_str": "2026-03-25 09:31:16"
   },
   "runtime_summary": {
-    "avg_count_sensor_time_s": 2.554,
-    "avg_cycle_time_adj_s": 416.004,
-    "avg_cycle_time_s": 418.558,
+    "avg_count_sensor_time_s": 2.557,
+    "avg_cycle_time_adj_s": 420.077,
+    "avg_cycle_time_s": 422.635,
     "avg_lap_s": 31.283,
-    "last_event_ts": "2026-03-25 09:30:30",
-    "last_event_type": "lap_complete",
-    "recent_cycle_events": 186,
-    "recent_lap_events": 186
+    "last_event_ts": "2026-03-25 09:33:06",
+    "last_event_type": "command",
+    "recent_cycle_events": 184,
+    "recent_lap_events": 184
   },
   "service_status": {
     "active_state": "active",
@@ -6160,9 +6154,9 @@
   ],
   "system": {
     "loadavg": [
-      1.731,
-      1.549,
-      1.586
+      1.517,
+      1.482,
+      1.551
     ]
   }
 }
