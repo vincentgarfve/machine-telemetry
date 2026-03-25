@@ -8,1491 +8,149 @@
     },
     "machine_log": {
       "exists": true,
-      "modified_at": "2026-03-25T09:30:50.850997Z",
+      "modified_at": "2026-03-25T14:27:18.059005Z",
       "path": "/home/pi/Desktop/machine/v9/machine_run.log",
-      "size_bytes": 10286392
+      "size_bytes": 11995112
     },
     "runtime_events": {
       "exists": true,
-      "modified_at": "2026-03-25T09:30:53.350965Z",
+      "modified_at": "2026-03-25T14:27:18.927005Z",
       "path": "/home/pi/Desktop/machine/v9/runtime_stats/events.jsonl",
-      "size_bytes": 1247685
+      "size_bytes": 1273237
     },
     "runtime_state": {
       "exists": true,
-      "modified_at": "2026-03-25T09:30:47.927035Z",
+      "modified_at": "2026-03-25T14:27:18.927005Z",
       "path": "/home/pi/Desktop/machine/v9/runtime_stats/state.json",
-      "size_bytes": 557
+      "size_bytes": 556
     }
   },
-  "generated_at": "2026-03-25T09:31:51.557604Z",
+  "generated_at": "2026-03-25T17:13:07.697924Z",
   "log_tails": {
     "machine_run_log": [
-      "2026-03-25 10:16:13 STATE -> ROW_AFTER_CLOSE_SETTLE",
-      "2026-03-25 10:16:16 STATE -> MINI15_PUSH_FWD",
-      "2026-03-25 10:16:18 STATE -> MINI15_PUSH_BACK",
-      "2026-03-25 10:16:19 STATE -> MINI15_OPEN_GATE_NEXT",
-      "2026-03-25 10:16:19 STATE -> ROW_INFEED_COUNTING_PRE_GATE | nästa rad 2/2",
-      "2026-03-25 10:16:21 STATE -> ROW_INFEED_COUNTING | pre-gate klar",
-      "2026-03-25 10:16:22 PULSE ok 0.41s -> bottle_count=1",
-      "2026-03-25 10:16:23 PULSE ok 0.45s -> bottle_count=2",
-      "2026-03-25 10:16:24 PULSE ok 0.41s -> bottle_count=3",
-      "2026-03-25 10:16:24 STATE -> ROW_AFTER_CLOSE_SETTLE",
-      "2026-03-25 10:16:26 STATE -> FINAL_WAIT_BEFORE_SIDE_FENCE_CLOSE",
-      "2026-03-25 10:16:26 STATE -> FINAL_CYL_UP_DELAY_BEFORE_SIDE",
-      "2026-03-25 10:16:27 STATE -> FINAL_SIDE_OUT_SETTLE",
-      "2026-03-25 10:16:28 STATE -> FINAL_BRIDGE_DOWN",
-      "2026-03-25 10:16:30 STATE -> FINAL_BRIDGE_DOWN_DELAY",
-      "2026-03-25 10:16:31 STATE -> FINAL_TRANSFER_FWD",
-      "2026-03-25 10:16:36 STATE -> FINAL_TRANSFER_AT_FWD_HOLD",
-      "2026-03-25 10:16:39 STATE -> FINAL_TRANSFER_BACK",
-      "2026-03-25 10:16:42 STATE -> FINAL_AFTER_TRANSFER_BACK_DELAY",
-      "2026-03-25 10:16:43 STATE -> FINAL_BRIDGE_UP_BEFORE_WELD",
-      "2026-03-25 10:16:47 STATE -> FINAL_WELD",
-      "2026-03-25 10:16:53 STATE -> CYCLE_DONE",
-      "2026-03-25 10:16:54 STATE -> ROW_INFEED_COUNTING_PRE_GATE | AUTO_RESTART",
-      "2026-03-25 10:16:55 STATE -> ROW_INFEED_COUNTING | pre-gate klar",
-      "2026-03-25 10:16:56 PULSE ok 0.41s -> bottle_count=1",
-      "2026-03-25 10:16:57 PULSE ok 0.41s -> bottle_count=2",
-      "2026-03-25 10:16:58 PULSE ok 0.41s -> bottle_count=3",
-      "2026-03-25 10:16:58 STATE -> ROW_AFTER_CLOSE_SETTLE",
-      "2026-03-25 10:17:01 STATE -> MINI15_PUSH_FWD",
-      "2026-03-25 10:17:03 STATE -> MINI15_PUSH_BACK",
-      "2026-03-25 10:17:04 STATE -> MINI15_OPEN_GATE_NEXT",
-      "2026-03-25 10:17:05 STATE -> ROW_INFEED_COUNTING_PRE_GATE | nästa rad 2/2",
-      "2026-03-25 10:17:06 STATE -> ROW_INFEED_COUNTING | pre-gate klar",
-      "2026-03-25 10:17:07 PULSE ok 0.41s -> bottle_count=1",
-      "2026-03-25 10:17:08 PULSE ok 0.45s -> bottle_count=2",
-      "2026-03-25 10:17:09 PULSE ok 0.55s -> bottle_count=3",
-      "2026-03-25 10:17:09 STATE -> ROW_AFTER_CLOSE_SETTLE",
-      "2026-03-25 10:17:10 PULSE ok 0.40s -> bottle_count=3",
-      "2026-03-25 10:17:12 STATE -> FINAL_WAIT_BEFORE_SIDE_FENCE_CLOSE",
-      "2026-03-25 10:17:12 STATE -> FINAL_CYL_UP_DELAY_BEFORE_SIDE",
-      "2026-03-25 10:17:13 STATE -> FINAL_SIDE_OUT_SETTLE",
-      "2026-03-25 10:17:13 STATE -> FINAL_BRIDGE_DOWN",
-      "2026-03-25 10:17:15 STATE -> FINAL_BRIDGE_DOWN_DELAY",
-      "2026-03-25 10:17:16 STATE -> FINAL_TRANSFER_FWD",
-      "2026-03-25 10:17:21 STATE -> FINAL_TRANSFER_AT_FWD_HOLD",
-      "2026-03-25 10:17:25 STATE -> FINAL_TRANSFER_BACK",
-      "2026-03-25 10:17:27 STATE -> FINAL_AFTER_TRANSFER_BACK_DELAY",
-      "2026-03-25 10:17:28 STATE -> FINAL_BRIDGE_UP_BEFORE_WELD",
-      "2026-03-25 10:17:32 STATE -> FINAL_WELD",
-      "2026-03-25 10:17:38 STATE -> CYCLE_DONE",
-      "2026-03-25 10:17:39 STATE -> ROW_INFEED_COUNTING_PRE_GATE | AUTO_RESTART",
-      "2026-03-25 10:17:41 STATE -> ROW_INFEED_COUNTING | pre-gate klar",
-      "2026-03-25 10:17:42 PULSE ok 0.41s -> bottle_count=1",
-      "2026-03-25 10:17:43 PULSE ok 0.38s -> bottle_count=2",
-      "2026-03-25 10:17:44 PULSE ok 0.41s -> bottle_count=3",
-      "2026-03-25 10:17:44 STATE -> ROW_AFTER_CLOSE_SETTLE",
-      "2026-03-25 10:17:46 STATE -> MINI15_PUSH_FWD",
-      "2026-03-25 10:17:48 STATE -> MINI15_PUSH_BACK",
-      "2026-03-25 10:17:50 STATE -> MINI15_OPEN_GATE_NEXT",
-      "2026-03-25 10:17:50 STATE -> ROW_INFEED_COUNTING_PRE_GATE | nästa rad 2/2",
-      "2026-03-25 10:17:52 STATE -> ROW_INFEED_COUNTING | pre-gate klar",
-      "2026-03-25 10:17:53 PULSE ok 1.06s -> bottle_count=1",
-      "2026-03-25 10:17:55 INFEED: recovery infeed_open band_stop=OFF gap=2.53s count=1/3",
-      "2026-03-25 10:17:55 PULSE ok 2.21s -> bottle_count=2",
-      "2026-03-25 10:17:56 PULSE ok 0.44s -> bottle_count=3",
-      "2026-03-25 10:17:56 STATE -> ROW_AFTER_CLOSE_SETTLE",
-      "2026-03-25 10:17:59 STATE -> FINAL_WAIT_BEFORE_SIDE_FENCE_CLOSE",
-      "2026-03-25 10:17:59 STATE -> FINAL_CYL_UP_DELAY_BEFORE_SIDE",
-      "2026-03-25 10:18:00 STATE -> FINAL_SIDE_OUT_SETTLE",
-      "2026-03-25 10:18:00 STATE -> FINAL_BRIDGE_DOWN",
-      "2026-03-25 10:18:02 STATE -> FINAL_BRIDGE_DOWN_DELAY",
-      "2026-03-25 10:18:03 STATE -> FINAL_TRANSFER_FWD",
-      "2026-03-25 10:18:08 STATE -> FINAL_TRANSFER_AT_FWD_HOLD",
-      "2026-03-25 10:18:12 STATE -> FINAL_TRANSFER_BACK",
-      "2026-03-25 10:18:14 STATE -> FINAL_AFTER_TRANSFER_BACK_DELAY",
-      "2026-03-25 10:18:15 STATE -> FINAL_BRIDGE_UP_BEFORE_WELD",
-      "2026-03-25 10:18:19 STATE -> FINAL_WELD",
-      "2026-03-25 10:18:25 STATE -> CYCLE_DONE",
-      "2026-03-25 10:18:26 STATE -> ROW_INFEED_COUNTING_PRE_GATE | AUTO_RESTART",
-      "2026-03-25 10:18:28 STATE -> ROW_INFEED_COUNTING | pre-gate klar",
-      "2026-03-25 10:18:29 PULSE ok 0.41s -> bottle_count=1",
-      "2026-03-25 10:18:30 PULSE ok 0.38s -> bottle_count=2",
-      "2026-03-25 10:18:31 PULSE ok 0.41s -> bottle_count=3",
-      "2026-03-25 10:18:31 STATE -> ROW_AFTER_CLOSE_SETTLE",
-      "2026-03-25 10:18:33 STATE -> MINI15_PUSH_FWD",
-      "2026-03-25 10:18:35 STATE -> MINI15_PUSH_BACK",
-      "2026-03-25 10:30:03 INFEED: recovery infeed_open band_stop=OFF gap=691.87s count=0/3",
-      "2026-03-25 10:30:03 INFEED: recovery infeed_open band_stop=OFF gap=692.62s count=0/3",
-      "2026-03-25 10:30:04 INFEED: recovery infeed_open band_stop=OFF gap=693.38s count=0/3",
-      "2026-03-25 10:30:05 PULSE ok 0.14s -> bottle_count=1",
-      "2026-03-25 10:30:05 PULSE ok 0.41s -> bottle_count=2",
-      "2026-03-25 10:30:06 PULSE ok 0.38s -> bottle_count=3",
-      "2026-03-25 10:30:06 STATE -> ROW_AFTER_CLOSE_SETTLE",
-      "2026-03-25 10:30:09 STATE -> MINI15_PUSH_FWD",
-      "2026-03-25 10:30:11 STATE -> MINI15_PUSH_BACK",
-      "2026-03-25 10:30:12 STATE -> MINI15_OPEN_GATE_NEXT",
-      "2026-03-25 10:30:12 STATE -> ROW_INFEED_COUNTING_PRE_GATE | nästa rad 2/2",
-      "2026-03-25 10:30:14 STATE -> ROW_INFEED_COUNTING | pre-gate klar",
-      "2026-03-25 10:30:14 PULSE ok 0.17s -> bottle_count=1",
-      "2026-03-25 10:30:15 PULSE ok 0.52s -> bottle_count=2",
-      "2026-03-25 10:30:16 PULSE ok 0.41s -> bottle_count=3",
-      "2026-03-25 10:30:16 STATE -> ROW_AFTER_CLOSE_SETTLE",
-      "2026-03-25 10:30:19 STATE -> FINAL_WAIT_BEFORE_SIDE_FENCE_CLOSE",
-      "2026-03-25 10:30:19 STATE -> FINAL_CYL_UP_DELAY_BEFORE_SIDE",
-      "2026-03-25 10:30:20 STATE -> FINAL_SIDE_OUT_SETTLE",
-      "2026-03-25 10:30:20 STATE -> FINAL_BRIDGE_DOWN",
-      "2026-03-25 10:30:22 STATE -> FINAL_BRIDGE_DOWN_DELAY",
-      "2026-03-25 10:30:23 STATE -> FINAL_TRANSFER_FWD",
-      "2026-03-25 10:30:28 STATE -> FINAL_TRANSFER_AT_FWD_HOLD",
-      "2026-03-25 10:30:32 STATE -> FINAL_TRANSFER_BACK",
-      "2026-03-25 10:30:34 STATE -> FINAL_AFTER_TRANSFER_BACK_DELAY",
-      "2026-03-25 10:30:35 STATE -> FINAL_BRIDGE_UP_BEFORE_WELD",
-      "2026-03-25 10:30:39 STATE -> FINAL_WELD",
-      "2026-03-25 10:30:45 STATE -> CYCLE_DONE",
-      "2026-03-25 10:30:46 STATE -> ROW_INFEED_COUNTING_PRE_GATE | AUTO_RESTART",
-      "2026-03-25 10:30:47 STATE -> ROW_INFEED_COUNTING | pre-gate klar",
-      "2026-03-25 10:30:48 PULSE ok 0.41s -> bottle_count=1",
-      "2026-03-25 10:30:49 PULSE ok 0.41s -> bottle_count=2",
-      "2026-03-25 10:30:50 PULSE ok 0.41s -> bottle_count=3",
-      "2026-03-25 10:30:50 STATE -> ROW_AFTER_CLOSE_SETTLE"
+      "2026-03-25 15:27:41 INFEED: recovery infeed_open band_stop=OFF gap=11566.10s count=1/3",
+      "2026-03-25 15:27:42 INFEED: recovery infeed_open band_stop=OFF gap=11566.87s count=1/3",
+      "2026-03-25 15:27:43 INFEED: recovery infeed_open band_stop=OFF gap=11567.64s count=1/3",
+      "2026-03-25 15:27:44 INFEED: recovery infeed_open band_stop=OFF gap=11568.41s count=1/3",
+      "2026-03-25 15:27:44 INFEED: recovery infeed_open band_stop=OFF gap=11569.19s count=1/3",
+      "2026-03-25 15:27:45 INFEED: recovery infeed_open band_stop=OFF gap=11569.96s count=1/3",
+      "2026-03-25 15:27:46 INFEED: recovery infeed_open band_stop=OFF gap=11570.73s count=1/3",
+      "2026-03-25 15:27:47 INFEED: recovery infeed_open band_stop=OFF gap=11571.51s count=1/3",
+      "2026-03-25 15:27:47 INFEED: recovery infeed_open band_stop=OFF gap=11572.28s count=1/3",
+      "2026-03-25 15:27:48 INFEED: recovery infeed_open band_stop=OFF gap=11573.06s count=1/3",
+      "2026-03-25 15:27:49 INFEED: recovery infeed_open band_stop=OFF gap=11573.83s count=1/3",
+      "2026-03-25 15:27:50 INFEED: recovery infeed_open band_stop=OFF gap=11574.60s count=1/3",
+      "2026-03-25 15:27:50 INFEED: recovery infeed_open band_stop=OFF gap=11575.38s count=1/3",
+      "2026-03-25 15:27:51 INFEED: recovery infeed_open band_stop=OFF gap=11576.15s count=1/3",
+      "2026-03-25 15:27:52 INFEED: recovery infeed_open band_stop=OFF gap=11576.92s count=1/3",
+      "2026-03-25 15:27:53 INFEED: recovery infeed_open band_stop=OFF gap=11577.70s count=1/3",
+      "2026-03-25 15:27:54 INFEED: recovery infeed_open band_stop=OFF gap=11578.47s count=1/3",
+      "2026-03-25 15:27:54 INFEED: recovery infeed_open band_stop=OFF gap=11579.24s count=1/3",
+      "2026-03-25 15:27:55 INFEED: recovery infeed_open band_stop=OFF gap=11580.02s count=1/3",
+      "2026-03-25 15:27:56 INFEED: recovery infeed_open band_stop=OFF gap=11580.80s count=1/3",
+      "2026-03-25 15:27:57 INFEED: recovery infeed_open band_stop=OFF gap=11581.57s count=1/3",
+      "2026-03-25 15:27:57 INFEED: recovery infeed_open band_stop=OFF gap=11582.35s count=1/3",
+      "2026-03-25 15:27:58 INFEED: recovery infeed_open band_stop=OFF gap=11583.13s count=1/3",
+      "2026-03-25 15:27:59 INFEED: recovery infeed_open band_stop=OFF gap=11583.90s count=1/3",
+      "2026-03-25 15:28:00 INFEED: recovery infeed_open band_stop=OFF gap=11584.67s count=1/3",
+      "2026-03-25 15:28:01 INFEED: recovery infeed_open band_stop=OFF gap=11585.44s count=1/3",
+      "2026-03-25 15:28:01 INFEED: recovery infeed_open band_stop=OFF gap=11586.22s count=1/3",
+      "2026-03-25 15:28:02 INFEED: recovery infeed_open band_stop=OFF gap=11586.99s count=1/3",
+      "2026-03-25 15:28:03 INFEED: recovery infeed_open band_stop=OFF gap=11587.76s count=1/3",
+      "2026-03-25 15:28:04 INFEED: recovery infeed_open band_stop=OFF gap=11588.54s count=1/3",
+      "2026-03-25 15:28:04 INFEED: recovery infeed_open band_stop=OFF gap=11589.31s count=1/3",
+      "2026-03-25 15:28:05 INFEED: recovery infeed_open band_stop=OFF gap=11590.09s count=1/3",
+      "2026-03-25 15:28:06 INFEED: recovery infeed_open band_stop=OFF gap=11590.87s count=1/3",
+      "2026-03-25 15:28:07 INFEED: recovery infeed_open band_stop=OFF gap=11591.64s count=1/3",
+      "2026-03-25 15:28:08 INFEED: recovery infeed_open band_stop=OFF gap=11592.41s count=1/3",
+      "2026-03-25 15:28:08 INFEED: recovery infeed_open band_stop=OFF gap=11593.19s count=1/3",
+      "2026-03-25 15:28:09 INFEED: recovery infeed_open band_stop=OFF gap=11593.96s count=1/3",
+      "2026-03-25 15:28:10 INFEED: recovery infeed_open band_stop=OFF gap=11594.73s count=1/3",
+      "2026-03-25 15:28:11 INFEED: recovery infeed_open band_stop=OFF gap=11595.51s count=1/3",
+      "2026-03-25 15:28:11 INFEED: recovery infeed_open band_stop=OFF gap=11596.28s count=1/3",
+      "2026-03-25 15:28:12 INFEED: recovery infeed_open band_stop=OFF gap=11597.06s count=1/3",
+      "2026-03-25 15:28:13 INFEED: recovery infeed_open band_stop=OFF gap=11597.83s count=1/3",
+      "2026-03-25 15:28:14 INFEED: recovery infeed_open band_stop=OFF gap=11598.60s count=1/3",
+      "2026-03-25 15:28:14 INFEED: recovery infeed_open band_stop=OFF gap=11599.38s count=1/3",
+      "2026-03-25 15:28:15 INFEED: recovery infeed_open band_stop=OFF gap=11600.15s count=1/3",
+      "2026-03-25 15:28:16 INFEED: recovery infeed_open band_stop=OFF gap=11600.92s count=1/3",
+      "2026-03-25 15:28:17 INFEED: recovery infeed_open band_stop=OFF gap=11601.70s count=1/3",
+      "2026-03-25 15:28:18 INFEED: recovery infeed_open band_stop=OFF gap=11602.47s count=1/3",
+      "2026-03-25 15:28:18 INFEED: recovery infeed_open band_stop=OFF gap=11603.25s count=1/3",
+      "2026-03-25 15:28:19 INFEED: recovery infeed_open band_stop=OFF gap=11604.02s count=1/3",
+      "2026-03-25 15:28:20 INFEED: recovery infeed_open band_stop=OFF gap=11604.80s count=1/3",
+      "2026-03-25 15:28:21 INFEED: recovery infeed_open band_stop=OFF gap=11605.57s count=1/3",
+      "2026-03-25 15:28:21 INFEED: recovery infeed_open band_stop=OFF gap=11606.35s count=1/3",
+      "2026-03-25 15:28:22 INFEED: recovery infeed_open band_stop=OFF gap=11607.12s count=1/3",
+      "2026-03-25 15:28:23 INFEED: recovery infeed_open band_stop=OFF gap=11607.90s count=1/3",
+      "2026-03-25 15:28:24 INFEED: recovery infeed_open band_stop=OFF gap=11608.67s count=1/3",
+      "2026-03-25 15:28:25 INFEED: recovery infeed_open band_stop=OFF gap=11609.44s count=1/3",
+      "2026-03-25 15:28:25 INFEED: recovery infeed_open band_stop=OFF gap=11610.22s count=1/3",
+      "2026-03-25 15:28:26 INFEED: recovery infeed_open band_stop=OFF gap=11610.99s count=1/3",
+      "2026-03-25 15:28:27 INFEED: recovery infeed_open band_stop=OFF gap=11611.77s count=1/3",
+      "2026-03-25 15:28:28 INFEED: recovery infeed_open band_stop=OFF gap=11612.54s count=1/3",
+      "2026-03-25 15:28:28 INFEED: recovery infeed_open band_stop=OFF gap=11613.32s count=1/3",
+      "2026-03-25 15:28:29 INFEED: recovery infeed_open band_stop=OFF gap=11614.09s count=1/3",
+      "2026-03-25 15:28:30 INFEED: recovery infeed_open band_stop=OFF gap=11614.87s count=1/3",
+      "2026-03-25 15:28:31 INFEED: recovery infeed_open band_stop=OFF gap=11615.64s count=1/3",
+      "2026-03-25 15:28:32 INFEED: recovery infeed_open band_stop=OFF gap=11616.41s count=1/3",
+      "2026-03-25 15:28:32 INFEED: recovery infeed_open band_stop=OFF gap=11617.19s count=1/3",
+      "2026-03-25 15:28:33 INFEED: recovery infeed_open band_stop=OFF gap=11617.96s count=1/3",
+      "2026-03-25 15:28:34 INFEED: recovery infeed_open band_stop=OFF gap=11618.74s count=1/3",
+      "2026-03-25 15:28:35 INFEED: recovery infeed_open band_stop=OFF gap=11619.51s count=1/3",
+      "2026-03-25 15:28:35 INFEED: recovery infeed_open band_stop=OFF gap=11620.29s count=1/3",
+      "2026-03-25 15:28:36 INFEED: recovery infeed_open band_stop=OFF gap=11621.06s count=1/3",
+      "2026-03-25 15:28:37 INFEED: recovery infeed_open band_stop=OFF gap=11621.84s count=1/3",
+      "2026-03-25 15:28:38 INFEED: recovery infeed_open band_stop=OFF gap=11622.61s count=1/3",
+      "2026-03-25 15:28:38 INFEED: recovery infeed_open band_stop=OFF gap=11623.39s count=1/3",
+      "2026-03-25 15:28:39 INFEED: recovery infeed_open band_stop=OFF gap=11624.16s count=1/3",
+      "2026-03-25 15:28:40 INFEED: recovery infeed_open band_stop=OFF gap=11624.93s count=1/3",
+      "2026-03-25 15:28:41 INFEED: recovery infeed_open band_stop=OFF gap=11625.71s count=1/3",
+      "2026-03-25 15:28:42 INFEED: recovery infeed_open band_stop=OFF gap=11626.48s count=1/3",
+      "2026-03-25 15:28:42 INFEED: recovery infeed_open band_stop=OFF gap=11627.26s count=1/3",
+      "2026-03-25 15:28:43 INFEED: recovery infeed_open band_stop=OFF gap=11628.03s count=1/3",
+      "2026-03-25 15:28:44 INFEED: recovery infeed_open band_stop=OFF gap=11628.81s count=1/3",
+      "2026-03-25 15:28:45 INFEED: recovery infeed_open band_stop=OFF gap=11629.58s count=1/3",
+      "2026-03-25 15:28:45 INFEED: recovery infeed_open band_stop=OFF gap=11630.35s count=1/3",
+      "2026-03-25 15:28:46 INFEED: recovery infeed_open band_stop=OFF gap=11631.13s count=1/3",
+      "2026-03-25 15:28:47 INFEED: recovery infeed_open band_stop=OFF gap=11631.90s count=1/3",
+      "2026-03-25 15:28:48 INFEED: recovery infeed_open band_stop=OFF gap=11632.68s count=1/3",
+      "2026-03-25 15:28:49 INFEED: recovery infeed_open band_stop=OFF gap=11633.45s count=1/3",
+      "2026-03-25 15:28:49 INFEED: recovery infeed_open band_stop=OFF gap=11634.22s count=1/3",
+      "2026-03-25 15:28:50 INFEED: recovery infeed_open band_stop=OFF gap=11635.00s count=1/3",
+      "2026-03-25 15:28:51 INFEED: recovery infeed_open band_stop=OFF gap=11635.77s count=1/3",
+      "2026-03-25 15:28:52 INFEED: recovery infeed_open band_stop=OFF gap=11636.55s count=1/3",
+      "2026-03-25 15:28:52 INFEED: recovery infeed_open band_stop=OFF gap=11637.32s count=1/3",
+      "2026-03-25 15:28:53 INFEED: recovery infeed_open band_stop=OFF gap=11638.09s count=1/3",
+      "2026-03-25 15:28:54 INFEED: recovery infeed_open band_stop=OFF gap=11638.87s count=1/3",
+      "2026-03-25 15:28:55 INFEED: recovery infeed_open band_stop=OFF gap=11639.64s count=1/3",
+      "2026-03-25 15:28:56 INFEED: recovery infeed_open band_stop=OFF gap=11640.42s count=1/3",
+      "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00002026-03-25 15:27:17 GPIO: RPiGPIO OK",
+      "2026-03-25 15:27:18 MCP23017: OK",
+      "2026-03-25 15:27:18 GPIO setup_output FEL gpio=17: Cannot determine SOC peripheral base address",
+      "2026-03-25 15:27:18 GPIO write FEL (transfer_fwd): The GPIO channel has not been set up as an OUTPUT",
+      "2026-03-25 15:27:18 GPIO setup_output FEL gpio=16: Cannot determine SOC peripheral base address",
+      "2026-03-25 15:27:18 GPIO write FEL (cyl_fence): The GPIO channel has not been set up as an OUTPUT",
+      "2026-03-25 15:27:18 GPIO setup_output FEL gpio=13: Cannot determine SOC peripheral base address",
+      "2026-03-25 15:27:18 GPIO write FEL (side_fence): The GPIO channel has not been set up as an OUTPUT",
+      "2026-03-25 15:27:18 GPIO setup_output FEL gpio=27: Cannot determine SOC peripheral base address",
+      "2026-03-25 15:27:18 GPIO write FEL (bridge_down): The GPIO channel has not been set up as an OUTPUT",
+      "2026-03-25 15:27:18 GPIO setup_output FEL gpio=12: Cannot determine SOC peripheral base address",
+      "2026-03-25 15:27:18 GPIO write FEL (gate_open): The GPIO channel has not been set up as an OUTPUT",
+      "2026-03-25 15:27:18 GPIO setup_output FEL gpio=5: Cannot determine SOC peripheral base address",
+      "2026-03-25 15:27:18 GPIO write FEL (mini_push): The GPIO channel has not been set up as an OUTPUT",
+      "2026-03-25 15:27:18 GPIO setup_output FEL gpio=25: Cannot determine SOC peripheral base address",
+      "2026-03-25 15:27:18 GPIO write FEL (weld_down): The GPIO channel has not been set up as an OUTPUT",
+      "2026-03-25 15:27:18 GPIO setup_output FEL gpio=24: Cannot determine SOC peripheral base address",
+      "2026-03-25 15:27:18 GPIO write FEL (sponge_down): The GPIO channel has not been set up as an OUTPUT",
+      "2026-03-25 15:27:18 GPIO setup_input FEL gpio=19: Cannot determine SOC peripheral base address",
+      "2026-03-25 15:27:18 GPIO setup_input FEL gpio=21: Cannot determine SOC peripheral base address",
+      "2026-03-25 15:27:18 COUNT_SENSOR valid pulse window: 0.100s..5.000s",
+      "2026-03-25 15:27:18 BOOT -> ROW_INFEED_COUNTING_PRE_GATE (PROFILE=15L)",
+      "2026-03-25 15:27:18 OVEN: after_oven borttagen -> oven_prev=False"
     ]
   },
   "recent_events": [
-    {
-      "lap_s": 31.264,
-      "profile": "15L",
-      "ts": 1774356071.280228,
-      "ts_str": "2026-03-24 13:41:11",
-      "type": "lap_complete"
-    },
-    {
-      "bottles": 6,
-      "count_sensor_time_s": 2.32,
-      "cycle_time_adj_s": 79.294,
-      "cycle_time_s": 81.613,
-      "cycles": 1,
-      "profile": "15L",
-      "recipe_state": "CYCLE_DONE",
-      "ts": 1774356150.3058884,
-      "ts_str": "2026-03-24 13:42:30",
-      "type": "cycle_complete"
-    },
-    {
-      "lap_s": 31.276,
-      "profile": "15L",
-      "ts": 1774356152.8998394,
-      "ts_str": "2026-03-24 13:42:32",
-      "type": "lap_complete"
-    },
-    {
-      "bottles": 6,
-      "count_sensor_time_s": 2.589,
-      "cycle_time_adj_s": 51.675,
-      "cycle_time_s": 54.264,
-      "cycles": 1,
-      "profile": "15L",
-      "recipe_state": "CYCLE_DONE",
-      "ts": 1774356204.5694683,
-      "ts_str": "2026-03-24 13:43:24",
-      "type": "cycle_complete"
-    },
-    {
-      "lap_s": 31.34,
-      "profile": "15L",
-      "ts": 1774356207.1624115,
-      "ts_str": "2026-03-24 13:43:27",
-      "type": "lap_complete"
-    },
-    {
-      "bottles": 6,
-      "count_sensor_time_s": 2.453,
-      "cycle_time_adj_s": 42.978,
-      "cycle_time_s": 45.432,
-      "cycles": 1,
-      "profile": "15L",
-      "recipe_state": "CYCLE_DONE",
-      "ts": 1774356250.0010653,
-      "ts_str": "2026-03-24 13:44:10",
-      "type": "cycle_complete"
-    },
-    {
-      "lap_s": 31.301,
-      "profile": "15L",
-      "ts": 1774356252.5957816,
-      "ts_str": "2026-03-24 13:44:12",
-      "type": "lap_complete"
-    },
-    {
-      "bottles": 6,
-      "count_sensor_time_s": 2.937,
-      "cycle_time_adj_s": 45.481,
-      "cycle_time_s": 48.418,
-      "cycles": 1,
-      "profile": "15L",
-      "recipe_state": "CYCLE_DONE",
-      "ts": 1774356298.4187698,
-      "ts_str": "2026-03-24 13:44:58",
-      "type": "cycle_complete"
-    },
-    {
-      "lap_s": 31.284,
-      "profile": "15L",
-      "ts": 1774356301.0191977,
-      "ts_str": "2026-03-24 13:45:01",
-      "type": "lap_complete"
-    },
-    {
-      "bottles": 6,
-      "count_sensor_time_s": 2.798,
-      "cycle_time_adj_s": 56.772,
-      "cycle_time_s": 59.57,
-      "cycles": 1,
-      "profile": "15L",
-      "recipe_state": "CYCLE_DONE",
-      "ts": 1774356357.9887896,
-      "ts_str": "2026-03-24 13:45:57",
-      "type": "cycle_complete"
-    },
-    {
-      "lap_s": 31.295,
-      "profile": "15L",
-      "ts": 1774356360.584384,
-      "ts_str": "2026-03-24 13:46:00",
-      "type": "lap_complete"
-    },
-    {
-      "bottles": 6,
-      "count_sensor_time_s": 2.092,
-      "cycle_time_adj_s": 45.928,
-      "cycle_time_s": 48.02,
-      "cycles": 1,
-      "profile": "15L",
-      "recipe_state": "CYCLE_DONE",
-      "ts": 1774356406.008808,
-      "ts_str": "2026-03-24 13:46:46",
-      "type": "cycle_complete"
-    },
-    {
-      "lap_s": 31.291,
-      "profile": "15L",
-      "ts": 1774356408.6044033,
-      "ts_str": "2026-03-24 13:46:48",
-      "type": "lap_complete"
-    },
-    {
-      "bottles": 6,
-      "count_sensor_time_s": 2.307,
-      "cycle_time_adj_s": 422.438,
-      "cycle_time_s": 424.745,
-      "cycles": 1,
-      "profile": "15L",
-      "recipe_state": "CYCLE_DONE",
-      "ts": 1774356830.7540095,
-      "ts_str": "2026-03-24 13:53:50",
-      "type": "cycle_complete"
-    },
-    {
-      "lap_s": 31.27,
-      "profile": "15L",
-      "ts": 1774356833.3457258,
-      "ts_str": "2026-03-24 13:53:53",
-      "type": "lap_complete"
-    },
-    {
-      "bottles": 6,
-      "count_sensor_time_s": 2.396,
-      "cycle_time_adj_s": 42.464,
-      "cycle_time_s": 44.861,
-      "cycles": 1,
-      "profile": "15L",
-      "recipe_state": "CYCLE_DONE",
-      "ts": 1774356875.6146355,
-      "ts_str": "2026-03-24 13:54:35",
-      "type": "cycle_complete"
-    },
-    {
-      "lap_s": 31.301,
-      "profile": "15L",
-      "ts": 1774356878.205926,
-      "ts_str": "2026-03-24 13:54:38",
-      "type": "lap_complete"
-    },
-    {
-      "bottles": 6,
-      "count_sensor_time_s": 2.645,
-      "cycle_time_adj_s": 42.078,
-      "cycle_time_s": 44.723,
-      "cycles": 1,
-      "profile": "15L",
-      "recipe_state": "CYCLE_DONE",
-      "ts": 1774356920.3381202,
-      "ts_str": "2026-03-24 13:55:20",
-      "type": "cycle_complete"
-    },
-    {
-      "lap_s": 31.286,
-      "profile": "15L",
-      "ts": 1774356922.9313943,
-      "ts_str": "2026-03-24 13:55:22",
-      "type": "lap_complete"
-    },
-    {
-      "bottles": 6,
-      "count_sensor_time_s": 2.466,
-      "cycle_time_adj_s": 42.601,
-      "cycle_time_s": 45.067,
-      "cycles": 1,
-      "profile": "15L",
-      "recipe_state": "CYCLE_DONE",
-      "ts": 1774356965.404859,
-      "ts_str": "2026-03-24 13:56:05",
-      "type": "cycle_complete"
-    },
-    {
-      "lap_s": 31.298,
-      "profile": "15L",
-      "ts": 1774356967.9946811,
-      "ts_str": "2026-03-24 13:56:07",
-      "type": "lap_complete"
-    },
-    {
-      "bottles": 6,
-      "count_sensor_time_s": 2.44,
-      "cycle_time_adj_s": 42.546,
-      "cycle_time_s": 44.986,
-      "cycles": 1,
-      "profile": "15L",
-      "recipe_state": "CYCLE_DONE",
-      "ts": 1774357010.3906016,
-      "ts_str": "2026-03-24 13:56:50",
-      "type": "cycle_complete"
-    },
-    {
-      "lap_s": 31.286,
-      "profile": "15L",
-      "ts": 1774357012.989661,
-      "ts_str": "2026-03-24 13:56:52",
-      "type": "lap_complete"
-    },
-    {
-      "bottles": 6,
-      "count_sensor_time_s": 2.444,
-      "cycle_time_adj_s": 42.528,
-      "cycle_time_s": 44.972,
-      "cycles": 1,
-      "profile": "15L",
-      "recipe_state": "CYCLE_DONE",
-      "ts": 1774357055.3627596,
-      "ts_str": "2026-03-24 13:57:35",
-      "type": "cycle_complete"
-    },
-    {
-      "lap_s": 31.282,
-      "profile": "15L",
-      "ts": 1774357057.9555883,
-      "ts_str": "2026-03-24 13:57:37",
-      "type": "lap_complete"
-    },
-    {
-      "bottles": 6,
-      "count_sensor_time_s": 2.804,
-      "cycle_time_adj_s": 277.539,
-      "cycle_time_s": 280.343,
-      "cycles": 1,
-      "profile": "15L",
-      "recipe_state": "CYCLE_DONE",
-      "ts": 1774357335.7054732,
-      "ts_str": "2026-03-24 14:02:15",
-      "type": "cycle_complete"
-    },
-    {
-      "lap_s": 31.284,
-      "profile": "15L",
-      "ts": 1774357338.2993968,
-      "ts_str": "2026-03-24 14:02:18",
-      "type": "lap_complete"
-    },
-    {
-      "bottles": 6,
-      "count_sensor_time_s": 2.374,
-      "cycle_time_adj_s": 77.968,
-      "cycle_time_s": 80.342,
-      "cycles": 1,
-      "profile": "15L",
-      "recipe_state": "CYCLE_DONE",
-      "ts": 1774357416.0475938,
-      "ts_str": "2026-03-24 14:03:36",
-      "type": "cycle_complete"
-    },
-    {
-      "lap_s": 31.308,
-      "profile": "15L",
-      "ts": 1774357418.6370695,
-      "ts_str": "2026-03-24 14:03:38",
-      "type": "lap_complete"
-    },
-    {
-      "bottles": 6,
-      "count_sensor_time_s": 2.406,
-      "cycle_time_adj_s": 42.368,
-      "cycle_time_s": 44.774,
-      "cycles": 1,
-      "profile": "15L",
-      "recipe_state": "CYCLE_DONE",
-      "ts": 1774357460.8215802,
-      "ts_str": "2026-03-24 14:04:20",
-      "type": "cycle_complete"
-    },
-    {
-      "lap_s": 31.298,
-      "profile": "15L",
-      "ts": 1774357463.4102454,
-      "ts_str": "2026-03-24 14:04:23",
-      "type": "lap_complete"
-    },
-    {
-      "bottles": 6,
-      "count_sensor_time_s": 2.472,
-      "cycle_time_adj_s": 42.376,
-      "cycle_time_s": 44.848,
-      "cycles": 1,
-      "profile": "15L",
-      "recipe_state": "CYCLE_DONE",
-      "ts": 1774357505.6691275,
-      "ts_str": "2026-03-24 14:05:05",
-      "type": "cycle_complete"
-    },
-    {
-      "lap_s": 31.239,
-      "profile": "15L",
-      "ts": 1774357508.2596076,
-      "ts_str": "2026-03-24 14:05:08",
-      "type": "lap_complete"
-    },
-    {
-      "bottles": 6,
-      "count_sensor_time_s": 2.295,
-      "cycle_time_adj_s": 42.3,
-      "cycle_time_s": 44.594,
-      "cycles": 1,
-      "profile": "15L",
-      "recipe_state": "CYCLE_DONE",
-      "ts": 1774357550.2633839,
-      "ts_str": "2026-03-24 14:05:50",
-      "type": "cycle_complete"
-    },
-    {
-      "lap_s": 31.269,
-      "profile": "15L",
-      "ts": 1774357552.8529072,
-      "ts_str": "2026-03-24 14:05:52",
-      "type": "lap_complete"
-    },
-    {
-      "bottles": 6,
-      "count_sensor_time_s": 2.461,
-      "cycle_time_adj_s": 42.993,
-      "cycle_time_s": 45.454,
-      "cycles": 1,
-      "profile": "15L",
-      "recipe_state": "CYCLE_DONE",
-      "ts": 1774357595.7178051,
-      "ts_str": "2026-03-24 14:06:35",
-      "type": "cycle_complete"
-    },
-    {
-      "lap_s": 31.28,
-      "profile": "15L",
-      "ts": 1774357598.3166907,
-      "ts_str": "2026-03-24 14:06:38",
-      "type": "lap_complete"
-    },
-    {
-      "bottles": 6,
-      "count_sensor_time_s": 2.197,
-      "cycle_time_adj_s": 41.55,
-      "cycle_time_s": 43.746,
-      "cycles": 1,
-      "profile": "15L",
-      "recipe_state": "CYCLE_DONE",
-      "ts": 1774357639.4642644,
-      "ts_str": "2026-03-24 14:07:19",
-      "type": "cycle_complete"
-    },
-    {
-      "lap_s": 31.267,
-      "profile": "15L",
-      "ts": 1774357642.0570815,
-      "ts_str": "2026-03-24 14:07:22",
-      "type": "lap_complete"
-    },
-    {
-      "bottles": 6,
-      "count_sensor_time_s": 2.575,
-      "cycle_time_adj_s": 42.017,
-      "cycle_time_s": 44.592,
-      "cycles": 1,
-      "profile": "15L",
-      "recipe_state": "CYCLE_DONE",
-      "ts": 1774357684.0559187,
-      "ts_str": "2026-03-24 14:08:04",
-      "type": "cycle_complete"
-    },
-    {
-      "lap_s": 31.261,
-      "profile": "15L",
-      "ts": 1774357686.6575365,
-      "ts_str": "2026-03-24 14:08:06",
-      "type": "lap_complete"
-    },
-    {
-      "bottles": 6,
-      "count_sensor_time_s": 2.442,
-      "cycle_time_adj_s": 41.759,
-      "cycle_time_s": 44.201,
-      "cycles": 1,
-      "profile": "15L",
-      "recipe_state": "CYCLE_DONE",
-      "ts": 1774357728.2567706,
-      "ts_str": "2026-03-24 14:08:48",
-      "type": "cycle_complete"
-    },
-    {
-      "lap_s": 31.284,
-      "profile": "15L",
-      "ts": 1774357730.8473086,
-      "ts_str": "2026-03-24 14:08:50",
-      "type": "lap_complete"
-    },
-    {
-      "bottles": 6,
-      "count_sensor_time_s": 2.467,
-      "cycle_time_adj_s": 42.918,
-      "cycle_time_s": 45.385,
-      "cycles": 1,
-      "profile": "15L",
-      "recipe_state": "CYCLE_DONE",
-      "ts": 1774357773.6416953,
-      "ts_str": "2026-03-24 14:09:33",
-      "type": "cycle_complete"
-    },
-    {
-      "lap_s": 31.263,
-      "profile": "15L",
-      "ts": 1774357776.2318983,
-      "ts_str": "2026-03-24 14:09:36",
-      "type": "lap_complete"
-    },
-    {
-      "bottles": 6,
-      "count_sensor_time_s": 2.403,
-      "cycle_time_adj_s": 42.541,
-      "cycle_time_s": 44.945,
-      "cycles": 1,
-      "profile": "15L",
-      "recipe_state": "CYCLE_DONE",
-      "ts": 1774357818.5865,
-      "ts_str": "2026-03-24 14:10:18",
-      "type": "cycle_complete"
-    },
-    {
-      "lap_s": 31.306,
-      "profile": "15L",
-      "ts": 1774357821.185898,
-      "ts_str": "2026-03-24 14:10:21",
-      "type": "lap_complete"
-    },
-    {
-      "bottles": 6,
-      "count_sensor_time_s": 2.393,
-      "cycle_time_adj_s": 44.762,
-      "cycle_time_s": 47.154,
-      "cycles": 1,
-      "profile": "15L",
-      "recipe_state": "CYCLE_DONE",
-      "ts": 1774357865.7409632,
-      "ts_str": "2026-03-24 14:11:05",
-      "type": "cycle_complete"
-    },
-    {
-      "lap_s": 31.286,
-      "profile": "15L",
-      "ts": 1774357868.3306236,
-      "ts_str": "2026-03-24 14:11:08",
-      "type": "lap_complete"
-    },
-    {
-      "bottles": 6,
-      "count_sensor_time_s": 2.447,
-      "cycle_time_adj_s": 916.067,
-      "cycle_time_s": 918.514,
-      "cycles": 1,
-      "profile": "15L",
-      "recipe_state": "CYCLE_DONE",
-      "ts": 1774358784.2551608,
-      "ts_str": "2026-03-24 14:26:24",
-      "type": "cycle_complete"
-    },
-    {
-      "lap_s": 31.276,
-      "profile": "15L",
-      "ts": 1774358786.8494325,
-      "ts_str": "2026-03-24 14:26:26",
-      "type": "lap_complete"
-    },
-    {
-      "bottles": 6,
-      "count_sensor_time_s": 2.436,
-      "cycle_time_adj_s": 42.856,
-      "cycle_time_s": 45.292,
-      "cycles": 1,
-      "profile": "15L",
-      "recipe_state": "CYCLE_DONE",
-      "ts": 1774358829.546872,
-      "ts_str": "2026-03-24 14:27:09",
-      "type": "cycle_complete"
-    },
-    {
-      "lap_s": 31.291,
-      "profile": "15L",
-      "ts": 1774358832.142476,
-      "ts_str": "2026-03-24 14:27:12",
-      "type": "lap_complete"
-    },
-    {
-      "bottles": 6,
-      "count_sensor_time_s": 2.406,
-      "cycle_time_adj_s": 55.665,
-      "cycle_time_s": 58.072,
-      "cycles": 1,
-      "profile": "15L",
-      "recipe_state": "CYCLE_DONE",
-      "ts": 1774358887.6183968,
-      "ts_str": "2026-03-24 14:28:07",
-      "type": "cycle_complete"
-    },
-    {
-      "lap_s": 31.272,
-      "profile": "15L",
-      "ts": 1774358890.2138805,
-      "ts_str": "2026-03-24 14:28:10",
-      "type": "lap_complete"
-    },
-    {
-      "bottles": 6,
-      "count_sensor_time_s": 2.251,
-      "cycle_time_adj_s": 71.528,
-      "cycle_time_s": 73.779,
-      "cycles": 1,
-      "profile": "15L",
-      "recipe_state": "CYCLE_DONE",
-      "ts": 1774358961.3975062,
-      "ts_str": "2026-03-24 14:29:21",
-      "type": "cycle_complete"
-    },
-    {
-      "lap_s": 31.289,
-      "profile": "15L",
-      "ts": 1774358963.9925528,
-      "ts_str": "2026-03-24 14:29:23",
-      "type": "lap_complete"
-    },
-    {
-      "bottles": 6,
-      "count_sensor_time_s": 2.517,
-      "cycle_time_adj_s": 44.913,
-      "cycle_time_s": 47.43,
-      "cycles": 1,
-      "profile": "15L",
-      "recipe_state": "CYCLE_DONE",
-      "ts": 1774359008.8276792,
-      "ts_str": "2026-03-24 14:30:08",
-      "type": "cycle_complete"
-    },
-    {
-      "lap_s": 31.308,
-      "profile": "15L",
-      "ts": 1774359011.4208734,
-      "ts_str": "2026-03-24 14:30:11",
-      "type": "lap_complete"
-    },
-    {
-      "bottles": 6,
-      "count_sensor_time_s": 2.528,
-      "cycle_time_adj_s": 43.108,
-      "cycle_time_s": 45.636,
-      "cycles": 1,
-      "profile": "15L",
-      "recipe_state": "CYCLE_DONE",
-      "ts": 1774359054.4636738,
-      "ts_str": "2026-03-24 14:30:54",
-      "type": "cycle_complete"
-    },
-    {
-      "lap_s": 31.306,
-      "profile": "15L",
-      "ts": 1774359057.062196,
-      "ts_str": "2026-03-24 14:30:57",
-      "type": "lap_complete"
-    },
-    {
-      "bottles": 6,
-      "count_sensor_time_s": 2.426,
-      "cycle_time_adj_s": 44.184,
-      "cycle_time_s": 46.61,
-      "cycles": 1,
-      "profile": "15L",
-      "recipe_state": "CYCLE_DONE",
-      "ts": 1774359101.0736213,
-      "ts_str": "2026-03-24 14:31:41",
-      "type": "cycle_complete"
-    },
-    {
-      "lap_s": 31.238,
-      "profile": "15L",
-      "ts": 1774359103.6661472,
-      "ts_str": "2026-03-24 14:31:43",
-      "type": "lap_complete"
-    },
-    {
-      "bottles": 6,
-      "count_sensor_time_s": 2.423,
-      "cycle_time_adj_s": 42.701,
-      "cycle_time_s": 45.124,
-      "cycles": 1,
-      "profile": "15L",
-      "recipe_state": "CYCLE_DONE",
-      "ts": 1774359146.197129,
-      "ts_str": "2026-03-24 14:32:26",
-      "type": "cycle_complete"
-    },
-    {
-      "lap_s": 31.265,
-      "profile": "15L",
-      "ts": 1774359148.7821696,
-      "ts_str": "2026-03-24 14:32:28",
-      "type": "lap_complete"
-    },
-    {
-      "bottles": 6,
-      "count_sensor_time_s": 2.504,
-      "cycle_time_adj_s": 42.407,
-      "cycle_time_s": 44.912,
-      "cycles": 1,
-      "profile": "15L",
-      "recipe_state": "CYCLE_DONE",
-      "ts": 1774359191.1087713,
-      "ts_str": "2026-03-24 14:33:11",
-      "type": "cycle_complete"
-    },
-    {
-      "lap_s": 31.287,
-      "profile": "15L",
-      "ts": 1774359193.6933713,
-      "ts_str": "2026-03-24 14:33:13",
-      "type": "lap_complete"
-    },
-    {
-      "bottles": 6,
-      "count_sensor_time_s": 2.374,
-      "cycle_time_adj_s": 42.179,
-      "cycle_time_s": 44.552,
-      "cycles": 1,
-      "profile": "15L",
-      "recipe_state": "CYCLE_DONE",
-      "ts": 1774359235.6611102,
-      "ts_str": "2026-03-24 14:33:55",
-      "type": "cycle_complete"
-    },
-    {
-      "lap_s": 31.229,
-      "profile": "15L",
-      "ts": 1774359238.246668,
-      "ts_str": "2026-03-24 14:33:58",
-      "type": "lap_complete"
-    },
-    {
-      "bottles": 6,
-      "count_sensor_time_s": 2.437,
-      "cycle_time_adj_s": 42.384,
-      "cycle_time_s": 44.821,
-      "cycles": 1,
-      "profile": "15L",
-      "recipe_state": "CYCLE_DONE",
-      "ts": 1774359280.4819326,
-      "ts_str": "2026-03-24 14:34:40",
-      "type": "cycle_complete"
-    },
-    {
-      "lap_s": 31.267,
-      "profile": "15L",
-      "ts": 1774359283.0750659,
-      "ts_str": "2026-03-24 14:34:43",
-      "type": "lap_complete"
-    },
-    {
-      "bottles": 6,
-      "count_sensor_time_s": 2.44,
-      "cycle_time_adj_s": 42.55,
-      "cycle_time_s": 44.99,
-      "cycles": 1,
-      "profile": "15L",
-      "recipe_state": "CYCLE_DONE",
-      "ts": 1774359325.4717164,
-      "ts_str": "2026-03-24 14:35:25",
-      "type": "cycle_complete"
-    },
-    {
-      "lap_s": 31.251,
-      "profile": "15L",
-      "ts": 1774359328.059772,
-      "ts_str": "2026-03-24 14:35:28",
-      "type": "lap_complete"
-    },
-    {
-      "bottles": 6,
-      "count_sensor_time_s": 2.24,
-      "cycle_time_adj_s": 186.951,
-      "cycle_time_s": 189.191,
-      "cycles": 1,
-      "profile": "15L",
-      "recipe_state": "CYCLE_DONE",
-      "ts": 1774359514.6623223,
-      "ts_str": "2026-03-24 14:38:34",
-      "type": "cycle_complete"
-    },
-    {
-      "lap_s": 31.284,
-      "profile": "15L",
-      "ts": 1774359517.2551966,
-      "ts_str": "2026-03-24 14:38:37",
-      "type": "lap_complete"
-    },
-    {
-      "bottles": 6,
-      "count_sensor_time_s": 2.489,
-      "cycle_time_adj_s": 178.269,
-      "cycle_time_s": 180.757,
-      "cycles": 1,
-      "profile": "15L",
-      "recipe_state": "CYCLE_DONE",
-      "ts": 1774359695.419698,
-      "ts_str": "2026-03-24 14:41:35",
-      "type": "cycle_complete"
-    },
-    {
-      "lap_s": 31.265,
-      "profile": "15L",
-      "ts": 1774359698.0091748,
-      "ts_str": "2026-03-24 14:41:38",
-      "type": "lap_complete"
-    },
-    {
-      "bottles": 6,
-      "count_sensor_time_s": 3.067,
-      "cycle_time_adj_s": 43.483,
-      "cycle_time_s": 46.55,
-      "cycles": 1,
-      "profile": "15L",
-      "recipe_state": "CYCLE_DONE",
-      "ts": 1774359741.9695935,
-      "ts_str": "2026-03-24 14:42:21",
-      "type": "cycle_complete"
-    },
-    {
-      "lap_s": 31.256,
-      "profile": "15L",
-      "ts": 1774359744.5631933,
-      "ts_str": "2026-03-24 14:42:24",
-      "type": "lap_complete"
-    },
-    {
-      "bottles": 6,
-      "count_sensor_time_s": 2.475,
-      "cycle_time_adj_s": 54.16,
-      "cycle_time_s": 56.635,
-      "cycles": 1,
-      "profile": "15L",
-      "recipe_state": "CYCLE_DONE",
-      "ts": 1774359798.6043303,
-      "ts_str": "2026-03-24 14:43:18",
-      "type": "cycle_complete"
-    },
-    {
-      "lap_s": 31.28,
-      "profile": "15L",
-      "ts": 1774359801.1950617,
-      "ts_str": "2026-03-24 14:43:21",
-      "type": "lap_complete"
-    },
-    {
-      "bottles": 6,
-      "count_sensor_time_s": 2.36,
-      "cycle_time_adj_s": 42.622,
-      "cycle_time_s": 44.981,
-      "cycles": 1,
-      "profile": "15L",
-      "recipe_state": "CYCLE_DONE",
-      "ts": 1774359843.5857835,
-      "ts_str": "2026-03-24 14:44:03",
-      "type": "cycle_complete"
-    },
-    {
-      "lap_s": 31.294,
-      "profile": "15L",
-      "ts": 1774359846.1789823,
-      "ts_str": "2026-03-24 14:44:06",
-      "type": "lap_complete"
-    },
-    {
-      "bottles": 6,
-      "count_sensor_time_s": 2.418,
-      "cycle_time_adj_s": 43.547,
-      "cycle_time_s": 45.965,
-      "cycles": 1,
-      "profile": "15L",
-      "recipe_state": "CYCLE_DONE",
-      "ts": 1774359889.550788,
-      "ts_str": "2026-03-24 14:44:49",
-      "type": "cycle_complete"
-    },
-    {
-      "lap_s": 31.278,
-      "profile": "15L",
-      "ts": 1774359892.137581,
-      "ts_str": "2026-03-24 14:44:52",
-      "type": "lap_complete"
-    },
-    {
-      "bottles": 6,
-      "count_sensor_time_s": 2.523,
-      "cycle_time_adj_s": 43.47,
-      "cycle_time_s": 45.993,
-      "cycles": 1,
-      "profile": "15L",
-      "recipe_state": "CYCLE_DONE",
-      "ts": 1774359935.543572,
-      "ts_str": "2026-03-24 14:45:35",
-      "type": "cycle_complete"
-    },
-    {
-      "lap_s": 31.288,
-      "profile": "15L",
-      "ts": 1774359938.1316874,
-      "ts_str": "2026-03-24 14:45:38",
-      "type": "lap_complete"
-    },
-    {
-      "bottles": 6,
-      "count_sensor_time_s": 2.519,
-      "cycle_time_adj_s": 51.948,
-      "cycle_time_s": 54.467,
-      "cycles": 1,
-      "profile": "15L",
-      "recipe_state": "CYCLE_DONE",
-      "ts": 1774359990.0105348,
-      "ts_str": "2026-03-24 14:46:30",
-      "type": "cycle_complete"
-    },
-    {
-      "lap_s": 31.268,
-      "profile": "15L",
-      "ts": 1774359992.6027927,
-      "ts_str": "2026-03-24 14:46:32",
-      "type": "lap_complete"
-    },
-    {
-      "bottles": 6,
-      "count_sensor_time_s": 2.47,
-      "cycle_time_adj_s": 42.31,
-      "cycle_time_s": 44.78,
-      "cycles": 1,
-      "profile": "15L",
-      "recipe_state": "CYCLE_DONE",
-      "ts": 1774360034.7905903,
-      "ts_str": "2026-03-24 14:47:14",
-      "type": "cycle_complete"
-    },
-    {
-      "lap_s": 31.238,
-      "profile": "15L",
-      "ts": 1774360037.3859732,
-      "ts_str": "2026-03-24 14:47:17",
-      "type": "lap_complete"
-    },
-    {
-      "bottles": 6,
-      "count_sensor_time_s": 2.4,
-      "cycle_time_adj_s": 42.477,
-      "cycle_time_s": 44.877,
-      "cycles": 1,
-      "profile": "15L",
-      "recipe_state": "CYCLE_DONE",
-      "ts": 1774360079.667521,
-      "ts_str": "2026-03-24 14:47:59",
-      "type": "cycle_complete"
-    },
-    {
-      "lap_s": 31.263,
-      "profile": "15L",
-      "ts": 1774360082.2600741,
-      "ts_str": "2026-03-24 14:48:02",
-      "type": "lap_complete"
-    },
-    {
-      "bottles": 6,
-      "count_sensor_time_s": 2.477,
-      "cycle_time_adj_s": 42.335,
-      "cycle_time_s": 44.812,
-      "cycles": 1,
-      "profile": "15L",
-      "recipe_state": "CYCLE_DONE",
-      "ts": 1774360124.4797602,
-      "ts_str": "2026-03-24 14:48:44",
-      "type": "cycle_complete"
-    },
-    {
-      "lap_s": 31.287,
-      "profile": "15L",
-      "ts": 1774360127.0768058,
-      "ts_str": "2026-03-24 14:48:47",
-      "type": "lap_complete"
-    },
-    {
-      "bottles": 6,
-      "count_sensor_time_s": 2.536,
-      "cycle_time_adj_s": 42.595,
-      "cycle_time_s": 45.131,
-      "cycles": 1,
-      "profile": "15L",
-      "recipe_state": "CYCLE_DONE",
-      "ts": 1774360169.6107914,
-      "ts_str": "2026-03-24 14:49:29",
-      "type": "cycle_complete"
-    },
-    {
-      "lap_s": 31.262,
-      "profile": "15L",
-      "ts": 1774360172.197417,
-      "ts_str": "2026-03-24 14:49:32",
-      "type": "lap_complete"
-    },
-    {
-      "bottles": 6,
-      "count_sensor_time_s": 2.206,
-      "cycle_time_adj_s": 49.295,
-      "cycle_time_s": 51.501,
-      "cycles": 1,
-      "profile": "15L",
-      "recipe_state": "CYCLE_DONE",
-      "ts": 1774360221.1116724,
-      "ts_str": "2026-03-24 14:50:21",
-      "type": "cycle_complete"
-    },
-    {
-      "lap_s": 31.272,
-      "profile": "15L",
-      "ts": 1774360223.7014143,
-      "ts_str": "2026-03-24 14:50:23",
-      "type": "lap_complete"
-    },
-    {
-      "bottles": 6,
-      "count_sensor_time_s": 4.38,
-      "cycle_time_adj_s": 1552.936,
-      "cycle_time_s": 1557.316,
-      "cycles": 1,
-      "profile": "15L",
-      "recipe_state": "CYCLE_DONE",
-      "ts": 1774361778.4274855,
-      "ts_str": "2026-03-24 15:16:18",
-      "type": "cycle_complete"
-    },
-    {
-      "lap_s": 31.28,
-      "profile": "15L",
-      "ts": 1774361781.0143328,
-      "ts_str": "2026-03-24 15:16:21",
-      "type": "lap_complete"
-    },
-    {
-      "cmd": "STOP",
-      "mode": "IDLE",
-      "note": "STOP -> IDLE",
-      "ts": 1774361816.6726315,
-      "ts_str": "2026-03-24 15:16:56",
-      "type": "command"
-    },
-    {
-      "cmd": "STOP",
-      "mode": "IDLE",
-      "note": "STOP -> IDLE",
-      "ts": 1774363106.8004832,
-      "ts_str": "2026-03-24 15:38:26",
-      "type": "command"
-    },
-    {
-      "cmd": "SAFETY_ACK",
-      "mode": "IDLE",
-      "note": "Kvitterad",
-      "ts": 1774363107.2163937,
-      "ts_str": "2026-03-24 15:38:27",
-      "type": "command"
-    },
-    {
-      "cmd": "START",
-      "mode": "RUNNING",
-      "note": "RUNNING",
-      "ts": 1774363107.8457253,
-      "ts_str": "2026-03-24 15:38:27",
-      "type": "command"
-    },
-    {
-      "bottles": 6,
-      "count_sensor_time_s": 2.447,
-      "cycle_time_adj_s": 1369.617,
-      "cycle_time_s": 1372.065,
-      "cycles": 1,
-      "profile": "15L",
-      "recipe_state": "CYCLE_DONE",
-      "ts": 1774363150.492026,
-      "ts_str": "2026-03-24 15:39:10",
-      "type": "cycle_complete"
-    },
-    {
-      "lap_s": 31.279,
-      "profile": "15L",
-      "ts": 1774363153.0854533,
-      "ts_str": "2026-03-24 15:39:13",
-      "type": "lap_complete"
-    },
-    {
-      "bottles": 6,
-      "count_sensor_time_s": 2.567,
-      "cycle_time_adj_s": 42.973,
-      "cycle_time_s": 45.54,
-      "cycles": 1,
-      "profile": "15L",
-      "recipe_state": "CYCLE_DONE",
-      "ts": 1774363196.0319662,
-      "ts_str": "2026-03-24 15:39:56",
-      "type": "cycle_complete"
-    },
-    {
-      "lap_s": 31.301,
-      "profile": "15L",
-      "ts": 1774363198.625837,
-      "ts_str": "2026-03-24 15:39:58",
-      "type": "lap_complete"
-    },
-    {
-      "bottles": 6,
-      "count_sensor_time_s": 2.537,
-      "cycle_time_adj_s": 42.794,
-      "cycle_time_s": 45.331,
-      "cycles": 1,
-      "profile": "15L",
-      "recipe_state": "CYCLE_DONE",
-      "ts": 1774363241.3630707,
-      "ts_str": "2026-03-24 15:40:41",
-      "type": "cycle_complete"
-    },
-    {
-      "lap_s": 31.3,
-      "profile": "15L",
-      "ts": 1774363243.9590673,
-      "ts_str": "2026-03-24 15:40:43",
-      "type": "lap_complete"
-    },
-    {
-      "bottles": 6,
-      "count_sensor_time_s": 2.683,
-      "cycle_time_adj_s": 206.837,
-      "cycle_time_s": 209.519,
-      "cycles": 1,
-      "profile": "15L",
-      "recipe_state": "CYCLE_DONE",
-      "ts": 1774363450.8824673,
-      "ts_str": "2026-03-24 15:44:10",
-      "type": "cycle_complete"
-    },
-    {
-      "lap_s": 31.275,
-      "profile": "15L",
-      "ts": 1774363453.4755936,
-      "ts_str": "2026-03-24 15:44:13",
-      "type": "lap_complete"
-    },
-    {
-      "bottles": 6,
-      "count_sensor_time_s": 2.371,
-      "cycle_time_adj_s": 415.247,
-      "cycle_time_s": 417.618,
-      "cycles": 1,
-      "profile": "15L",
-      "recipe_state": "CYCLE_DONE",
-      "ts": 1774363868.5006037,
-      "ts_str": "2026-03-24 15:51:08",
-      "type": "cycle_complete"
-    },
-    {
-      "lap_s": 31.288,
-      "profile": "15L",
-      "ts": 1774363871.0978224,
-      "ts_str": "2026-03-24 15:51:11",
-      "type": "lap_complete"
-    },
-    {
-      "bottles": 6,
-      "count_sensor_time_s": 2.72,
-      "cycle_time_adj_s": 41.781,
-      "cycle_time_s": 44.501,
-      "cycles": 1,
-      "profile": "15L",
-      "recipe_state": "CYCLE_DONE",
-      "ts": 1774363913.0015912,
-      "ts_str": "2026-03-24 15:51:53",
-      "type": "cycle_complete"
-    },
-    {
-      "lap_s": 31.267,
-      "profile": "15L",
-      "ts": 1774363915.5875974,
-      "ts_str": "2026-03-24 15:51:55",
-      "type": "lap_complete"
-    },
-    {
-      "bottles": 6,
-      "count_sensor_time_s": 2.714,
-      "cycle_time_adj_s": 41.989,
-      "cycle_time_s": 44.703,
-      "cycles": 1,
-      "profile": "15L",
-      "recipe_state": "CYCLE_DONE",
-      "ts": 1774363957.7044706,
-      "ts_str": "2026-03-24 15:52:37",
-      "type": "cycle_complete"
-    },
-    {
-      "lap_s": 31.294,
-      "profile": "15L",
-      "ts": 1774363960.2994,
-      "ts_str": "2026-03-24 15:52:40",
-      "type": "lap_complete"
-    },
-    {
-      "bottles": 6,
-      "count_sensor_time_s": 2.441,
-      "cycle_time_adj_s": 41.886,
-      "cycle_time_s": 44.327,
-      "cycles": 1,
-      "profile": "15L",
-      "recipe_state": "CYCLE_DONE",
-      "ts": 1774364002.0313447,
-      "ts_str": "2026-03-24 15:53:22",
-      "type": "cycle_complete"
-    },
-    {
-      "lap_s": 31.3,
-      "profile": "15L",
-      "ts": 1774364004.6241784,
-      "ts_str": "2026-03-24 15:53:24",
-      "type": "lap_complete"
-    },
-    {
-      "bottles": 6,
-      "count_sensor_time_s": 2.671,
-      "cycle_time_adj_s": 42.297,
-      "cycle_time_s": 44.968,
-      "cycles": 1,
-      "profile": "15L",
-      "recipe_state": "CYCLE_DONE",
-      "ts": 1774364046.9990015,
-      "ts_str": "2026-03-24 15:54:06",
-      "type": "cycle_complete"
-    },
-    {
-      "lap_s": 31.255,
-      "profile": "15L",
-      "ts": 1774364049.5925417,
-      "ts_str": "2026-03-24 15:54:09",
-      "type": "lap_complete"
-    },
-    {
-      "bottles": 6,
-      "count_sensor_time_s": 1.928,
-      "cycle_time_adj_s": 41.743,
-      "cycle_time_s": 43.671,
-      "cycles": 1,
-      "profile": "15L",
-      "recipe_state": "CYCLE_DONE",
-      "ts": 1774364090.6699798,
-      "ts_str": "2026-03-24 15:54:50",
-      "type": "cycle_complete"
-    },
-    {
-      "lap_s": 31.284,
-      "profile": "15L",
-      "ts": 1774364093.2635236,
-      "ts_str": "2026-03-24 15:54:53",
-      "type": "lap_complete"
-    },
-    {
-      "cmd": "STOP",
-      "mode": "IDLE",
-      "note": "STOP -> IDLE",
-      "ts": 1774364098.584573,
-      "ts_str": "2026-03-24 15:54:58",
-      "type": "command"
-    },
-    {
-      "cmd": "SAFETY_ACK",
-      "mode": "IDLE",
-      "note": "Kvitterad",
-      "ts": 1774364099.4832354,
-      "ts_str": "2026-03-24 15:54:59",
-      "type": "command"
-    },
-    {
-      "cmd": "WELD_SERVICE",
-      "mode": "PAUSED",
-      "note": "WELDING",
-      "ts": 1774364187.7336452,
-      "ts_str": "2026-03-24 15:56:27",
-      "type": "command"
-    },
-    {
-      "cmd": "WELD_SERVICE_DONE",
-      "mode": "PAUSED",
-      "note": "Klar",
-      "ts": 1774364193.7648714,
-      "ts_str": "2026-03-24 15:56:33",
-      "type": "command"
-    },
-    {
-      "cmd": "STOP",
-      "mode": "IDLE",
-      "note": "STOP -> IDLE",
-      "ts": 1774364197.8543713,
-      "ts_str": "2026-03-24 15:56:37",
-      "type": "command"
-    },
-    {
-      "cmd": "SAFETY_ACK",
-      "mode": "IDLE",
-      "note": "Kvitterad",
-      "ts": 1774364198.3878098,
-      "ts_str": "2026-03-24 15:56:38",
-      "type": "command"
-    },
-    {
-      "cmd": "START",
-      "mode": "RUNNING",
-      "note": "RUNNING",
-      "ts": 1774364200.2081592,
-      "ts_str": "2026-03-24 15:56:40",
-      "type": "command"
-    },
-    {
-      "bottles": 6,
-      "count_sensor_time_s": 2.412,
-      "cycle_time_adj_s": 155.061,
-      "cycle_time_s": 157.474,
-      "cycles": 1,
-      "profile": "15L",
-      "recipe_state": "CYCLE_DONE",
-      "ts": 1774364248.1437502,
-      "ts_str": "2026-03-24 15:57:28",
-      "type": "cycle_complete"
-    },
-    {
-      "lap_s": 31.269,
-      "profile": "15L",
-      "ts": 1774364250.739021,
-      "ts_str": "2026-03-24 15:57:30",
-      "type": "lap_complete"
-    },
-    {
-      "bottles": 6,
-      "count_sensor_time_s": 2.307,
-      "cycle_time_adj_s": 41.941,
-      "cycle_time_s": 44.248,
-      "cycles": 1,
-      "profile": "15L",
-      "recipe_state": "CYCLE_DONE",
-      "ts": 1774364292.3920138,
-      "ts_str": "2026-03-24 15:58:12",
-      "type": "cycle_complete"
-    },
-    {
-      "lap_s": 31.308,
-      "profile": "15L",
-      "ts": 1774364294.983937,
-      "ts_str": "2026-03-24 15:58:14",
-      "type": "lap_complete"
-    },
-    {
-      "bottles": 6,
-      "count_sensor_time_s": 2.308,
-      "cycle_time_adj_s": 41.739,
-      "cycle_time_s": 44.047,
-      "cycles": 1,
-      "profile": "15L",
-      "recipe_state": "CYCLE_DONE",
-      "ts": 1774364336.4385712,
-      "ts_str": "2026-03-24 15:58:56",
-      "type": "cycle_complete"
-    },
-    {
-      "lap_s": 31.279,
-      "profile": "15L",
-      "ts": 1774364339.031924,
-      "ts_str": "2026-03-24 15:58:59",
-      "type": "lap_complete"
-    },
-    {
-      "bottles": 6,
-      "count_sensor_time_s": 2.573,
-      "cycle_time_adj_s": 42.404,
-      "cycle_time_s": 44.978,
-      "cycles": 1,
-      "profile": "15L",
-      "recipe_state": "CYCLE_DONE",
-      "ts": 1774364381.4160752,
-      "ts_str": "2026-03-24 15:59:41",
-      "type": "cycle_complete"
-    },
-    {
-      "lap_s": 31.271,
-      "profile": "15L",
-      "ts": 1774364384.0106933,
-      "ts_str": "2026-03-24 15:59:44",
-      "type": "lap_complete"
-    },
-    {
-      "bottles": 6,
-      "count_sensor_time_s": 2.367,
-      "cycle_time_adj_s": 42.15,
-      "cycle_time_s": 44.517,
-      "cycles": 1,
-      "profile": "15L",
-      "recipe_state": "CYCLE_DONE",
-      "ts": 1774364425.9328609,
-      "ts_str": "2026-03-24 16:00:25",
-      "type": "cycle_complete"
-    },
-    {
-      "lap_s": 31.243,
-      "profile": "15L",
-      "ts": 1774364428.522766,
-      "ts_str": "2026-03-24 16:00:28",
-      "type": "lap_complete"
-    },
-    {
-      "bottles": 6,
-      "count_sensor_time_s": 2.303,
-      "cycle_time_adj_s": 42.631,
-      "cycle_time_s": 44.934,
-      "cycles": 1,
-      "profile": "15L",
-      "recipe_state": "CYCLE_DONE",
-      "ts": 1774364470.867054,
-      "ts_str": "2026-03-24 16:01:10",
-      "type": "cycle_complete"
-    },
     {
       "lap_s": 31.283,
       "profile": "15L",
@@ -3906,6 +2564,1353 @@
       "ts": 1774431053.355348,
       "ts_str": "2026-03-25 10:30:53",
       "type": "command"
+    },
+    {
+      "cmd": "WELD_SERVICE",
+      "mode": "PAUSED",
+      "note": "WELDING",
+      "ts": 1774431131.8896945,
+      "ts_str": "2026-03-25 10:32:11",
+      "type": "command"
+    },
+    {
+      "cmd": "START",
+      "mode": "PAUSED",
+      "note": "Service-svets pågår. Vänta/RESET.",
+      "ts": 1774431136.1911433,
+      "ts_str": "2026-03-25 10:32:16",
+      "type": "command"
+    },
+    {
+      "cmd": "WELD_SERVICE_DONE",
+      "mode": "PAUSED",
+      "note": "Klar",
+      "ts": 1774431137.8897972,
+      "ts_str": "2026-03-25 10:32:17",
+      "type": "command"
+    },
+    {
+      "cmd": "START",
+      "mode": "RUNNING",
+      "note": "RUNNING",
+      "ts": 1774431141.7612295,
+      "ts_str": "2026-03-25 10:32:21",
+      "type": "command"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 3.851,
+      "cycle_time_adj_s": 135.749,
+      "cycle_time_s": 139.6,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774431184.9373767,
+      "ts_str": "2026-03-25 10:33:04",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.282,
+      "profile": "15L",
+      "ts": 1774431187.532855,
+      "ts_str": "2026-03-25 10:33:07",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 1.65,
+      "cycle_time_adj_s": 41.311,
+      "cycle_time_s": 42.961,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774431227.8987205,
+      "ts_str": "2026-03-25 10:33:47",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.296,
+      "profile": "15L",
+      "ts": 1774431230.4935472,
+      "ts_str": "2026-03-25 10:33:50",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.546,
+      "cycle_time_adj_s": 41.72,
+      "cycle_time_s": 44.266,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774431272.1649897,
+      "ts_str": "2026-03-25 10:34:32",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.287,
+      "profile": "15L",
+      "ts": 1774431274.757572,
+      "ts_str": "2026-03-25 10:34:34",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.435,
+      "cycle_time_adj_s": 42.874,
+      "cycle_time_s": 45.309,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774431317.4742439,
+      "ts_str": "2026-03-25 10:35:17",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.324,
+      "profile": "15L",
+      "ts": 1774431320.0663812,
+      "ts_str": "2026-03-25 10:35:20",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 1.959,
+      "cycle_time_adj_s": 41.863,
+      "cycle_time_s": 43.822,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774431361.2961745,
+      "ts_str": "2026-03-25 10:36:01",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.302,
+      "profile": "15L",
+      "ts": 1774431363.8939643,
+      "ts_str": "2026-03-25 10:36:03",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.344,
+      "cycle_time_adj_s": 41.681,
+      "cycle_time_s": 44.025,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774431405.32122,
+      "ts_str": "2026-03-25 10:36:45",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.287,
+      "profile": "15L",
+      "ts": 1774431407.9134924,
+      "ts_str": "2026-03-25 10:36:47",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.135,
+      "cycle_time_adj_s": 42.008,
+      "cycle_time_s": 44.144,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774431449.4649773,
+      "ts_str": "2026-03-25 10:37:29",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.279,
+      "profile": "15L",
+      "ts": 1774431452.0585732,
+      "ts_str": "2026-03-25 10:37:32",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.611,
+      "cycle_time_adj_s": 42.231,
+      "cycle_time_s": 44.842,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774431494.3072488,
+      "ts_str": "2026-03-25 10:38:14",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.281,
+      "profile": "15L",
+      "ts": 1774431496.8981676,
+      "ts_str": "2026-03-25 10:38:16",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.239,
+      "cycle_time_adj_s": 41.713,
+      "cycle_time_s": 43.952,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774431538.2593565,
+      "ts_str": "2026-03-25 10:38:58",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.315,
+      "profile": "15L",
+      "ts": 1774431540.8565025,
+      "ts_str": "2026-03-25 10:39:00",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.446,
+      "cycle_time_adj_s": 41.765,
+      "cycle_time_s": 44.211,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774431582.4705393,
+      "ts_str": "2026-03-25 10:39:42",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.291,
+      "profile": "15L",
+      "ts": 1774431585.063383,
+      "ts_str": "2026-03-25 10:39:45",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.511,
+      "cycle_time_adj_s": 42.218,
+      "cycle_time_s": 44.729,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774431627.199655,
+      "ts_str": "2026-03-25 10:40:27",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.276,
+      "profile": "15L",
+      "ts": 1774431629.797398,
+      "ts_str": "2026-03-25 10:40:29",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.412,
+      "cycle_time_adj_s": 41.79,
+      "cycle_time_s": 44.202,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774431671.4018123,
+      "ts_str": "2026-03-25 10:41:11",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.28,
+      "profile": "15L",
+      "ts": 1774431673.991164,
+      "ts_str": "2026-03-25 10:41:13",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.511,
+      "cycle_time_adj_s": 41.82,
+      "cycle_time_s": 44.331,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774431715.7328274,
+      "ts_str": "2026-03-25 10:41:55",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.256,
+      "profile": "15L",
+      "ts": 1774431718.322293,
+      "ts_str": "2026-03-25 10:41:58",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 1.721,
+      "cycle_time_adj_s": 41.175,
+      "cycle_time_s": 42.895,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774431758.6280813,
+      "ts_str": "2026-03-25 10:42:38",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.269,
+      "profile": "15L",
+      "ts": 1774431761.218033,
+      "ts_str": "2026-03-25 10:42:41",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.308,
+      "cycle_time_adj_s": 41.871,
+      "cycle_time_s": 44.179,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774431802.806637,
+      "ts_str": "2026-03-25 10:43:22",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.274,
+      "profile": "15L",
+      "ts": 1774431805.399846,
+      "ts_str": "2026-03-25 10:43:25",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.611,
+      "cycle_time_adj_s": 42.512,
+      "cycle_time_s": 45.123,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774431847.9295135,
+      "ts_str": "2026-03-25 10:44:07",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.285,
+      "profile": "15L",
+      "ts": 1774431850.5215771,
+      "ts_str": "2026-03-25 10:44:10",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.577,
+      "cycle_time_adj_s": 42.198,
+      "cycle_time_s": 44.775,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774431892.7048352,
+      "ts_str": "2026-03-25 10:44:52",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.295,
+      "profile": "15L",
+      "ts": 1774431895.2963288,
+      "ts_str": "2026-03-25 10:44:55",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.5,
+      "cycle_time_adj_s": 42.874,
+      "cycle_time_s": 45.374,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774431938.0789082,
+      "ts_str": "2026-03-25 10:45:38",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.29,
+      "profile": "15L",
+      "ts": 1774431940.6695905,
+      "ts_str": "2026-03-25 10:45:40",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.706,
+      "cycle_time_adj_s": 43.036,
+      "cycle_time_s": 45.743,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774431983.8216722,
+      "ts_str": "2026-03-25 10:46:23",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.275,
+      "profile": "15L",
+      "ts": 1774431986.4124577,
+      "ts_str": "2026-03-25 10:46:26",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.586,
+      "cycle_time_adj_s": 71.297,
+      "cycle_time_s": 73.883,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774432057.7046084,
+      "ts_str": "2026-03-25 10:47:37",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.278,
+      "profile": "15L",
+      "ts": 1774432060.3016243,
+      "ts_str": "2026-03-25 10:47:40",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 3.348,
+      "cycle_time_adj_s": 227.832,
+      "cycle_time_s": 231.181,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774432288.885279,
+      "ts_str": "2026-03-25 10:51:28",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.292,
+      "profile": "15L",
+      "ts": 1774432291.4803925,
+      "ts_str": "2026-03-25 10:51:31",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.668,
+      "cycle_time_adj_s": 43.322,
+      "cycle_time_s": 45.99,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774432334.874912,
+      "ts_str": "2026-03-25 10:52:14",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.279,
+      "profile": "15L",
+      "ts": 1774432337.4643724,
+      "ts_str": "2026-03-25 10:52:17",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.615,
+      "cycle_time_adj_s": 54.498,
+      "cycle_time_s": 57.113,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774432391.9879718,
+      "ts_str": "2026-03-25 10:53:11",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.278,
+      "profile": "15L",
+      "ts": 1774432394.5844364,
+      "ts_str": "2026-03-25 10:53:14",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.926,
+      "cycle_time_adj_s": 66.656,
+      "cycle_time_s": 69.582,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774432461.5699832,
+      "ts_str": "2026-03-25 10:54:21",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.283,
+      "profile": "15L",
+      "ts": 1774432464.1625695,
+      "ts_str": "2026-03-25 10:54:24",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.483,
+      "cycle_time_adj_s": 148.948,
+      "cycle_time_s": 151.431,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774432613.00147,
+      "ts_str": "2026-03-25 10:56:53",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.304,
+      "profile": "15L",
+      "ts": 1774432615.5972764,
+      "ts_str": "2026-03-25 10:56:55",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.592,
+      "cycle_time_adj_s": 71.933,
+      "cycle_time_s": 74.525,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774432687.5260255,
+      "ts_str": "2026-03-25 10:58:07",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.287,
+      "profile": "15L",
+      "ts": 1774432690.117783,
+      "ts_str": "2026-03-25 10:58:10",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.612,
+      "cycle_time_adj_s": 168.637,
+      "cycle_time_s": 171.249,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774432858.7752705,
+      "ts_str": "2026-03-25 11:00:58",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.278,
+      "profile": "15L",
+      "ts": 1774432861.3693671,
+      "ts_str": "2026-03-25 11:01:01",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.824,
+      "cycle_time_adj_s": 112.386,
+      "cycle_time_s": 115.21,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774432973.98538,
+      "ts_str": "2026-03-25 11:02:53",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.298,
+      "profile": "15L",
+      "ts": 1774432976.5767133,
+      "ts_str": "2026-03-25 11:02:56",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.576,
+      "cycle_time_adj_s": 42.222,
+      "cycle_time_s": 44.797,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774433018.7828596,
+      "ts_str": "2026-03-25 11:03:38",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.287,
+      "profile": "15L",
+      "ts": 1774433021.3831117,
+      "ts_str": "2026-03-25 11:03:41",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.565,
+      "cycle_time_adj_s": 43.005,
+      "cycle_time_s": 45.571,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774433064.353553,
+      "ts_str": "2026-03-25 11:04:24",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.29,
+      "profile": "15L",
+      "ts": 1774433066.9471014,
+      "ts_str": "2026-03-25 11:04:26",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.455,
+      "cycle_time_adj_s": 107.21,
+      "cycle_time_s": 109.665,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774433174.0182805,
+      "ts_str": "2026-03-25 11:06:14",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.289,
+      "profile": "15L",
+      "ts": 1774433176.614201,
+      "ts_str": "2026-03-25 11:06:16",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.542,
+      "cycle_time_adj_s": 41.813,
+      "cycle_time_s": 44.355,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774433218.3733592,
+      "ts_str": "2026-03-25 11:06:58",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.292,
+      "profile": "15L",
+      "ts": 1774433220.9715893,
+      "ts_str": "2026-03-25 11:07:00",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 1.758,
+      "cycle_time_adj_s": 41.663,
+      "cycle_time_s": 43.421,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774433261.7942693,
+      "ts_str": "2026-03-25 11:07:41",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.301,
+      "profile": "15L",
+      "ts": 1774433264.3887434,
+      "ts_str": "2026-03-25 11:07:44",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.342,
+      "cycle_time_adj_s": 41.969,
+      "cycle_time_s": 44.311,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774433306.1048174,
+      "ts_str": "2026-03-25 11:08:26",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.268,
+      "profile": "15L",
+      "ts": 1774433308.7023165,
+      "ts_str": "2026-03-25 11:08:28",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.575,
+      "cycle_time_adj_s": 42.106,
+      "cycle_time_s": 44.681,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774433350.7860172,
+      "ts_str": "2026-03-25 11:09:10",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.293,
+      "profile": "15L",
+      "ts": 1774433353.3783743,
+      "ts_str": "2026-03-25 11:09:13",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.403,
+      "cycle_time_adj_s": 42.505,
+      "cycle_time_s": 44.909,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774433395.6945734,
+      "ts_str": "2026-03-25 11:09:55",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.261,
+      "profile": "15L",
+      "ts": 1774433398.287659,
+      "ts_str": "2026-03-25 11:09:58",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.511,
+      "cycle_time_adj_s": 42.583,
+      "cycle_time_s": 45.094,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774433440.7888165,
+      "ts_str": "2026-03-25 11:10:40",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.293,
+      "profile": "15L",
+      "ts": 1774433443.3846428,
+      "ts_str": "2026-03-25 11:10:43",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.652,
+      "cycle_time_adj_s": 63.088,
+      "cycle_time_s": 65.74,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774433506.5285687,
+      "ts_str": "2026-03-25 11:11:46",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.313,
+      "profile": "15L",
+      "ts": 1774433509.1212804,
+      "ts_str": "2026-03-25 11:11:49",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.492,
+      "cycle_time_adj_s": 49.026,
+      "cycle_time_s": 51.518,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774433558.0468528,
+      "ts_str": "2026-03-25 11:12:38",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.288,
+      "profile": "15L",
+      "ts": 1774433560.6415489,
+      "ts_str": "2026-03-25 11:12:40",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.439,
+      "cycle_time_adj_s": 42.044,
+      "cycle_time_s": 44.483,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774433602.5301237,
+      "ts_str": "2026-03-25 11:13:22",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.28,
+      "profile": "15L",
+      "ts": 1774433605.1303644,
+      "ts_str": "2026-03-25 11:13:25",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.481,
+      "cycle_time_adj_s": 42.266,
+      "cycle_time_s": 44.747,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774433647.2770307,
+      "ts_str": "2026-03-25 11:14:07",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.284,
+      "profile": "15L",
+      "ts": 1774433649.8700964,
+      "ts_str": "2026-03-25 11:14:09",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.508,
+      "cycle_time_adj_s": 41.886,
+      "cycle_time_s": 44.394,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774433691.6706948,
+      "ts_str": "2026-03-25 11:14:51",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.294,
+      "profile": "15L",
+      "ts": 1774433694.2654617,
+      "ts_str": "2026-03-25 11:14:54",
+      "type": "lap_complete"
+    },
+    {
+      "cmd": "STOP",
+      "mode": "IDLE",
+      "note": "STOP -> IDLE",
+      "ts": 1774433740.2449918,
+      "ts_str": "2026-03-25 11:15:40",
+      "type": "command"
+    },
+    {
+      "cmd": "START",
+      "mode": "RUNNING",
+      "note": "RUNNING",
+      "ts": 1774433888.5557547,
+      "ts_str": "2026-03-25 11:18:08",
+      "type": "command"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 4.026,
+      "cycle_time_adj_s": 235.929,
+      "cycle_time_s": 239.955,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774433931.6254213,
+      "ts_str": "2026-03-25 11:18:51",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.283,
+      "profile": "15L",
+      "ts": 1774433934.2195318,
+      "ts_str": "2026-03-25 11:18:54",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.436,
+      "cycle_time_adj_s": 67.569,
+      "cycle_time_s": 70.005,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774434001.6308274,
+      "ts_str": "2026-03-25 11:20:01",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.32,
+      "profile": "15L",
+      "ts": 1774434004.2218792,
+      "ts_str": "2026-03-25 11:20:04",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.644,
+      "cycle_time_adj_s": 42.047,
+      "cycle_time_s": 44.69,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774434046.3212087,
+      "ts_str": "2026-03-25 11:20:46",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.258,
+      "profile": "15L",
+      "ts": 1774434048.9139564,
+      "ts_str": "2026-03-25 11:20:48",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.573,
+      "cycle_time_adj_s": 42.663,
+      "cycle_time_s": 45.236,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774434091.557268,
+      "ts_str": "2026-03-25 11:21:31",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.274,
+      "profile": "15L",
+      "ts": 1774434094.1457214,
+      "ts_str": "2026-03-25 11:21:34",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 3.8,
+      "cycle_time_adj_s": 164.828,
+      "cycle_time_s": 168.628,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774434260.1853845,
+      "ts_str": "2026-03-25 11:24:20",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.288,
+      "profile": "15L",
+      "ts": 1774434262.7786198,
+      "ts_str": "2026-03-25 11:24:22",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.534,
+      "cycle_time_adj_s": 42.951,
+      "cycle_time_s": 45.485,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774434305.6702676,
+      "ts_str": "2026-03-25 11:25:05",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.286,
+      "profile": "15L",
+      "ts": 1774434308.2584527,
+      "ts_str": "2026-03-25 11:25:08",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 4.671,
+      "cycle_time_adj_s": 49.321,
+      "cycle_time_s": 53.992,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774434359.6622128,
+      "ts_str": "2026-03-25 11:25:59",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.289,
+      "profile": "15L",
+      "ts": 1774434362.255068,
+      "ts_str": "2026-03-25 11:26:02",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.631,
+      "cycle_time_adj_s": 43.714,
+      "cycle_time_s": 46.345,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774434406.0075903,
+      "ts_str": "2026-03-25 11:26:46",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.267,
+      "profile": "15L",
+      "ts": 1774434408.5984778,
+      "ts_str": "2026-03-25 11:26:48",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.74,
+      "cycle_time_adj_s": 93.501,
+      "cycle_time_s": 96.241,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774434502.2481241,
+      "ts_str": "2026-03-25 11:28:22",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.333,
+      "profile": "15L",
+      "ts": 1774434504.843109,
+      "ts_str": "2026-03-25 11:28:24",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.562,
+      "cycle_time_adj_s": 43.07,
+      "cycle_time_s": 45.632,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774434547.880273,
+      "ts_str": "2026-03-25 11:29:07",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.279,
+      "profile": "15L",
+      "ts": 1774434550.4752686,
+      "ts_str": "2026-03-25 11:29:10",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.558,
+      "cycle_time_adj_s": 97.438,
+      "cycle_time_s": 99.996,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774434647.8764715,
+      "ts_str": "2026-03-25 11:30:47",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.303,
+      "profile": "15L",
+      "ts": 1774434650.4694407,
+      "ts_str": "2026-03-25 11:30:50",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.286,
+      "cycle_time_adj_s": 50.043,
+      "cycle_time_s": 52.329,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774434700.2050645,
+      "ts_str": "2026-03-25 11:31:40",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.297,
+      "profile": "15L",
+      "ts": 1774434702.8071723,
+      "ts_str": "2026-03-25 11:31:42",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 3.348,
+      "cycle_time_adj_s": 197.939,
+      "cycle_time_s": 201.287,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774434901.4923904,
+      "ts_str": "2026-03-25 11:35:01",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.282,
+      "profile": "15L",
+      "ts": 1774434904.0845864,
+      "ts_str": "2026-03-25 11:35:04",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.767,
+      "cycle_time_adj_s": 59.318,
+      "cycle_time_s": 62.086,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774434963.5779006,
+      "ts_str": "2026-03-25 11:36:03",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.287,
+      "profile": "15L",
+      "ts": 1774434966.1661785,
+      "ts_str": "2026-03-25 11:36:06",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.51,
+      "cycle_time_adj_s": 63.983,
+      "cycle_time_s": 66.493,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774435030.0707908,
+      "ts_str": "2026-03-25 11:37:10",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.282,
+      "profile": "15L",
+      "ts": 1774435032.6669226,
+      "ts_str": "2026-03-25 11:37:12",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 4.667,
+      "cycle_time_adj_s": 88.395,
+      "cycle_time_s": 93.063,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774435123.1334612,
+      "ts_str": "2026-03-25 11:38:43",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.284,
+      "profile": "15L",
+      "ts": 1774435125.7277722,
+      "ts_str": "2026-03-25 11:38:45",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.979,
+      "cycle_time_adj_s": 89.469,
+      "cycle_time_s": 92.448,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774435215.5819578,
+      "ts_str": "2026-03-25 11:40:15",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.294,
+      "profile": "15L",
+      "ts": 1774435218.1768725,
+      "ts_str": "2026-03-25 11:40:18",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.773,
+      "cycle_time_adj_s": 42.442,
+      "cycle_time_s": 45.215,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774435260.797313,
+      "ts_str": "2026-03-25 11:41:00",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.298,
+      "profile": "15L",
+      "ts": 1774435263.4012673,
+      "ts_str": "2026-03-25 11:41:03",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.471,
+      "cycle_time_adj_s": 42.465,
+      "cycle_time_s": 44.936,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774435305.733427,
+      "ts_str": "2026-03-25 11:41:45",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.266,
+      "profile": "15L",
+      "ts": 1774435308.325301,
+      "ts_str": "2026-03-25 11:41:48",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.471,
+      "cycle_time_adj_s": 42.698,
+      "cycle_time_s": 45.169,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774435350.9022598,
+      "ts_str": "2026-03-25 11:42:30",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.273,
+      "profile": "15L",
+      "ts": 1774435353.492712,
+      "ts_str": "2026-03-25 11:42:33",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.544,
+      "cycle_time_adj_s": 42.596,
+      "cycle_time_s": 45.14,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774435396.0420473,
+      "ts_str": "2026-03-25 11:43:16",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.269,
+      "profile": "15L",
+      "ts": 1774435398.6328156,
+      "ts_str": "2026-03-25 11:43:18",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.463,
+      "cycle_time_adj_s": 43.292,
+      "cycle_time_s": 45.756,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774435441.7977314,
+      "ts_str": "2026-03-25 11:44:01",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.286,
+      "profile": "15L",
+      "ts": 1774435444.3904283,
+      "ts_str": "2026-03-25 11:44:04",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.471,
+      "cycle_time_adj_s": 42.633,
+      "cycle_time_s": 45.104,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774435486.901555,
+      "ts_str": "2026-03-25 11:44:46",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.291,
+      "profile": "15L",
+      "ts": 1774435489.4961314,
+      "ts_str": "2026-03-25 11:44:49",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.408,
+      "cycle_time_adj_s": 99.916,
+      "cycle_time_s": 102.324,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774435589.225478,
+      "ts_str": "2026-03-25 11:46:29",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.269,
+      "profile": "15L",
+      "ts": 1774435591.8195207,
+      "ts_str": "2026-03-25 11:46:31",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.605,
+      "cycle_time_adj_s": 42.904,
+      "cycle_time_s": 45.509,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774435634.734796,
+      "ts_str": "2026-03-25 11:47:14",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.301,
+      "profile": "15L",
+      "ts": 1774435637.326222,
+      "ts_str": "2026-03-25 11:47:17",
+      "type": "lap_complete"
+    },
+    {
+      "bottles": 6,
+      "count_sensor_time_s": 2.24,
+      "cycle_time_adj_s": 1642.733,
+      "cycle_time_s": 1644.973,
+      "cycles": 1,
+      "profile": "15L",
+      "recipe_state": "CYCLE_DONE",
+      "ts": 1774437279.707898,
+      "ts_str": "2026-03-25 12:14:39",
+      "type": "cycle_complete"
+    },
+    {
+      "lap_s": 31.284,
+      "profile": "15L",
+      "ts": 1774437282.2993906,
+      "ts_str": "2026-03-25 12:14:42",
+      "type": "lap_complete"
+    },
+    {
+      "profile": "15L",
+      "ts": 1774448838.9314058,
+      "ts_str": "2026-03-25 15:27:18",
+      "type": "session_start",
+      "version": "v9"
     }
   ],
   "recent_gpio_changes": [
@@ -6085,43 +6090,43 @@
   "runtime_state": {
     "bottles_by_profile": {
       "05L": 0,
-      "15L": 15072
+      "15L": 15480
     },
     "cycles_by_profile": {
       "05L": 0,
-      "15L": 2512
+      "15L": 2580
     },
     "data_since_ts": 1772176762.3823276,
     "data_since_ts_str": "2026-02-27 08:19:22",
-    "events_total": 7244,
-    "last_cycle_ts": 1774431045.3375897,
-    "last_cycle_ts_str": "2026-03-25 10:30:45",
+    "events_total": 7388,
+    "last_cycle_ts": 1774437279.707898,
+    "last_cycle_ts_str": "2026-03-25 12:14:39",
     "last_reset_ts": 1772176762.3823276,
     "last_reset_ts_str": "2026-02-27 08:19:22",
-    "sessions_total": 173,
-    "total_bottles": 15072,
-    "total_cycles": 2512,
-    "updated_ts": 1774431047.9316633,
-    "updated_ts_str": "2026-03-25 10:30:47"
+    "sessions_total": 174,
+    "total_bottles": 15480,
+    "total_cycles": 2580,
+    "updated_ts": 1774448838.9316497,
+    "updated_ts_str": "2026-03-25 15:27:18"
   },
   "runtime_summary": {
-    "avg_count_sensor_time_s": 2.665,
-    "avg_cycle_time_adj_s": 400.435,
-    "avg_cycle_time_s": 403.1,
-    "avg_lap_s": 31.282,
-    "last_event_ts": "2026-03-25 10:30:53",
-    "last_event_type": "command",
-    "recent_cycle_events": 186,
-    "recent_lap_events": 187
+    "avg_count_sensor_time_s": 2.716,
+    "avg_cycle_time_adj_s": 384.565,
+    "avg_cycle_time_s": 387.281,
+    "avg_lap_s": 31.285,
+    "last_event_ts": "2026-03-25 15:27:18",
+    "last_event_type": "session_start",
+    "recent_cycle_events": 188,
+    "recent_lap_events": 189
   },
   "service_status": {
     "active_state": "active",
     "description": "Machine UI v9 (Flask)",
     "exec_status": "0",
     "id": "machine-v9.service",
-    "main_pid": "1028",
+    "main_pid": "1118",
     "service": "machine-v9.service",
-    "started_at": "Tue 2026-03-24 16:44:19 CET",
+    "started_at": "Wed 2026-03-25 15:27:17 CET",
     "sub_state": "running"
   },
   "source": {
@@ -6159,9 +6164,9 @@
   ],
   "system": {
     "loadavg": [
-      1.824,
-      1.601,
-      1.521
+      1.42,
+      0.908,
+      0.366
     ]
   }
 }
