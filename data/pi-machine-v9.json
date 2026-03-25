@@ -8,49 +8,26 @@
     },
     "machine_log": {
       "exists": true,
-      "modified_at": "2026-03-25T14:27:18.059005Z",
+      "modified_at": "2026-03-25T17:57:22.322884Z",
       "path": "/home/pi/Desktop/machine/v9/machine_run.log",
-      "size_bytes": 11995112
+      "size_bytes": 11997136
     },
     "runtime_events": {
       "exists": true,
-      "modified_at": "2026-03-25T14:27:18.927005Z",
+      "modified_at": "2026-03-25T17:57:22.366885Z",
       "path": "/home/pi/Desktop/machine/v9/runtime_stats/events.jsonl",
-      "size_bytes": 1273237
+      "size_bytes": 1273356
     },
     "runtime_state": {
       "exists": true,
-      "modified_at": "2026-03-25T14:27:18.927005Z",
+      "modified_at": "2026-03-25T17:57:22.366885Z",
       "path": "/home/pi/Desktop/machine/v9/runtime_stats/state.json",
       "size_bytes": 556
     }
   },
-  "generated_at": "2026-03-25T17:55:48.937139Z",
+  "generated_at": "2026-03-25T17:58:09.117001Z",
   "log_tails": {
     "machine_run_log": [
-      "2026-03-25 15:27:41 INFEED: recovery infeed_open band_stop=OFF gap=11566.10s count=1/3",
-      "2026-03-25 15:27:42 INFEED: recovery infeed_open band_stop=OFF gap=11566.87s count=1/3",
-      "2026-03-25 15:27:43 INFEED: recovery infeed_open band_stop=OFF gap=11567.64s count=1/3",
-      "2026-03-25 15:27:44 INFEED: recovery infeed_open band_stop=OFF gap=11568.41s count=1/3",
-      "2026-03-25 15:27:44 INFEED: recovery infeed_open band_stop=OFF gap=11569.19s count=1/3",
-      "2026-03-25 15:27:45 INFEED: recovery infeed_open band_stop=OFF gap=11569.96s count=1/3",
-      "2026-03-25 15:27:46 INFEED: recovery infeed_open band_stop=OFF gap=11570.73s count=1/3",
-      "2026-03-25 15:27:47 INFEED: recovery infeed_open band_stop=OFF gap=11571.51s count=1/3",
-      "2026-03-25 15:27:47 INFEED: recovery infeed_open band_stop=OFF gap=11572.28s count=1/3",
-      "2026-03-25 15:27:48 INFEED: recovery infeed_open band_stop=OFF gap=11573.06s count=1/3",
-      "2026-03-25 15:27:49 INFEED: recovery infeed_open band_stop=OFF gap=11573.83s count=1/3",
-      "2026-03-25 15:27:50 INFEED: recovery infeed_open band_stop=OFF gap=11574.60s count=1/3",
-      "2026-03-25 15:27:50 INFEED: recovery infeed_open band_stop=OFF gap=11575.38s count=1/3",
-      "2026-03-25 15:27:51 INFEED: recovery infeed_open band_stop=OFF gap=11576.15s count=1/3",
-      "2026-03-25 15:27:52 INFEED: recovery infeed_open band_stop=OFF gap=11576.92s count=1/3",
-      "2026-03-25 15:27:53 INFEED: recovery infeed_open band_stop=OFF gap=11577.70s count=1/3",
-      "2026-03-25 15:27:54 INFEED: recovery infeed_open band_stop=OFF gap=11578.47s count=1/3",
-      "2026-03-25 15:27:54 INFEED: recovery infeed_open band_stop=OFF gap=11579.24s count=1/3",
-      "2026-03-25 15:27:55 INFEED: recovery infeed_open band_stop=OFF gap=11580.02s count=1/3",
-      "2026-03-25 15:27:56 INFEED: recovery infeed_open band_stop=OFF gap=11580.80s count=1/3",
-      "2026-03-25 15:27:57 INFEED: recovery infeed_open band_stop=OFF gap=11581.57s count=1/3",
-      "2026-03-25 15:27:57 INFEED: recovery infeed_open band_stop=OFF gap=11582.35s count=1/3",
-      "2026-03-25 15:27:58 INFEED: recovery infeed_open band_stop=OFF gap=11583.13s count=1/3",
       "2026-03-25 15:27:59 INFEED: recovery infeed_open band_stop=OFF gap=11583.90s count=1/3",
       "2026-03-25 15:28:00 INFEED: recovery infeed_open band_stop=OFF gap=11584.67s count=1/3",
       "2026-03-25 15:28:01 INFEED: recovery infeed_open band_stop=OFF gap=11585.44s count=1/3",
@@ -147,17 +124,33 @@
       "2026-03-25 15:27:18 GPIO setup_input FEL gpio=21: Cannot determine SOC peripheral base address",
       "2026-03-25 15:27:18 COUNT_SENSOR valid pulse window: 0.100s..5.000s",
       "2026-03-25 15:27:18 BOOT -> ROW_INFEED_COUNTING_PRE_GATE (PROFILE=15L)",
-      "2026-03-25 15:27:18 OVEN: after_oven borttagen -> oven_prev=False"
+      "2026-03-25 15:27:18 OVEN: after_oven borttagen -> oven_prev=False",
+      "2026-03-25 18:57:22 GPIO: RPiGPIO OK",
+      "2026-03-25 18:57:22 MCP23017: OK",
+      "2026-03-25 18:57:22 GPIO setup_output FEL gpio=17: Cannot determine SOC peripheral base address",
+      "2026-03-25 18:57:22 GPIO write FEL (transfer_fwd): The GPIO channel has not been set up as an OUTPUT",
+      "2026-03-25 18:57:22 GPIO setup_output FEL gpio=16: Cannot determine SOC peripheral base address",
+      "2026-03-25 18:57:22 GPIO write FEL (cyl_fence): The GPIO channel has not been set up as an OUTPUT",
+      "2026-03-25 18:57:22 GPIO setup_output FEL gpio=13: Cannot determine SOC peripheral base address",
+      "2026-03-25 18:57:22 GPIO write FEL (side_fence): The GPIO channel has not been set up as an OUTPUT",
+      "2026-03-25 18:57:22 GPIO setup_output FEL gpio=27: Cannot determine SOC peripheral base address",
+      "2026-03-25 18:57:22 GPIO write FEL (bridge_down): The GPIO channel has not been set up as an OUTPUT",
+      "2026-03-25 18:57:22 GPIO setup_output FEL gpio=12: Cannot determine SOC peripheral base address",
+      "2026-03-25 18:57:22 GPIO write FEL (gate_open): The GPIO channel has not been set up as an OUTPUT",
+      "2026-03-25 18:57:22 GPIO setup_output FEL gpio=5: Cannot determine SOC peripheral base address",
+      "2026-03-25 18:57:22 GPIO write FEL (mini_push): The GPIO channel has not been set up as an OUTPUT",
+      "2026-03-25 18:57:22 GPIO setup_output FEL gpio=25: Cannot determine SOC peripheral base address",
+      "2026-03-25 18:57:22 GPIO write FEL (weld_down): The GPIO channel has not been set up as an OUTPUT",
+      "2026-03-25 18:57:22 GPIO setup_output FEL gpio=24: Cannot determine SOC peripheral base address",
+      "2026-03-25 18:57:22 GPIO write FEL (sponge_down): The GPIO channel has not been set up as an OUTPUT",
+      "2026-03-25 18:57:22 GPIO setup_input FEL gpio=19: Cannot determine SOC peripheral base address",
+      "2026-03-25 18:57:22 GPIO setup_input FEL gpio=21: Cannot determine SOC peripheral base address",
+      "2026-03-25 18:57:22 COUNT_SENSOR valid pulse window: 0.100s..5.000s",
+      "2026-03-25 18:57:22 BOOT -> ROW_INFEED_COUNTING_PRE_GATE (PROFILE=15L)",
+      "2026-03-25 18:57:22 OVEN: after_oven borttagen -> oven_prev=False"
     ]
   },
   "recent_events": [
-    {
-      "lap_s": 31.283,
-      "profile": "15L",
-      "ts": 1774364473.4615383,
-      "ts_str": "2026-03-24 16:01:13",
-      "type": "lap_complete"
-    },
     {
       "bottles": 6,
       "count_sensor_time_s": 2.539,
@@ -3911,6 +3904,13 @@
       "ts_str": "2026-03-25 15:27:18",
       "type": "session_start",
       "version": "v9"
+    },
+    {
+      "profile": "15L",
+      "ts": 1774461442.371926,
+      "ts_str": "2026-03-25 18:57:22",
+      "type": "session_start",
+      "version": "v9"
     }
   ],
   "recent_gpio_changes": [
@@ -6098,35 +6098,35 @@
     },
     "data_since_ts": 1772176762.3823276,
     "data_since_ts_str": "2026-02-27 08:19:22",
-    "events_total": 7388,
+    "events_total": 7389,
     "last_cycle_ts": 1774437279.707898,
     "last_cycle_ts_str": "2026-03-25 12:14:39",
     "last_reset_ts": 1772176762.3823276,
     "last_reset_ts_str": "2026-02-27 08:19:22",
-    "sessions_total": 174,
+    "sessions_total": 175,
     "total_bottles": 15480,
     "total_cycles": 2580,
-    "updated_ts": 1774448838.9316497,
-    "updated_ts_str": "2026-03-25 15:27:18"
+    "updated_ts": 1774461442.3721666,
+    "updated_ts_str": "2026-03-25 18:57:22"
   },
   "runtime_summary": {
     "avg_count_sensor_time_s": 2.716,
     "avg_cycle_time_adj_s": 384.565,
     "avg_cycle_time_s": 387.281,
     "avg_lap_s": 31.285,
-    "last_event_ts": "2026-03-25 15:27:18",
+    "last_event_ts": "2026-03-25 18:57:22",
     "last_event_type": "session_start",
     "recent_cycle_events": 188,
-    "recent_lap_events": 189
+    "recent_lap_events": 188
   },
   "service_status": {
     "active_state": "active",
     "description": "Machine UI v9 (Flask)",
     "exec_status": "0",
     "id": "machine-v9.service",
-    "main_pid": "1118",
+    "main_pid": "9446",
     "service": "machine-v9.service",
-    "started_at": "Wed 2026-03-25 15:27:17 CET",
+    "started_at": "Wed 2026-03-25 18:57:22 CET",
     "sub_state": "running"
   },
   "source": {
@@ -6164,9 +6164,9 @@
   ],
   "system": {
     "loadavg": [
-      0.351,
-      0.398,
-      0.446
+      0.766,
+      0.536,
+      0.489
     ]
   }
 }
