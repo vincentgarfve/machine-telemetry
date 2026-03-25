@@ -14,9 +14,9 @@
     },
     "runtime_events": {
       "exists": true,
-      "modified_at": "2026-03-25T23:55:03.775098Z",
+      "modified_at": "2026-03-25T23:57:58.054643Z",
       "path": "/home/pi/Desktop/machine/v9/runtime_stats/events.jsonl",
-      "size_bytes": 1276126
+      "size_bytes": 1276258
     },
     "runtime_state": {
       "exists": true,
@@ -25,7 +25,7 @@
       "size_bytes": 556
     }
   },
-  "generated_at": "2026-03-25T23:55:43.831112Z",
+  "generated_at": "2026-03-25T23:58:23.826595Z",
   "log_tails": {
     "machine_run_log": [
       "2026-03-25 18:57:22 GPIO setup_input FEL gpio=19: Cannot determine SOC peripheral base address",
@@ -151,13 +151,6 @@
     ]
   },
   "recent_events": [
-    {
-      "lap_s": 31.286,
-      "profile": "15L",
-      "ts": 1774365410.2204514,
-      "ts_str": "2026-03-24 16:16:50",
-      "type": "lap_complete"
-    },
     {
       "bottles": 6,
       "count_sensor_time_s": 2.326,
@@ -3872,6 +3865,14 @@
       "ts": 1774482903.7774518,
       "ts_str": "2026-03-26 00:55:03",
       "type": "command"
+    },
+    {
+      "cmd": "START",
+      "mode": "RUNNING",
+      "note": "RUNNING",
+      "ts": 1774483078.056806,
+      "ts_str": "2026-03-26 00:57:58",
+      "type": "command"
     }
   ],
   "recent_gpio_changes": [
@@ -6075,10 +6076,10 @@
     "avg_cycle_time_adj_s": 403.337,
     "avg_cycle_time_s": 406.057,
     "avg_lap_s": 31.285,
-    "last_event_ts": "2026-03-26 00:55:03",
+    "last_event_ts": "2026-03-26 00:57:58",
     "last_event_type": "command",
     "recent_cycle_events": 177,
-    "recent_lap_events": 178
+    "recent_lap_events": 177
   },
   "service_status": {
     "active_state": "active",
@@ -6125,9 +6126,9 @@
   ],
   "system": {
     "loadavg": [
-      1.67,
-      1.774,
-      1.717
+      2.267,
+      2.086,
+      1.855
     ]
   }
 }
