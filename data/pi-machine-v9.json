@@ -14,9 +14,9 @@
     },
     "runtime_events": {
       "exists": true,
-      "modified_at": "2026-03-25T23:17:53.976355Z",
+      "modified_at": "2026-03-25T23:55:03.775098Z",
       "path": "/home/pi/Desktop/machine/v9/runtime_stats/events.jsonl",
-      "size_bytes": 1274531
+      "size_bytes": 1276126
     },
     "runtime_state": {
       "exists": true,
@@ -25,7 +25,7 @@
       "size_bytes": 556
     }
   },
-  "generated_at": "2026-03-25T23:53:23.850101Z",
+  "generated_at": "2026-03-25T23:55:43.831112Z",
   "log_tails": {
     "machine_run_log": [
       "2026-03-25 18:57:22 GPIO setup_input FEL gpio=19: Cannot determine SOC peripheral base address",
@@ -151,120 +151,6 @@
     ]
   },
   "recent_events": [
-    {
-      "lap_s": 31.295,
-      "profile": "15L",
-      "ts": 1774365120.0892851,
-      "ts_str": "2026-03-24 16:12:00",
-      "type": "lap_complete"
-    },
-    {
-      "bottles": 6,
-      "count_sensor_time_s": 2.764,
-      "cycle_time_adj_s": 44.943,
-      "cycle_time_s": 47.707,
-      "cycles": 1,
-      "profile": "15L",
-      "recipe_state": "CYCLE_DONE",
-      "ts": 1774365165.204639,
-      "ts_str": "2026-03-24 16:12:45",
-      "type": "cycle_complete"
-    },
-    {
-      "lap_s": 31.276,
-      "profile": "15L",
-      "ts": 1774365167.7896242,
-      "ts_str": "2026-03-24 16:12:47",
-      "type": "lap_complete"
-    },
-    {
-      "bottles": 6,
-      "count_sensor_time_s": 2.526,
-      "cycle_time_adj_s": 43.233,
-      "cycle_time_s": 45.76,
-      "cycles": 1,
-      "profile": "15L",
-      "recipe_state": "CYCLE_DONE",
-      "ts": 1774365210.9644675,
-      "ts_str": "2026-03-24 16:13:30",
-      "type": "cycle_complete"
-    },
-    {
-      "lap_s": 31.258,
-      "profile": "15L",
-      "ts": 1774365213.5486753,
-      "ts_str": "2026-03-24 16:13:33",
-      "type": "lap_complete"
-    },
-    {
-      "bottles": 6,
-      "count_sensor_time_s": 2.63,
-      "cycle_time_adj_s": 43.51,
-      "cycle_time_s": 46.14,
-      "cycles": 1,
-      "profile": "15L",
-      "recipe_state": "CYCLE_DONE",
-      "ts": 1774365257.1040676,
-      "ts_str": "2026-03-24 16:14:17",
-      "type": "cycle_complete"
-    },
-    {
-      "lap_s": 31.289,
-      "profile": "15L",
-      "ts": 1774365259.6990774,
-      "ts_str": "2026-03-24 16:14:19",
-      "type": "lap_complete"
-    },
-    {
-      "bottles": 6,
-      "count_sensor_time_s": 2.394,
-      "cycle_time_adj_s": 43.426,
-      "cycle_time_s": 45.82,
-      "cycles": 1,
-      "profile": "15L",
-      "recipe_state": "CYCLE_DONE",
-      "ts": 1774365302.9241672,
-      "ts_str": "2026-03-24 16:15:02",
-      "type": "cycle_complete"
-    },
-    {
-      "lap_s": 31.277,
-      "profile": "15L",
-      "ts": 1774365305.5172224,
-      "ts_str": "2026-03-24 16:15:05",
-      "type": "lap_complete"
-    },
-    {
-      "bottles": 6,
-      "count_sensor_time_s": 2.46,
-      "cycle_time_adj_s": 57.351,
-      "cycle_time_s": 59.811,
-      "cycles": 1,
-      "profile": "15L",
-      "recipe_state": "CYCLE_DONE",
-      "ts": 1774365362.7353408,
-      "ts_str": "2026-03-24 16:16:02",
-      "type": "cycle_complete"
-    },
-    {
-      "lap_s": 31.284,
-      "profile": "15L",
-      "ts": 1774365365.3298204,
-      "ts_str": "2026-03-24 16:16:05",
-      "type": "lap_complete"
-    },
-    {
-      "bottles": 6,
-      "count_sensor_time_s": 2.434,
-      "cycle_time_adj_s": 42.456,
-      "cycle_time_s": 44.891,
-      "cycles": 1,
-      "profile": "15L",
-      "recipe_state": "CYCLE_DONE",
-      "ts": 1774365407.626054,
-      "ts_str": "2026-03-24 16:16:47",
-      "type": "cycle_complete"
-    },
     {
       "lap_s": 31.286,
       "profile": "15L",
@@ -3890,6 +3776,102 @@
       "ts": 1774480673.978845,
       "ts_str": "2026-03-26 00:17:53",
       "type": "command"
+    },
+    {
+      "cmd": "START",
+      "mode": "RUNNING",
+      "note": "RUNNING",
+      "ts": 1774482894.7152746,
+      "ts_str": "2026-03-26 00:54:54",
+      "type": "command"
+    },
+    {
+      "cmd": "START",
+      "mode": "RUNNING",
+      "note": "RUNNING",
+      "ts": 1774482895.7951658,
+      "ts_str": "2026-03-26 00:54:55",
+      "type": "command"
+    },
+    {
+      "cmd": "START",
+      "mode": "RUNNING",
+      "note": "RUNNING",
+      "ts": 1774482896.9610052,
+      "ts_str": "2026-03-26 00:54:56",
+      "type": "command"
+    },
+    {
+      "cmd": "STOP",
+      "mode": "IDLE",
+      "note": "STOP -> IDLE",
+      "ts": 1774482897.8803315,
+      "ts_str": "2026-03-26 00:54:57",
+      "type": "command"
+    },
+    {
+      "cmd": "START",
+      "mode": "RUNNING",
+      "note": "RUNNING",
+      "ts": 1774482898.941027,
+      "ts_str": "2026-03-26 00:54:58",
+      "type": "command"
+    },
+    {
+      "cmd": "START",
+      "mode": "RUNNING",
+      "note": "RUNNING",
+      "ts": 1774482899.2578368,
+      "ts_str": "2026-03-26 00:54:59",
+      "type": "command"
+    },
+    {
+      "cmd": "START",
+      "mode": "RUNNING",
+      "note": "RUNNING",
+      "ts": 1774482899.554251,
+      "ts_str": "2026-03-26 00:54:59",
+      "type": "command"
+    },
+    {
+      "cmd": "START",
+      "mode": "RUNNING",
+      "note": "RUNNING",
+      "ts": 1774482899.7673175,
+      "ts_str": "2026-03-26 00:54:59",
+      "type": "command"
+    },
+    {
+      "cmd": "START",
+      "mode": "RUNNING",
+      "note": "RUNNING",
+      "ts": 1774482899.9882398,
+      "ts_str": "2026-03-26 00:54:59",
+      "type": "command"
+    },
+    {
+      "cmd": "START",
+      "mode": "RUNNING",
+      "note": "RUNNING",
+      "ts": 1774482900.1694756,
+      "ts_str": "2026-03-26 00:55:00",
+      "type": "command"
+    },
+    {
+      "cmd": "START",
+      "mode": "RUNNING",
+      "note": "RUNNING",
+      "ts": 1774482901.0774016,
+      "ts_str": "2026-03-26 00:55:01",
+      "type": "command"
+    },
+    {
+      "cmd": "START",
+      "mode": "RUNNING",
+      "note": "RUNNING",
+      "ts": 1774482903.7774518,
+      "ts_str": "2026-03-26 00:55:03",
+      "type": "command"
     }
   ],
   "recent_gpio_changes": [
@@ -6089,14 +6071,14 @@
     "updated_ts_str": "2026-03-25 23:36:49"
   },
   "runtime_summary": {
-    "avg_count_sensor_time_s": 2.714,
-    "avg_cycle_time_adj_s": 391.615,
-    "avg_cycle_time_s": 394.329,
+    "avg_count_sensor_time_s": 2.72,
+    "avg_cycle_time_adj_s": 403.337,
+    "avg_cycle_time_s": 406.057,
     "avg_lap_s": 31.285,
-    "last_event_ts": "2026-03-26 00:17:53",
+    "last_event_ts": "2026-03-26 00:55:03",
     "last_event_type": "command",
-    "recent_cycle_events": 183,
-    "recent_lap_events": 184
+    "recent_cycle_events": 177,
+    "recent_lap_events": 178
   },
   "service_status": {
     "active_state": "active",
@@ -6143,9 +6125,9 @@
   ],
   "system": {
     "loadavg": [
-      1.769,
-      1.855,
-      1.729
+      1.67,
+      1.774,
+      1.717
     ]
   }
 }
