@@ -14,9 +14,9 @@
     },
     "runtime_events": {
       "exists": true,
-      "modified_at": "2026-03-25T22:36:49.002294Z",
+      "modified_at": "2026-03-25T23:17:09.562894Z",
       "path": "/home/pi/Desktop/machine/v9/runtime_stats/events.jsonl",
-      "size_bytes": 1273955
+      "size_bytes": 1274243
     },
     "runtime_state": {
       "exists": true,
@@ -25,7 +25,7 @@
       "size_bytes": 556
     }
   },
-  "generated_at": "2026-03-25T23:15:13.895906Z",
+  "generated_at": "2026-03-25T23:17:43.810569Z",
   "log_tails": {
     "machine_run_log": [
       "2026-03-25 18:57:22 GPIO setup_input FEL gpio=19: Cannot determine SOC peripheral base address",
@@ -151,25 +151,6 @@
     ]
   },
   "recent_events": [
-    {
-      "lap_s": 31.253,
-      "profile": "15L",
-      "ts": 1774365021.7005184,
-      "ts_str": "2026-03-24 16:10:21",
-      "type": "lap_complete"
-    },
-    {
-      "bottles": 6,
-      "count_sensor_time_s": 2.291,
-      "cycle_time_adj_s": 50.839,
-      "cycle_time_s": 53.13,
-      "cycles": 1,
-      "profile": "15L",
-      "recipe_state": "CYCLE_DONE",
-      "ts": 1774365072.2377868,
-      "ts_str": "2026-03-24 16:11:12",
-      "type": "cycle_complete"
-    },
     {
       "lap_s": 31.304,
       "profile": "15L",
@@ -3896,6 +3877,22 @@
       "ts_str": "2026-03-25 23:36:49",
       "type": "session_start",
       "version": "v9"
+    },
+    {
+      "cmd": "PROFILE",
+      "mode": "IDLE",
+      "note": "Bytt till 15L",
+      "ts": 1774480629.567517,
+      "ts_str": "2026-03-26 00:17:09",
+      "type": "command"
+    },
+    {
+      "cmd": "CONFIG_SAVE",
+      "mode": "IDLE",
+      "note": "Sparade 48 värden",
+      "ts": 1774480629.5682144,
+      "ts_str": "2026-03-26 00:17:09",
+      "type": "command"
     }
   ],
   "recent_gpio_changes": [
@@ -6095,14 +6092,14 @@
     "updated_ts_str": "2026-03-25 23:36:49"
   },
   "runtime_summary": {
-    "avg_count_sensor_time_s": 2.711,
-    "avg_cycle_time_adj_s": 387.887,
-    "avg_cycle_time_s": 390.598,
+    "avg_count_sensor_time_s": 2.713,
+    "avg_cycle_time_adj_s": 389.719,
+    "avg_cycle_time_s": 392.432,
     "avg_lap_s": 31.285,
-    "last_event_ts": "2026-03-25 23:36:49",
-    "last_event_type": "session_start",
-    "recent_cycle_events": 185,
-    "recent_lap_events": 186
+    "last_event_ts": "2026-03-26 00:17:09",
+    "last_event_type": "command",
+    "recent_cycle_events": 184,
+    "recent_lap_events": 185
   },
   "service_status": {
     "active_state": "active",
@@ -6149,9 +6146,9 @@
   ],
   "system": {
     "loadavg": [
-      0.022,
-      0.187,
-      0.19
+      0.0,
+      0.107,
+      0.158
     ]
   }
 }
