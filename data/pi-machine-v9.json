@@ -25,7 +25,7 @@
       "size_bytes": 555
     }
   },
-  "generated_at": "2026-03-25T22:28:08.439519Z",
+  "generated_at": "2026-03-25T22:30:18.442203Z",
   "log_tails": {
     "machine_run_log": [
       "2026-03-25 15:27:18 GPIO setup_input FEL gpio=19: Cannot determine SOC peripheral base address",
@@ -6154,9 +6154,9 @@
   ],
   "system": {
     "loadavg": [
-      0.033,
-      0.028,
-      0.028
+      0.064,
+      0.031,
+      0.021
     ]
   }
 }
