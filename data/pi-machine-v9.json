@@ -8,49 +8,26 @@
     },
     "machine_log": {
       "exists": true,
-      "modified_at": "2026-03-25T21:07:37.732255Z",
+      "modified_at": "2026-03-25T22:13:14.333706Z",
       "path": "/home/pi/Desktop/machine/v9/machine_run.log",
-      "size_bytes": 12003208
+      "size_bytes": 12005232
     },
     "runtime_events": {
       "exists": true,
-      "modified_at": "2026-03-25T21:07:38.524255Z",
+      "modified_at": "2026-03-25T22:13:14.377706Z",
       "path": "/home/pi/Desktop/machine/v9/runtime_stats/events.jsonl",
-      "size_bytes": 1273716
+      "size_bytes": 1273836
     },
     "runtime_state": {
       "exists": true,
-      "modified_at": "2026-03-25T21:07:38.524255Z",
+      "modified_at": "2026-03-25T22:13:14.377706Z",
       "path": "/home/pi/Desktop/machine/v9/runtime_stats/state.json",
-      "size_bytes": 556
+      "size_bytes": 555
     }
   },
-  "generated_at": "2026-03-25T22:10:58.458631Z",
+  "generated_at": "2026-03-25T22:13:21.207099Z",
   "log_tails": {
     "machine_run_log": [
-      "2026-03-25 15:28:52 INFEED: recovery infeed_open band_stop=OFF gap=11637.32s count=1/3",
-      "2026-03-25 15:28:53 INFEED: recovery infeed_open band_stop=OFF gap=11638.09s count=1/3",
-      "2026-03-25 15:28:54 INFEED: recovery infeed_open band_stop=OFF gap=11638.87s count=1/3",
-      "2026-03-25 15:28:55 INFEED: recovery infeed_open band_stop=OFF gap=11639.64s count=1/3",
-      "2026-03-25 15:28:56 INFEED: recovery infeed_open band_stop=OFF gap=11640.42s count=1/3",
-      "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00002026-03-25 15:27:17 GPIO: RPiGPIO OK",
-      "2026-03-25 15:27:18 MCP23017: OK",
-      "2026-03-25 15:27:18 GPIO setup_output FEL gpio=17: Cannot determine SOC peripheral base address",
-      "2026-03-25 15:27:18 GPIO write FEL (transfer_fwd): The GPIO channel has not been set up as an OUTPUT",
-      "2026-03-25 15:27:18 GPIO setup_output FEL gpio=16: Cannot determine SOC peripheral base address",
-      "2026-03-25 15:27:18 GPIO write FEL (cyl_fence): The GPIO channel has not been set up as an OUTPUT",
-      "2026-03-25 15:27:18 GPIO setup_output FEL gpio=13: Cannot determine SOC peripheral base address",
-      "2026-03-25 15:27:18 GPIO write FEL (side_fence): The GPIO channel has not been set up as an OUTPUT",
-      "2026-03-25 15:27:18 GPIO setup_output FEL gpio=27: Cannot determine SOC peripheral base address",
-      "2026-03-25 15:27:18 GPIO write FEL (bridge_down): The GPIO channel has not been set up as an OUTPUT",
-      "2026-03-25 15:27:18 GPIO setup_output FEL gpio=12: Cannot determine SOC peripheral base address",
-      "2026-03-25 15:27:18 GPIO write FEL (gate_open): The GPIO channel has not been set up as an OUTPUT",
-      "2026-03-25 15:27:18 GPIO setup_output FEL gpio=5: Cannot determine SOC peripheral base address",
-      "2026-03-25 15:27:18 GPIO write FEL (mini_push): The GPIO channel has not been set up as an OUTPUT",
-      "2026-03-25 15:27:18 GPIO setup_output FEL gpio=25: Cannot determine SOC peripheral base address",
-      "2026-03-25 15:27:18 GPIO write FEL (weld_down): The GPIO channel has not been set up as an OUTPUT",
-      "2026-03-25 15:27:18 GPIO setup_output FEL gpio=24: Cannot determine SOC peripheral base address",
-      "2026-03-25 15:27:18 GPIO write FEL (sponge_down): The GPIO channel has not been set up as an OUTPUT",
       "2026-03-25 15:27:18 GPIO setup_input FEL gpio=19: Cannot determine SOC peripheral base address",
       "2026-03-25 15:27:18 GPIO setup_input FEL gpio=21: Cannot determine SOC peripheral base address",
       "2026-03-25 15:27:18 COUNT_SENSOR valid pulse window: 0.100s..5.000s",
@@ -147,17 +124,33 @@
       "2026-03-25 22:07:37 GPIO setup_input FEL gpio=21: Cannot determine SOC peripheral base address",
       "2026-03-25 22:07:37 COUNT_SENSOR valid pulse window: 0.100s..5.000s",
       "2026-03-25 22:07:37 BOOT -> ROW_INFEED_COUNTING_PRE_GATE (PROFILE=15L)",
-      "2026-03-25 22:07:37 OVEN: after_oven borttagen -> oven_prev=False"
+      "2026-03-25 22:07:37 OVEN: after_oven borttagen -> oven_prev=False",
+      "2026-03-25 23:13:14 GPIO: RPiGPIO OK",
+      "2026-03-25 23:13:14 MCP23017: OK",
+      "2026-03-25 23:13:14 GPIO setup_output FEL gpio=17: Cannot determine SOC peripheral base address",
+      "2026-03-25 23:13:14 GPIO write FEL (transfer_fwd): The GPIO channel has not been set up as an OUTPUT",
+      "2026-03-25 23:13:14 GPIO setup_output FEL gpio=16: Cannot determine SOC peripheral base address",
+      "2026-03-25 23:13:14 GPIO write FEL (cyl_fence): The GPIO channel has not been set up as an OUTPUT",
+      "2026-03-25 23:13:14 GPIO setup_output FEL gpio=13: Cannot determine SOC peripheral base address",
+      "2026-03-25 23:13:14 GPIO write FEL (side_fence): The GPIO channel has not been set up as an OUTPUT",
+      "2026-03-25 23:13:14 GPIO setup_output FEL gpio=27: Cannot determine SOC peripheral base address",
+      "2026-03-25 23:13:14 GPIO write FEL (bridge_down): The GPIO channel has not been set up as an OUTPUT",
+      "2026-03-25 23:13:14 GPIO setup_output FEL gpio=12: Cannot determine SOC peripheral base address",
+      "2026-03-25 23:13:14 GPIO write FEL (gate_open): The GPIO channel has not been set up as an OUTPUT",
+      "2026-03-25 23:13:14 GPIO setup_output FEL gpio=5: Cannot determine SOC peripheral base address",
+      "2026-03-25 23:13:14 GPIO write FEL (mini_push): The GPIO channel has not been set up as an OUTPUT",
+      "2026-03-25 23:13:14 GPIO setup_output FEL gpio=25: Cannot determine SOC peripheral base address",
+      "2026-03-25 23:13:14 GPIO write FEL (weld_down): The GPIO channel has not been set up as an OUTPUT",
+      "2026-03-25 23:13:14 GPIO setup_output FEL gpio=24: Cannot determine SOC peripheral base address",
+      "2026-03-25 23:13:14 GPIO write FEL (sponge_down): The GPIO channel has not been set up as an OUTPUT",
+      "2026-03-25 23:13:14 GPIO setup_input FEL gpio=19: Cannot determine SOC peripheral base address",
+      "2026-03-25 23:13:14 GPIO setup_input FEL gpio=21: Cannot determine SOC peripheral base address",
+      "2026-03-25 23:13:14 COUNT_SENSOR valid pulse window: 0.100s..5.000s",
+      "2026-03-25 23:13:14 BOOT -> ROW_INFEED_COUNTING_PRE_GATE (PROFILE=15L)",
+      "2026-03-25 23:13:14 OVEN: after_oven borttagen -> oven_prev=False"
     ]
   },
   "recent_events": [
-    {
-      "lap_s": 31.262,
-      "profile": "15L",
-      "ts": 1774364970.2177215,
-      "ts_str": "2026-03-24 16:09:30",
-      "type": "lap_complete"
-    },
     {
       "bottles": 6,
       "count_sensor_time_s": 2.838,
@@ -3901,6 +3894,13 @@
       "ts_str": "2026-03-25 22:07:38",
       "type": "session_start",
       "version": "v9"
+    },
+    {
+      "profile": "15L",
+      "ts": 1774476794.3835616,
+      "ts_str": "2026-03-25 23:13:14",
+      "type": "session_start",
+      "version": "v9"
     }
   ],
   "recent_gpio_changes": [
@@ -6088,35 +6088,35 @@
     },
     "data_since_ts": 1772176762.3823276,
     "data_since_ts_str": "2026-02-27 08:19:22",
-    "events_total": 7392,
+    "events_total": 7393,
     "last_cycle_ts": 1774437279.707898,
     "last_cycle_ts_str": "2026-03-25 12:14:39",
     "last_reset_ts": 1772176762.3823276,
     "last_reset_ts_str": "2026-02-27 08:19:22",
-    "sessions_total": 178,
+    "sessions_total": 179,
     "total_bottles": 15480,
     "total_cycles": 2580,
-    "updated_ts": 1774472858.5293312,
-    "updated_ts_str": "2026-03-25 22:07:38"
+    "updated_ts": 1774476794.383974,
+    "updated_ts_str": "2026-03-25 23:13:14"
   },
   "runtime_summary": {
     "avg_count_sensor_time_s": 2.711,
     "avg_cycle_time_adj_s": 386.063,
     "avg_cycle_time_s": 388.775,
     "avg_lap_s": 31.285,
-    "last_event_ts": "2026-03-25 22:07:38",
+    "last_event_ts": "2026-03-25 23:13:14",
     "last_event_type": "session_start",
     "recent_cycle_events": 186,
-    "recent_lap_events": 187
+    "recent_lap_events": 186
   },
   "service_status": {
     "active_state": "active",
     "description": "Machine UI v9 (Flask)",
     "exec_status": "0",
     "id": "machine-v9.service",
-    "main_pid": "1121",
+    "main_pid": "3142",
     "service": "machine-v9.service",
-    "started_at": "Wed 2026-03-25 22:07:36 CET",
+    "started_at": "Wed 2026-03-25 23:13:14 CET",
     "sub_state": "running"
   },
   "source": {
@@ -6154,9 +6154,9 @@
   ],
   "system": {
     "loadavg": [
-      0.003,
-      0.001,
-      0.0
+      0.433,
+      0.229,
+      0.091
     ]
   }
 }
