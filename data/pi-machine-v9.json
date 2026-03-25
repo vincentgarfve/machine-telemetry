@@ -8,49 +8,26 @@
     },
     "machine_log": {
       "exists": true,
-      "modified_at": "2026-03-25T22:13:14.333706Z",
+      "modified_at": "2026-03-25T22:36:48.006294Z",
       "path": "/home/pi/Desktop/machine/v9/machine_run.log",
-      "size_bytes": 12005232
+      "size_bytes": 12007256
     },
     "runtime_events": {
       "exists": true,
-      "modified_at": "2026-03-25T22:13:14.377706Z",
+      "modified_at": "2026-03-25T22:36:49.002294Z",
       "path": "/home/pi/Desktop/machine/v9/runtime_stats/events.jsonl",
-      "size_bytes": 1273836
+      "size_bytes": 1273955
     },
     "runtime_state": {
       "exists": true,
-      "modified_at": "2026-03-25T22:13:14.377706Z",
+      "modified_at": "2026-03-25T22:36:49.002294Z",
       "path": "/home/pi/Desktop/machine/v9/runtime_stats/state.json",
-      "size_bytes": 555
+      "size_bytes": 556
     }
   },
-  "generated_at": "2026-03-25T22:39:48.752433Z",
+  "generated_at": "2026-03-25T23:07:38.198578Z",
   "log_tails": {
     "machine_run_log": [
-      "2026-03-25 15:27:18 GPIO setup_input FEL gpio=19: Cannot determine SOC peripheral base address",
-      "2026-03-25 15:27:18 GPIO setup_input FEL gpio=21: Cannot determine SOC peripheral base address",
-      "2026-03-25 15:27:18 COUNT_SENSOR valid pulse window: 0.100s..5.000s",
-      "2026-03-25 15:27:18 BOOT -> ROW_INFEED_COUNTING_PRE_GATE (PROFILE=15L)",
-      "2026-03-25 15:27:18 OVEN: after_oven borttagen -> oven_prev=False",
-      "2026-03-25 18:57:22 GPIO: RPiGPIO OK",
-      "2026-03-25 18:57:22 MCP23017: OK",
-      "2026-03-25 18:57:22 GPIO setup_output FEL gpio=17: Cannot determine SOC peripheral base address",
-      "2026-03-25 18:57:22 GPIO write FEL (transfer_fwd): The GPIO channel has not been set up as an OUTPUT",
-      "2026-03-25 18:57:22 GPIO setup_output FEL gpio=16: Cannot determine SOC peripheral base address",
-      "2026-03-25 18:57:22 GPIO write FEL (cyl_fence): The GPIO channel has not been set up as an OUTPUT",
-      "2026-03-25 18:57:22 GPIO setup_output FEL gpio=13: Cannot determine SOC peripheral base address",
-      "2026-03-25 18:57:22 GPIO write FEL (side_fence): The GPIO channel has not been set up as an OUTPUT",
-      "2026-03-25 18:57:22 GPIO setup_output FEL gpio=27: Cannot determine SOC peripheral base address",
-      "2026-03-25 18:57:22 GPIO write FEL (bridge_down): The GPIO channel has not been set up as an OUTPUT",
-      "2026-03-25 18:57:22 GPIO setup_output FEL gpio=12: Cannot determine SOC peripheral base address",
-      "2026-03-25 18:57:22 GPIO write FEL (gate_open): The GPIO channel has not been set up as an OUTPUT",
-      "2026-03-25 18:57:22 GPIO setup_output FEL gpio=5: Cannot determine SOC peripheral base address",
-      "2026-03-25 18:57:22 GPIO write FEL (mini_push): The GPIO channel has not been set up as an OUTPUT",
-      "2026-03-25 18:57:22 GPIO setup_output FEL gpio=25: Cannot determine SOC peripheral base address",
-      "2026-03-25 18:57:22 GPIO write FEL (weld_down): The GPIO channel has not been set up as an OUTPUT",
-      "2026-03-25 18:57:22 GPIO setup_output FEL gpio=24: Cannot determine SOC peripheral base address",
-      "2026-03-25 18:57:22 GPIO write FEL (sponge_down): The GPIO channel has not been set up as an OUTPUT",
       "2026-03-25 18:57:22 GPIO setup_input FEL gpio=19: Cannot determine SOC peripheral base address",
       "2026-03-25 18:57:22 GPIO setup_input FEL gpio=21: Cannot determine SOC peripheral base address",
       "2026-03-25 18:57:22 COUNT_SENSOR valid pulse window: 0.100s..5.000s",
@@ -147,22 +124,33 @@
       "2026-03-25 23:13:14 GPIO setup_input FEL gpio=21: Cannot determine SOC peripheral base address",
       "2026-03-25 23:13:14 COUNT_SENSOR valid pulse window: 0.100s..5.000s",
       "2026-03-25 23:13:14 BOOT -> ROW_INFEED_COUNTING_PRE_GATE (PROFILE=15L)",
-      "2026-03-25 23:13:14 OVEN: after_oven borttagen -> oven_prev=False"
+      "2026-03-25 23:13:14 OVEN: after_oven borttagen -> oven_prev=False",
+      "2026-03-25 23:36:47 GPIO: RPiGPIO OK",
+      "2026-03-25 23:36:48 MCP23017: OK",
+      "2026-03-25 23:36:48 GPIO setup_output FEL gpio=17: Cannot determine SOC peripheral base address",
+      "2026-03-25 23:36:48 GPIO write FEL (transfer_fwd): The GPIO channel has not been set up as an OUTPUT",
+      "2026-03-25 23:36:48 GPIO setup_output FEL gpio=16: Cannot determine SOC peripheral base address",
+      "2026-03-25 23:36:48 GPIO write FEL (cyl_fence): The GPIO channel has not been set up as an OUTPUT",
+      "2026-03-25 23:36:48 GPIO setup_output FEL gpio=13: Cannot determine SOC peripheral base address",
+      "2026-03-25 23:36:48 GPIO write FEL (side_fence): The GPIO channel has not been set up as an OUTPUT",
+      "2026-03-25 23:36:48 GPIO setup_output FEL gpio=27: Cannot determine SOC peripheral base address",
+      "2026-03-25 23:36:48 GPIO write FEL (bridge_down): The GPIO channel has not been set up as an OUTPUT",
+      "2026-03-25 23:36:48 GPIO setup_output FEL gpio=12: Cannot determine SOC peripheral base address",
+      "2026-03-25 23:36:48 GPIO write FEL (gate_open): The GPIO channel has not been set up as an OUTPUT",
+      "2026-03-25 23:36:48 GPIO setup_output FEL gpio=5: Cannot determine SOC peripheral base address",
+      "2026-03-25 23:36:48 GPIO write FEL (mini_push): The GPIO channel has not been set up as an OUTPUT",
+      "2026-03-25 23:36:48 GPIO setup_output FEL gpio=25: Cannot determine SOC peripheral base address",
+      "2026-03-25 23:36:48 GPIO write FEL (weld_down): The GPIO channel has not been set up as an OUTPUT",
+      "2026-03-25 23:36:48 GPIO setup_output FEL gpio=24: Cannot determine SOC peripheral base address",
+      "2026-03-25 23:36:48 GPIO write FEL (sponge_down): The GPIO channel has not been set up as an OUTPUT",
+      "2026-03-25 23:36:48 GPIO setup_input FEL gpio=19: Cannot determine SOC peripheral base address",
+      "2026-03-25 23:36:48 GPIO setup_input FEL gpio=21: Cannot determine SOC peripheral base address",
+      "2026-03-25 23:36:48 COUNT_SENSOR valid pulse window: 0.100s..5.000s",
+      "2026-03-25 23:36:48 BOOT -> ROW_INFEED_COUNTING_PRE_GATE (PROFILE=15L)",
+      "2026-03-25 23:36:48 OVEN: after_oven borttagen -> oven_prev=False"
     ]
   },
   "recent_events": [
-    {
-      "bottles": 6,
-      "count_sensor_time_s": 2.838,
-      "cycle_time_adj_s": 48.647,
-      "cycle_time_s": 51.485,
-      "cycles": 1,
-      "profile": "15L",
-      "recipe_state": "CYCLE_DONE",
-      "ts": 1774365019.1075945,
-      "ts_str": "2026-03-24 16:10:19",
-      "type": "cycle_complete"
-    },
     {
       "lap_s": 31.253,
       "profile": "15L",
@@ -3901,6 +3889,13 @@
       "ts_str": "2026-03-25 23:13:14",
       "type": "session_start",
       "version": "v9"
+    },
+    {
+      "profile": "15L",
+      "ts": 1774478209.006656,
+      "ts_str": "2026-03-25 23:36:49",
+      "type": "session_start",
+      "version": "v9"
     }
   ],
   "recent_gpio_changes": [
@@ -6088,25 +6083,25 @@
     },
     "data_since_ts": 1772176762.3823276,
     "data_since_ts_str": "2026-02-27 08:19:22",
-    "events_total": 7393,
+    "events_total": 7394,
     "last_cycle_ts": 1774437279.707898,
     "last_cycle_ts_str": "2026-03-25 12:14:39",
     "last_reset_ts": 1772176762.3823276,
     "last_reset_ts_str": "2026-02-27 08:19:22",
-    "sessions_total": 179,
+    "sessions_total": 180,
     "total_bottles": 15480,
     "total_cycles": 2580,
-    "updated_ts": 1774476794.383974,
-    "updated_ts_str": "2026-03-25 23:13:14"
+    "updated_ts": 1774478209.0069215,
+    "updated_ts_str": "2026-03-25 23:36:49"
   },
   "runtime_summary": {
     "avg_count_sensor_time_s": 2.711,
-    "avg_cycle_time_adj_s": 386.063,
-    "avg_cycle_time_s": 388.775,
+    "avg_cycle_time_adj_s": 387.887,
+    "avg_cycle_time_s": 390.598,
     "avg_lap_s": 31.285,
-    "last_event_ts": "2026-03-25 23:13:14",
+    "last_event_ts": "2026-03-25 23:36:49",
     "last_event_type": "session_start",
-    "recent_cycle_events": 186,
+    "recent_cycle_events": 185,
     "recent_lap_events": 186
   },
   "service_status": {
@@ -6114,9 +6109,9 @@
     "description": "Machine UI v9 (Flask)",
     "exec_status": "0",
     "id": "machine-v9.service",
-    "main_pid": "3142",
+    "main_pid": "1116",
     "service": "machine-v9.service",
-    "started_at": "Wed 2026-03-25 23:13:14 CET",
+    "started_at": "Wed 2026-03-25 23:36:47 CET",
     "sub_state": "running"
   },
   "source": {
@@ -6154,9 +6149,9 @@
   ],
   "system": {
     "loadavg": [
-      0.122,
-      0.065,
-      0.012
+      1.129,
+      0.777,
+      0.311
     ]
   }
 }
