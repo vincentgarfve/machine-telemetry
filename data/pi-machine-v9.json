@@ -8,15 +8,15 @@
     },
     "machine_log": {
       "exists": true,
-      "modified_at": "2026-03-27T07:22:07.809564Z",
+      "modified_at": "2026-03-27T07:24:17.512234Z",
       "path": "/home/pi/Desktop/machine/v9/machine_run.log",
-      "size_bytes": 14434875
+      "size_bytes": 14437739
     },
     "runtime_events": {
       "exists": true,
-      "modified_at": "2026-03-27T07:13:57.070704Z",
+      "modified_at": "2026-03-27T07:23:51.752498Z",
       "path": "/home/pi/Desktop/machine/v9/runtime_stats/events.jsonl",
-      "size_bytes": 1365336
+      "size_bytes": 1366290
     },
     "runtime_state": {
       "exists": true,
@@ -25,50 +25,9 @@
       "size_bytes": 556
     }
   },
-  "generated_at": "2026-03-27T07:22:08.005987Z",
+  "generated_at": "2026-03-27T07:24:18.005857Z",
   "log_tails": {
     "machine_run_log": [
-      "2026-03-27 08:20:36 INFEED: recovery infeed_open band_stop=OFF gap=435.59s count=0/3",
-      "2026-03-27 08:20:37 INFEED: recovery infeed_open band_stop=OFF gap=436.36s count=0/3",
-      "2026-03-27 08:20:37 INFEED: recovery infeed_open band_stop=OFF gap=437.13s count=0/3",
-      "2026-03-27 08:20:38 INFEED: recovery infeed_open band_stop=OFF gap=437.90s count=0/3",
-      "2026-03-27 08:20:39 INFEED: recovery infeed_open band_stop=OFF gap=438.66s count=0/3",
-      "2026-03-27 08:20:40 INFEED: recovery infeed_open band_stop=OFF gap=439.43s count=0/3",
-      "2026-03-27 08:20:40 INFEED: recovery infeed_open band_stop=OFF gap=440.20s count=0/3",
-      "2026-03-27 08:20:41 INFEED: recovery infeed_open band_stop=OFF gap=440.97s count=0/3",
-      "2026-03-27 08:20:42 INFEED: recovery infeed_open band_stop=OFF gap=441.74s count=0/3",
-      "2026-03-27 08:20:43 INFEED: recovery infeed_open band_stop=OFF gap=442.51s count=0/3",
-      "2026-03-27 08:20:43 INFEED: recovery infeed_open band_stop=OFF gap=443.28s count=0/3",
-      "2026-03-27 08:20:44 INFEED: recovery infeed_open band_stop=OFF gap=444.05s count=0/3",
-      "2026-03-27 08:20:45 INFEED: recovery infeed_open band_stop=OFF gap=444.82s count=0/3",
-      "2026-03-27 08:20:46 INFEED: recovery infeed_open band_stop=OFF gap=445.59s count=0/3",
-      "2026-03-27 08:20:47 INFEED: recovery infeed_open band_stop=OFF gap=446.36s count=0/3",
-      "2026-03-27 08:20:47 INFEED: recovery infeed_open band_stop=OFF gap=447.13s count=0/3",
-      "2026-03-27 08:20:48 INFEED: recovery infeed_open band_stop=OFF gap=447.90s count=0/3",
-      "2026-03-27 08:20:49 INFEED: recovery infeed_open band_stop=OFF gap=448.67s count=0/3",
-      "2026-03-27 08:20:50 INFEED: recovery infeed_open band_stop=OFF gap=449.44s count=0/3",
-      "2026-03-27 08:20:50 INFEED: recovery infeed_open band_stop=OFF gap=450.21s count=0/3",
-      "2026-03-27 08:20:51 INFEED: recovery infeed_open band_stop=OFF gap=450.97s count=0/3",
-      "2026-03-27 08:20:52 INFEED: recovery infeed_open band_stop=OFF gap=451.74s count=0/3",
-      "2026-03-27 08:20:53 INFEED: recovery infeed_open band_stop=OFF gap=452.51s count=0/3",
-      "2026-03-27 08:20:53 INFEED: recovery infeed_open band_stop=OFF gap=453.28s count=0/3",
-      "2026-03-27 08:20:54 INFEED: recovery infeed_open band_stop=OFF gap=454.05s count=0/3",
-      "2026-03-27 08:20:55 INFEED: recovery infeed_open band_stop=OFF gap=454.82s count=0/3",
-      "2026-03-27 08:20:56 INFEED: recovery infeed_open band_stop=OFF gap=455.59s count=0/3",
-      "2026-03-27 08:20:57 INFEED: recovery infeed_open band_stop=OFF gap=456.36s count=0/3",
-      "2026-03-27 08:20:57 INFEED: recovery infeed_open band_stop=OFF gap=457.13s count=0/3",
-      "2026-03-27 08:20:58 INFEED: recovery infeed_open band_stop=OFF gap=457.90s count=0/3",
-      "2026-03-27 08:20:59 INFEED: recovery infeed_open band_stop=OFF gap=458.67s count=0/3",
-      "2026-03-27 08:21:00 INFEED: recovery infeed_open band_stop=OFF gap=459.44s count=0/3",
-      "2026-03-27 08:21:00 INFEED: recovery infeed_open band_stop=OFF gap=460.20s count=0/3",
-      "2026-03-27 08:21:01 INFEED: recovery infeed_open band_stop=OFF gap=460.97s count=0/3",
-      "2026-03-27 08:21:02 INFEED: recovery infeed_open band_stop=OFF gap=461.74s count=0/3",
-      "2026-03-27 08:21:03 INFEED: recovery infeed_open band_stop=OFF gap=462.51s count=0/3",
-      "2026-03-27 08:21:03 INFEED: recovery infeed_open band_stop=OFF gap=463.28s count=0/3",
-      "2026-03-27 08:21:04 INFEED: recovery infeed_open band_stop=OFF gap=464.05s count=0/3",
-      "2026-03-27 08:21:05 INFEED: recovery infeed_open band_stop=OFF gap=464.82s count=0/3",
-      "2026-03-27 08:21:06 INFEED: recovery infeed_open band_stop=OFF gap=465.59s count=0/3",
-      "2026-03-27 08:21:07 INFEED: recovery infeed_open band_stop=OFF gap=466.36s count=0/3",
       "2026-03-27 08:21:07 INFEED: recovery infeed_open band_stop=OFF gap=467.13s count=0/3",
       "2026-03-27 08:21:08 INFEED: recovery infeed_open band_stop=OFF gap=467.90s count=0/3",
       "2026-03-27 08:21:09 INFEED: recovery infeed_open band_stop=OFF gap=468.67s count=0/3",
@@ -147,71 +106,51 @@
       "2026-03-27 08:22:05 INFEED: recovery infeed_open band_stop=OFF gap=524.82s count=0/3",
       "2026-03-27 08:22:06 INFEED: recovery infeed_open band_stop=OFF gap=525.59s count=0/3",
       "2026-03-27 08:22:07 INFEED: recovery infeed_open band_stop=OFF gap=526.36s count=0/3",
-      "2026-03-27 08:22:07 INFEED: recovery infeed_open band_stop=OFF gap=527.13s count=0/3"
+      "2026-03-27 08:22:07 INFEED: recovery infeed_open band_stop=OFF gap=527.13s count=0/3",
+      "2026-03-27 08:22:08 INFEED: recovery infeed_open band_stop=OFF gap=527.90s count=0/3",
+      "2026-03-27 08:22:09 INFEED: recovery infeed_open band_stop=OFF gap=528.67s count=0/3",
+      "2026-03-27 08:22:10 INFEED: recovery infeed_open band_stop=OFF gap=529.44s count=0/3",
+      "2026-03-27 08:22:10 INFEED: recovery infeed_open band_stop=OFF gap=530.21s count=0/3",
+      "2026-03-27 08:22:11 INFEED: recovery infeed_open band_stop=OFF gap=530.98s count=0/3",
+      "2026-03-27 08:22:12 INFEED: recovery infeed_open band_stop=OFF gap=531.75s count=0/3",
+      "2026-03-27 08:22:13 INFEED: recovery infeed_open band_stop=OFF gap=532.52s count=0/3",
+      "2026-03-27 08:22:13 INFEED: recovery infeed_open band_stop=OFF gap=533.29s count=0/3",
+      "2026-03-27 08:22:14 INFEED: recovery infeed_open band_stop=OFF gap=534.06s count=0/3",
+      "2026-03-27 08:22:15 INFEED: recovery infeed_open band_stop=OFF gap=534.83s count=0/3",
+      "2026-03-27 08:22:16 INFEED: recovery infeed_open band_stop=OFF gap=535.60s count=0/3",
+      "2026-03-27 08:22:17 INFEED: recovery infeed_open band_stop=OFF gap=536.37s count=0/3",
+      "2026-03-27 08:22:17 INFEED: recovery infeed_open band_stop=OFF gap=537.13s count=0/3",
+      "2026-03-27 08:22:18 INFEED: recovery infeed_open band_stop=OFF gap=537.90s count=0/3",
+      "2026-03-27 08:22:19 INFEED: recovery infeed_open band_stop=OFF gap=538.67s count=0/3",
+      "2026-03-27 08:22:20 INFEED: recovery infeed_open band_stop=OFF gap=539.44s count=0/3",
+      "2026-03-27 08:22:20 INFEED: recovery infeed_open band_stop=OFF gap=540.21s count=0/3",
+      "2026-03-27 08:22:21 INFEED: recovery infeed_open band_stop=OFF gap=540.98s count=0/3",
+      "2026-03-27 08:22:22 INFEED: recovery infeed_open band_stop=OFF gap=541.75s count=0/3",
+      "2026-03-27 08:23:51 INFEED: recovery infeed_open band_stop=OFF gap=2.77s count=0/3",
+      "2026-03-27 08:23:52 INFEED: recovery infeed_open band_stop=OFF gap=3.54s count=0/3",
+      "2026-03-27 08:23:52 PULSE ok 0.40s -> bottle_count=1",
+      "2026-03-27 08:23:53 PULSE ok 0.40s -> bottle_count=2",
+      "2026-03-27 08:23:54 PULSE ok 0.40s -> bottle_count=3",
+      "2026-03-27 08:23:54 STATE -> ROW_AFTER_CLOSE_SETTLE",
+      "2026-03-27 08:23:57 STATE -> MINI15_PUSH_FWD",
+      "2026-03-27 08:23:59 STATE -> MINI15_PUSH_BACK",
+      "2026-03-27 08:24:00 STATE -> MINI15_OPEN_GATE_NEXT",
+      "2026-03-27 08:24:00 STATE -> ROW_INFEED_COUNTING_PRE_GATE | nästa rad 2/2",
+      "2026-03-27 08:24:02 STATE -> ROW_INFEED_COUNTING | pre-gate klar",
+      "2026-03-27 08:24:03 PULSE ok 0.38s -> bottle_count=1",
+      "2026-03-27 08:24:04 PULSE ok 0.44s -> bottle_count=2",
+      "2026-03-27 08:24:05 PULSE ok 0.41s -> bottle_count=3",
+      "2026-03-27 08:24:05 STATE -> ROW_AFTER_CLOSE_SETTLE",
+      "2026-03-27 08:24:07 STATE -> FINAL_WAIT_BEFORE_SIDE_FENCE_CLOSE",
+      "2026-03-27 08:24:07 STATE -> FINAL_CYL_UP_DELAY_BEFORE_SIDE",
+      "2026-03-27 08:24:08 STATE -> FINAL_SIDE_OUT_SETTLE",
+      "2026-03-27 08:24:09 STATE -> FINAL_BRIDGE_DOWN",
+      "2026-03-27 08:24:11 STATE -> FINAL_BRIDGE_DOWN_DELAY",
+      "2026-03-27 08:24:12 STATE -> FINAL_TRANSFER_FWD",
+      "2026-03-27 08:24:17 STATE -> FINAL_TRANSFER_AT_FWD_HOLD"
     ]
   },
   "recent_events": [
-    {
-      "lap_s": 31.261,
-      "profile": "15L",
-      "ts": 1774512743.0284796,
-      "ts_str": "2026-03-26 09:12:23",
-      "type": "lap_complete"
-    },
-    {
-      "bottles": 6,
-      "count_sensor_time_s": 2.56,
-      "cycle_time_adj_s": 43.022,
-      "cycle_time_s": 45.582,
-      "cycles": 1,
-      "profile": "15L",
-      "recipe_state": "CYCLE_DONE",
-      "ts": 1774512786.0246446,
-      "ts_str": "2026-03-26 09:13:06",
-      "type": "cycle_complete"
-    },
-    {
-      "lap_s": 31.255,
-      "profile": "15L",
-      "ts": 1774512788.6083276,
-      "ts_str": "2026-03-26 09:13:08",
-      "type": "lap_complete"
-    },
-    {
-      "bottles": 6,
-      "count_sensor_time_s": 2.093,
-      "cycle_time_adj_s": 66.185,
-      "cycle_time_s": 68.278,
-      "cycles": 1,
-      "profile": "15L",
-      "recipe_state": "CYCLE_DONE",
-      "ts": 1774512854.3023984,
-      "ts_str": "2026-03-26 09:14:14",
-      "type": "cycle_complete"
-    },
-    {
-      "lap_s": 31.258,
-      "profile": "15L",
-      "ts": 1774512856.8885357,
-      "ts_str": "2026-03-26 09:14:16",
-      "type": "lap_complete"
-    },
-    {
-      "cmd": "STOP",
-      "mode": "IDLE",
-      "note": "STOP -> IDLE",
-      "ts": 1774512887.5546556,
-      "ts_str": "2026-03-26 09:14:47",
-      "type": "command"
-    },
-    {
-      "cmd": "SAFETY_ACK",
-      "mode": "IDLE",
-      "note": "Kvitterad",
-      "ts": 1774512889.0386877,
-      "ts_str": "2026-03-26 09:14:49",
-      "type": "command"
-    },
     {
       "cmd": "WELD_SERVICE",
       "mode": "PAUSED",
@@ -3878,6 +3817,62 @@
       "ts": 1774595637.0766537,
       "ts_str": "2026-03-27 08:13:57",
       "type": "command"
+    },
+    {
+      "cmd": "STOP",
+      "mode": "IDLE",
+      "note": "STOP -> IDLE",
+      "ts": 1774596142.7670116,
+      "ts_str": "2026-03-27 08:22:22",
+      "type": "command"
+    },
+    {
+      "cmd": "SAFETY_ACK",
+      "mode": "IDLE",
+      "note": "Kvitterad",
+      "ts": 1774596144.1229653,
+      "ts_str": "2026-03-27 08:22:24",
+      "type": "command"
+    },
+    {
+      "cmd": "WELD_SERVICE",
+      "mode": "PAUSED",
+      "note": "WELDING",
+      "ts": 1774596169.7233918,
+      "ts_str": "2026-03-27 08:22:49",
+      "type": "command"
+    },
+    {
+      "cmd": "WELD_SERVICE_DONE",
+      "mode": "PAUSED",
+      "note": "Klar",
+      "ts": 1774596175.7365518,
+      "ts_str": "2026-03-27 08:22:55",
+      "type": "command"
+    },
+    {
+      "cmd": "STOP",
+      "mode": "IDLE",
+      "note": "STOP -> IDLE",
+      "ts": 1774596228.992152,
+      "ts_str": "2026-03-27 08:23:48",
+      "type": "command"
+    },
+    {
+      "cmd": "SAFETY_ACK",
+      "mode": "IDLE",
+      "note": "Kvitterad",
+      "ts": 1774596230.8023832,
+      "ts_str": "2026-03-27 08:23:50",
+      "type": "command"
+    },
+    {
+      "cmd": "START",
+      "mode": "RUNNING",
+      "note": "RUNNING",
+      "ts": 1774596231.7557213,
+      "ts_str": "2026-03-27 08:23:51",
+      "type": "command"
     }
   ],
   "recent_gpio_changes": [
@@ -6077,14 +6072,14 @@
     "updated_ts_str": "2026-03-26 23:18:02"
   },
   "runtime_summary": {
-    "avg_count_sensor_time_s": 2.583,
-    "avg_cycle_time_adj_s": 133.941,
-    "avg_cycle_time_s": 136.524,
+    "avg_count_sensor_time_s": 2.586,
+    "avg_cycle_time_adj_s": 134.848,
+    "avg_cycle_time_s": 137.433,
     "avg_lap_s": 31.262,
-    "last_event_ts": "2026-03-27 08:13:57",
+    "last_event_ts": "2026-03-27 08:23:51",
     "last_event_type": "command",
-    "recent_cycle_events": 177,
-    "recent_lap_events": 178
+    "recent_cycle_events": 175,
+    "recent_lap_events": 175
   },
   "service_status": {
     "active_state": "active",
@@ -6131,9 +6126,9 @@
   ],
   "system": {
     "loadavg": [
-      0.179,
-      0.068,
-      0.015
+      0.139,
+      0.082,
+      0.019
     ]
   }
 }
