@@ -25,7 +25,7 @@
       "size_bytes": 556
     }
   },
-  "generated_at": "2026-03-27T03:53:28.002521Z",
+  "generated_at": "2026-03-27T03:55:47.359818Z",
   "log_tails": {
     "machine_run_log": [
       "2026-03-26 15:53:31 INFEED: recovery infeed_open band_stop=OFF gap=56.59s count=0/3",
@@ -6137,9 +6137,9 @@
   ],
   "system": {
     "loadavg": [
-      0.004,
-      0.021,
-      0.0
+      0.113,
+      0.059,
+      0.009
     ]
   }
 }
