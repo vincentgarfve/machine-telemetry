@@ -8,31 +8,26 @@
     },
     "machine_log": {
       "exists": true,
-      "modified_at": "2026-03-26T14:52:35.700298Z",
+      "modified_at": "2026-03-26T22:18:01.173098Z",
       "path": "/home/pi/Desktop/machine/v9/machine_run.log",
-      "size_bytes": 14380368
+      "size_bytes": 14380643
     },
     "runtime_events": {
       "exists": true,
-      "modified_at": "2026-03-26T14:52:36.760298Z",
+      "modified_at": "2026-03-26T22:18:02.193098Z",
       "path": "/home/pi/Desktop/machine/v9/runtime_stats/events.jsonl",
-      "size_bytes": 1364680
+      "size_bytes": 1364800
     },
     "runtime_state": {
       "exists": true,
-      "modified_at": "2026-03-26T14:52:36.760298Z",
+      "modified_at": "2026-03-26T22:18:02.193098Z",
       "path": "/home/pi/Desktop/machine/v9/runtime_stats/state.json",
-      "size_bytes": 557
+      "size_bytes": 556
     }
   },
-  "generated_at": "2026-03-26T22:16:11.823261Z",
+  "generated_at": "2026-03-27T01:52:10.040075Z",
   "log_tails": {
     "machine_run_log": [
-      "2026-03-26 15:53:28 INFEED: recovery infeed_open band_stop=OFF gap=52.73s count=0/3",
-      "2026-03-26 15:53:28 INFEED: recovery infeed_open band_stop=OFF gap=53.50s count=0/3",
-      "2026-03-26 15:53:29 INFEED: recovery infeed_open band_stop=OFF gap=54.27s count=0/3",
-      "2026-03-26 15:53:30 INFEED: recovery infeed_open band_stop=OFF gap=55.05s count=0/3",
-      "2026-03-26 15:53:31 INFEED: recovery infeed_open band_stop=OFF gap=55.82s count=0/3",
       "2026-03-26 15:53:31 INFEED: recovery infeed_open band_stop=OFF gap=56.59s count=0/3",
       "2026-03-26 15:53:32 INFEED: recovery infeed_open band_stop=OFF gap=57.36s count=0/3",
       "2026-03-26 15:53:33 INFEED: recovery infeed_open band_stop=OFF gap=58.13s count=0/3",
@@ -147,22 +142,15 @@
       "2026-03-26 15:52:35 MCP23017: OK",
       "2026-03-26 15:52:35 COUNT_SENSOR valid pulse window: 0.100s..5.000s",
       "2026-03-26 15:52:35 BOOT -> ROW_INFEED_COUNTING_PRE_GATE (PROFILE=15L)",
-      "2026-03-26 15:52:35 OVEN: after_oven borttagen -> oven_prev=False"
+      "2026-03-26 15:52:35 OVEN: after_oven borttagen -> oven_prev=False",
+      "2026-03-26 23:18:00 GPIO: RPiGPIO OK",
+      "2026-03-26 23:18:00 MCP23017: OK",
+      "2026-03-26 23:18:01 COUNT_SENSOR valid pulse window: 0.100s..5.000s",
+      "2026-03-26 23:18:01 BOOT -> ROW_INFEED_COUNTING_PRE_GATE (PROFILE=15L)",
+      "2026-03-26 23:18:01 OVEN: after_oven borttagen -> oven_prev=False"
     ]
   },
   "recent_events": [
-    {
-      "bottles": 6,
-      "count_sensor_time_s": 2.5,
-      "cycle_time_adj_s": 42.382,
-      "cycle_time_s": 44.882,
-      "cycles": 1,
-      "profile": "15L",
-      "recipe_state": "CYCLE_DONE",
-      "ts": 1774512029.628581,
-      "ts_str": "2026-03-26 09:00:29",
-      "type": "cycle_complete"
-    },
     {
       "lap_s": 31.234,
       "profile": "15L",
@@ -3889,6 +3877,13 @@
       "ts_str": "2026-03-26 15:52:36",
       "type": "session_start",
       "version": "v9"
+    },
+    {
+      "profile": "15L",
+      "ts": 1774563482.1952095,
+      "ts_str": "2026-03-26 23:18:02",
+      "type": "session_start",
+      "version": "v9"
     }
   ],
   "recent_gpio_changes": [
@@ -6076,25 +6071,25 @@
     },
     "data_since_ts": 1772176762.3823276,
     "data_since_ts_str": "2026-02-27 08:19:22",
-    "events_total": 7913,
+    "events_total": 7914,
     "last_cycle_ts": 1774536905.1473136,
     "last_cycle_ts_str": "2026-03-26 15:55:05",
     "last_reset_ts": 1772176762.3823276,
     "last_reset_ts_str": "2026-02-27 08:19:22",
-    "sessions_total": 182,
+    "sessions_total": 183,
     "total_bottles": 16836,
     "total_cycles": 2806,
-    "updated_ts": 1774536756.7637029,
-    "updated_ts_str": "2026-03-26 15:52:36"
+    "updated_ts": 1774563482.195466,
+    "updated_ts_str": "2026-03-26 23:18:02"
   },
   "runtime_summary": {
-    "avg_count_sensor_time_s": 2.579,
-    "avg_cycle_time_adj_s": 135.867,
-    "avg_cycle_time_s": 138.447,
+    "avg_count_sensor_time_s": 2.58,
+    "avg_cycle_time_adj_s": 136.39,
+    "avg_cycle_time_s": 138.969,
     "avg_lap_s": 31.262,
-    "last_event_ts": "2026-03-26 15:52:36",
+    "last_event_ts": "2026-03-26 23:18:02",
     "last_event_type": "session_start",
-    "recent_cycle_events": 180,
+    "recent_cycle_events": 179,
     "recent_lap_events": 180
   },
   "service_status": {
@@ -6102,9 +6097,9 @@
     "description": "Machine UI v9 (Flask)",
     "exec_status": "0",
     "id": "machine-v9.service",
-    "main_pid": "1111",
+    "main_pid": "1121",
     "service": "machine-v9.service",
-    "started_at": "Thu 2026-03-26 15:52:34 CET",
+    "started_at": "Thu 2026-03-26 23:18:00 CET",
     "sub_state": "running"
   },
   "source": {
@@ -6142,9 +6137,9 @@
   ],
   "system": {
     "loadavg": [
-      0.153,
-      0.125,
-      0.094
+      1.177,
+      0.855,
+      0.349
     ]
   }
 }
