@@ -8,15 +8,15 @@
     },
     "machine_log": {
       "exists": true,
-      "modified_at": "2026-03-29T21:52:23.149705Z",
+      "modified_at": "2026-03-29T21:52:28.533652Z",
       "path": "/home/pi/Desktop/machine/v9/machine_run.log",
-      "size_bytes": 15069754
+      "size_bytes": 15070342
     },
     "runtime_events": {
       "exists": true,
-      "modified_at": "2026-03-29T21:51:39.102141Z",
+      "modified_at": "2026-03-29T21:52:28.837649Z",
       "path": "/home/pi/Desktop/machine/v9/runtime_stats/events.jsonl",
-      "size_bytes": 1434030
+      "size_bytes": 1434164
     },
     "runtime_state": {
       "exists": true,
@@ -25,16 +25,9 @@
       "size_bytes": 557
     }
   },
-  "generated_at": "2026-03-29T21:52:23.880806Z",
+  "generated_at": "2026-03-29T21:54:54.003575Z",
   "log_tails": {
     "machine_run_log": [
-      "2026-03-29 23:50:01 STATE -> MINI15_PUSH_FWD",
-      "2026-03-29 23:50:03 STATE -> MINI15_PUSH_BACK",
-      "2026-03-29 23:50:04 STATE -> MINI15_OPEN_GATE_NEXT",
-      "2026-03-29 23:50:05 STATE -> ROW_INFEED_COUNTING_PRE_GATE | nästa rad 2/2",
-      "2026-03-29 23:50:06 STATE -> ROW_INFEED_COUNTING | pre-gate klar",
-      "2026-03-29 23:50:07 PULSE ok 0.41s -> bottle_count=1",
-      "2026-03-29 23:50:08 PULSE ok 0.58s -> bottle_count=2",
       "2026-03-29 23:50:09 PULSE ok 0.41s -> bottle_count=3",
       "2026-03-29 23:50:09 STATE -> ROW_AFTER_CLOSE_SETTLE",
       "2026-03-29 23:50:12 STATE -> FINAL_WAIT_BEFORE_SIDE_FENCE_CLOSE",
@@ -147,22 +140,17 @@
       "2026-03-29 23:52:20 INFEED: recovery infeed_open band_stop=OFF gap=41.77s count=0/3",
       "2026-03-29 23:52:21 INFEED: recovery infeed_open band_stop=OFF gap=42.54s count=0/3",
       "2026-03-29 23:52:22 INFEED: recovery infeed_open band_stop=OFF gap=43.31s count=0/3",
-      "2026-03-29 23:52:23 INFEED: recovery infeed_open band_stop=OFF gap=44.08s count=0/3"
+      "2026-03-29 23:52:23 INFEED: recovery infeed_open band_stop=OFF gap=44.08s count=0/3",
+      "2026-03-29 23:52:23 INFEED: recovery infeed_open band_stop=OFF gap=44.85s count=0/3",
+      "2026-03-29 23:52:24 INFEED: recovery infeed_open band_stop=OFF gap=45.62s count=0/3",
+      "2026-03-29 23:52:25 INFEED: recovery infeed_open band_stop=OFF gap=46.39s count=0/3",
+      "2026-03-29 23:52:26 INFEED: recovery infeed_open band_stop=OFF gap=47.16s count=0/3",
+      "2026-03-29 23:52:26 INFEED: recovery infeed_open band_stop=OFF gap=47.93s count=0/3",
+      "2026-03-29 23:52:27 INFEED: recovery infeed_open band_stop=OFF gap=48.70s count=0/3",
+      "2026-03-29 23:52:28 INFEED: recovery infeed_open band_stop=OFF gap=49.47s count=0/3"
     ]
   },
   "recent_events": [
-    {
-      "bottles": 6,
-      "count_sensor_time_s": 2.305,
-      "cycle_time_adj_s": 150.118,
-      "cycle_time_s": 152.423,
-      "cycles": 1,
-      "profile": "15L",
-      "recipe_state": "CYCLE_DONE",
-      "ts": 1774536905.1473136,
-      "ts_str": "2026-03-26 15:55:05",
-      "type": "cycle_complete"
-    },
     {
       "lap_s": 31.261,
       "profile": "15L",
@@ -3867,6 +3855,14 @@
       "ts": 1774821099.1032996,
       "ts_str": "2026-03-29 23:51:39",
       "type": "lap_complete"
+    },
+    {
+      "cmd": "STOP",
+      "mode": "IDLE",
+      "note": "STOP -> IDLE",
+      "ts": 1774821148.8406038,
+      "ts_str": "2026-03-29 23:52:28",
+      "type": "command"
     }
   ],
   "recent_gpio_changes": [
@@ -6066,13 +6062,13 @@
     "updated_ts_str": "2026-03-29 23:51:39"
   },
   "runtime_summary": {
-    "avg_count_sensor_time_s": 2.498,
-    "avg_cycle_time_adj_s": 1641.107,
-    "avg_cycle_time_s": 1643.606,
+    "avg_count_sensor_time_s": 2.5,
+    "avg_cycle_time_adj_s": 1649.776,
+    "avg_cycle_time_s": 1652.275,
     "avg_lap_s": 31.195,
-    "last_event_ts": "2026-03-29 23:51:39",
-    "last_event_type": "lap_complete",
-    "recent_cycle_events": 173,
+    "last_event_ts": "2026-03-29 23:52:28",
+    "last_event_type": "command",
+    "recent_cycle_events": 172,
     "recent_lap_events": 172
   },
   "service_status": {
@@ -6120,9 +6116,9 @@
   ],
   "system": {
     "loadavg": [
-      0.0,
-      0.021,
-      0.0
+      0.2,
+      0.07,
+      0.016
     ]
   }
 }
