@@ -25,7 +25,7 @@
       "size_bytes": 557
     }
   },
-  "generated_at": "2026-03-30T17:48:39.708127Z",
+  "generated_at": "2026-03-30T17:50:59.690381Z",
   "log_tails": {
     "machine_run_log": [
       "2026-03-29 23:50:28 STATE -> FINAL_BRIDGE_UP_BEFORE_WELD",
@@ -6117,9 +6117,9 @@
   ],
   "system": {
     "loadavg": [
-      0.099,
-      0.06,
-      0.058
+      0.007,
+      0.032,
+      0.044
     ]
   }
 }
