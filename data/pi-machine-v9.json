@@ -8,31 +8,26 @@
     },
     "machine_log": {
       "exists": true,
-      "modified_at": "2026-03-30T01:39:22.233056Z",
+      "modified_at": "2026-03-30T06:49:10.210807Z",
       "path": "/home/pi/Desktop/machine/v9/machine_run.log",
-      "size_bytes": 15070617
+      "size_bytes": 15070892
     },
     "runtime_events": {
       "exists": true,
-      "modified_at": "2026-03-30T01:39:23.233056Z",
+      "modified_at": "2026-03-30T06:49:11.082807Z",
       "path": "/home/pi/Desktop/machine/v9/runtime_stats/events.jsonl",
-      "size_bytes": 1434284
+      "size_bytes": 1434404
     },
     "runtime_state": {
       "exists": true,
-      "modified_at": "2026-03-30T01:39:23.233056Z",
+      "modified_at": "2026-03-30T06:49:11.082807Z",
       "path": "/home/pi/Desktop/machine/v9/runtime_stats/state.json",
       "size_bytes": 557
     }
   },
-  "generated_at": "2026-03-30T06:48:52.919336Z",
+  "generated_at": "2026-03-30T17:09:22.729375Z",
   "log_tails": {
     "machine_run_log": [
-      "2026-03-29 23:50:14 STATE -> FINAL_BRIDGE_DOWN",
-      "2026-03-29 23:50:16 STATE -> FINAL_BRIDGE_DOWN_DELAY",
-      "2026-03-29 23:50:17 STATE -> FINAL_TRANSFER_FWD",
-      "2026-03-29 23:50:22 STATE -> FINAL_TRANSFER_AT_FWD_HOLD",
-      "2026-03-29 23:50:25 STATE -> FINAL_TRANSFER_BACK",
       "2026-03-29 23:50:27 STATE -> FINAL_AFTER_TRANSFER_BACK_DELAY",
       "2026-03-29 23:50:28 STATE -> FINAL_BRIDGE_UP_BEFORE_WELD",
       "2026-03-29 23:50:32 STATE -> FINAL_WELD",
@@ -147,17 +142,15 @@
       "2026-03-30 03:39:22 MCP23017: OK",
       "2026-03-30 03:39:22 COUNT_SENSOR valid pulse window: 0.100s..5.000s",
       "2026-03-30 03:39:22 BOOT -> ROW_INFEED_COUNTING_PRE_GATE (PROFILE=15L)",
-      "2026-03-30 03:39:22 OVEN: after_oven borttagen -> oven_prev=False"
+      "2026-03-30 03:39:22 OVEN: after_oven borttagen -> oven_prev=False",
+      "2026-03-30 08:49:10 GPIO: RPiGPIO OK",
+      "2026-03-30 08:49:10 MCP23017: OK",
+      "2026-03-30 08:49:10 COUNT_SENSOR valid pulse window: 0.100s..5.000s",
+      "2026-03-30 08:49:10 BOOT -> ROW_INFEED_COUNTING_PRE_GATE (PROFILE=15L)",
+      "2026-03-30 08:49:10 OVEN: after_oven borttagen -> oven_prev=False"
     ]
   },
   "recent_events": [
-    {
-      "profile": "15L",
-      "ts": 1774536756.7634652,
-      "ts_str": "2026-03-26 15:52:36",
-      "type": "session_start",
-      "version": "v9"
-    },
     {
       "profile": "15L",
       "ts": 1774563482.1952095,
@@ -3863,6 +3856,13 @@
       "ts_str": "2026-03-30 03:39:23",
       "type": "session_start",
       "version": "v9"
+    },
+    {
+      "profile": "15L",
+      "ts": 1774853351.0869322,
+      "ts_str": "2026-03-30 08:49:11",
+      "type": "session_start",
+      "version": "v9"
     }
   ],
   "recent_gpio_changes": [
@@ -6050,23 +6050,23 @@
     },
     "data_since_ts": 1772176762.3823276,
     "data_since_ts_str": "2026-02-27 08:19:22",
-    "events_total": 8312,
+    "events_total": 8313,
     "last_cycle_ts": 1774821096.5280116,
     "last_cycle_ts_str": "2026-03-29 23:51:36",
     "last_reset_ts": 1772176762.3823276,
     "last_reset_ts_str": "2026-02-27 08:19:22",
-    "sessions_total": 185,
+    "sessions_total": 186,
     "total_bottles": 17868,
     "total_cycles": 2978,
-    "updated_ts": 1774834763.2370617,
-    "updated_ts_str": "2026-03-30 03:39:23"
+    "updated_ts": 1774853351.0872166,
+    "updated_ts_str": "2026-03-30 08:49:11"
   },
   "runtime_summary": {
     "avg_count_sensor_time_s": 2.5,
     "avg_cycle_time_adj_s": 1649.776,
     "avg_cycle_time_s": 1652.275,
     "avg_lap_s": 31.195,
-    "last_event_ts": "2026-03-30 03:39:23",
+    "last_event_ts": "2026-03-30 08:49:11",
     "last_event_type": "session_start",
     "recent_cycle_events": 172,
     "recent_lap_events": 171
@@ -6076,9 +6076,9 @@
     "description": "Machine UI v9 (Flask)",
     "exec_status": "0",
     "id": "machine-v9.service",
-    "main_pid": "1104",
+    "main_pid": "1093",
     "service": "machine-v9.service",
-    "started_at": "Mon 2026-03-30 03:39:21 CEST",
+    "started_at": "Mon 2026-03-30 08:49:09 CEST",
     "sub_state": "running"
   },
   "source": {
@@ -6116,9 +6116,9 @@
   ],
   "system": {
     "loadavg": [
-      0.896,
-      0.768,
-      0.319
+      0.512,
+      0.409,
+      0.168
     ]
   }
 }
