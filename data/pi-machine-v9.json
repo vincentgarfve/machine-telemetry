@@ -8,15 +8,15 @@
     },
     "machine_log": {
       "exists": true,
-      "modified_at": "2026-03-30T06:49:10.210807Z",
+      "modified_at": "2026-03-30T17:19:47.155848Z",
       "path": "/home/pi/Desktop/machine/v9/machine_run.log",
-      "size_bytes": 15070892
+      "size_bytes": 15070975
     },
     "runtime_events": {
       "exists": true,
-      "modified_at": "2026-03-30T06:49:11.082807Z",
+      "modified_at": "2026-03-30T17:19:47.251840Z",
       "path": "/home/pi/Desktop/machine/v9/runtime_stats/events.jsonl",
-      "size_bytes": 1434404
+      "size_bytes": 1434938
     },
     "runtime_state": {
       "exists": true,
@@ -25,10 +25,9 @@
       "size_bytes": 557
     }
   },
-  "generated_at": "2026-03-30T17:18:25.513941Z",
+  "generated_at": "2026-03-30T17:20:39.684097Z",
   "log_tails": {
     "machine_run_log": [
-      "2026-03-29 23:50:27 STATE -> FINAL_AFTER_TRANSFER_BACK_DELAY",
       "2026-03-29 23:50:28 STATE -> FINAL_BRIDGE_UP_BEFORE_WELD",
       "2026-03-29 23:50:32 STATE -> FINAL_WELD",
       "2026-03-29 23:50:38 STATE -> CYCLE_DONE",
@@ -147,41 +146,11 @@
       "2026-03-30 08:49:10 MCP23017: OK",
       "2026-03-30 08:49:10 COUNT_SENSOR valid pulse window: 0.100s..5.000s",
       "2026-03-30 08:49:10 BOOT -> ROW_INFEED_COUNTING_PRE_GATE (PROFILE=15L)",
-      "2026-03-30 08:49:10 OVEN: after_oven borttagen -> oven_prev=False"
+      "2026-03-30 08:49:10 OVEN: after_oven borttagen -> oven_prev=False",
+      "2026-03-30 19:19:47 INFEED: recovery infeed_open band_stop=OFF gap=2.53s count=0/3"
     ]
   },
   "recent_events": [
-    {
-      "profile": "15L",
-      "ts": 1774563482.1952095,
-      "ts_str": "2026-03-26 23:18:02",
-      "type": "session_start",
-      "version": "v9"
-    },
-    {
-      "cmd": "STOP",
-      "mode": "IDLE",
-      "note": "STOP -> IDLE",
-      "ts": 1774595582.4382617,
-      "ts_str": "2026-03-27 08:13:02",
-      "type": "command"
-    },
-    {
-      "cmd": "SAFETY_ACK",
-      "mode": "IDLE",
-      "note": "Kvitterad",
-      "ts": 1774595599.514649,
-      "ts_str": "2026-03-27 08:13:19",
-      "type": "command"
-    },
-    {
-      "cmd": "STOP",
-      "mode": "IDLE",
-      "note": "STOP -> IDLE",
-      "ts": 1774595600.679543,
-      "ts_str": "2026-03-27 08:13:20",
-      "type": "command"
-    },
     {
       "cmd": "START",
       "mode": "RUNNING",
@@ -3863,6 +3832,38 @@
       "ts_str": "2026-03-30 08:49:11",
       "type": "session_start",
       "version": "v9"
+    },
+    {
+      "cmd": "START",
+      "mode": "RUNNING",
+      "note": "RUNNING",
+      "ts": 1774891183.8506987,
+      "ts_str": "2026-03-30 19:19:43",
+      "type": "command"
+    },
+    {
+      "cmd": "STOP",
+      "mode": "IDLE",
+      "note": "STOP -> IDLE",
+      "ts": 1774891184.6292114,
+      "ts_str": "2026-03-30 19:19:44",
+      "type": "command"
+    },
+    {
+      "cmd": "START",
+      "mode": "RUNNING",
+      "note": "RUNNING",
+      "ts": 1774891186.1036754,
+      "ts_str": "2026-03-30 19:19:46",
+      "type": "command"
+    },
+    {
+      "cmd": "STOP",
+      "mode": "IDLE",
+      "note": "STOP -> IDLE",
+      "ts": 1774891187.2528596,
+      "ts_str": "2026-03-30 19:19:47",
+      "type": "command"
     }
   ],
   "recent_gpio_changes": [
@@ -6066,8 +6067,8 @@
     "avg_cycle_time_adj_s": 1649.776,
     "avg_cycle_time_s": 1652.275,
     "avg_lap_s": 31.195,
-    "last_event_ts": "2026-03-30 08:49:11",
-    "last_event_type": "session_start",
+    "last_event_ts": "2026-03-30 19:19:47",
+    "last_event_type": "command",
     "recent_cycle_events": 172,
     "recent_lap_events": 171
   },
@@ -6116,9 +6117,9 @@
   ],
   "system": {
     "loadavg": [
-      0.036,
-      0.089,
-      0.101
+      0.436,
+      0.276,
+      0.169
     ]
   }
 }
