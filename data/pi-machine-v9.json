@@ -14,9 +14,9 @@
     },
     "runtime_events": {
       "exists": true,
-      "modified_at": "2026-03-31T07:39:04.021699Z",
+      "modified_at": "2026-03-31T07:40:14.203702Z",
       "path": "/home/pi/Desktop/machine/v9/runtime_stats/events.jsonl",
-      "size_bytes": 1439513
+      "size_bytes": 1439798
     },
     "runtime_state": {
       "exists": true,
@@ -25,7 +25,7 @@
       "size_bytes": 554
     }
   },
-  "generated_at": "2026-03-31T07:39:42.473870Z",
+  "generated_at": "2026-03-31T07:42:12.384012Z",
   "log_tails": {
     "machine_run_log": [
       "2026-03-31 08:23:13 OVEN: after_oven borttagen -> oven_prev=False",
@@ -151,25 +151,6 @@
     ]
   },
   "recent_events": [
-    {
-      "bottles": 6,
-      "count_sensor_time_s": 2.453,
-      "cycle_time_adj_s": 42.326,
-      "cycle_time_s": 44.779,
-      "cycles": 1,
-      "profile": "15L",
-      "recipe_state": "CYCLE_DONE",
-      "ts": 1774596892.0396705,
-      "ts_str": "2026-03-27 08:34:52",
-      "type": "cycle_complete"
-    },
-    {
-      "lap_s": 31.189,
-      "profile": "15L",
-      "ts": 1774596894.615373,
-      "ts_str": "2026-03-27 08:34:54",
-      "type": "lap_complete"
-    },
     {
       "bottles": 6,
       "count_sensor_time_s": 2.45,
@@ -3833,6 +3814,22 @@
       "ts": 1774942744.0243766,
       "ts_str": "2026-03-31 09:39:04",
       "type": "command"
+    },
+    {
+      "cmd": "MANUAL_OUT",
+      "mode": "IDLE",
+      "note": "sponge_down=ON",
+      "ts": 1774942801.7117558,
+      "ts_str": "2026-03-31 09:40:01",
+      "type": "command"
+    },
+    {
+      "cmd": "MANUAL_OUT",
+      "mode": "IDLE",
+      "note": "sponge_down=OFF",
+      "ts": 1774942814.2045581,
+      "ts_str": "2026-03-31 09:40:14",
+      "type": "command"
     }
   ],
   "recent_gpio_changes": [
@@ -6032,14 +6029,14 @@
     "updated_ts_str": "2026-03-31 09:32:05"
   },
   "runtime_summary": {
-    "avg_count_sensor_time_s": 2.525,
-    "avg_cycle_time_adj_s": 2092.516,
-    "avg_cycle_time_s": 2095.041,
+    "avg_count_sensor_time_s": 2.526,
+    "avg_cycle_time_adj_s": 2105.094,
+    "avg_cycle_time_s": 2107.62,
     "avg_lap_s": 31.195,
-    "last_event_ts": "2026-03-31 09:39:04",
+    "last_event_ts": "2026-03-31 09:40:14",
     "last_event_type": "command",
-    "recent_cycle_events": 164,
-    "recent_lap_events": 163
+    "recent_cycle_events": 163,
+    "recent_lap_events": 162
   },
   "service_status": {
     "active_state": "active",
@@ -6086,9 +6083,9 @@
   ],
   "system": {
     "loadavg": [
-      0.13,
-      0.453,
-      0.245
+      0.015,
+      0.279,
+      0.207
     ]
   }
 }
