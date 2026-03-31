@@ -25,7 +25,7 @@
       "size_bytes": 557
     }
   },
-  "generated_at": "2026-03-31T07:49:42.474521Z",
+  "generated_at": "2026-03-31T07:52:02.451960Z",
   "log_tails": {
     "machine_run_log": [
       "2026-03-31 09:46:06 STATE -> ROW_AFTER_CLOSE_SETTLE",
@@ -6080,9 +6080,9 @@
   ],
   "system": {
     "loadavg": [
-      0.03,
-      0.084,
-      0.135
+      0.0,
+      0.048,
+      0.108
     ]
   }
 }
