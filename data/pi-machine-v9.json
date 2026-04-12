@@ -14,9 +14,9 @@
     },
     "runtime_events": {
       "exists": true,
-      "modified_at": "2026-04-12T22:16:49.459464Z",
+      "modified_at": "2026-04-12T22:18:49.389269Z",
       "path": "/home/pi/Desktop/machine/v9/runtime_stats/events.jsonl",
-      "size_bytes": 1499849
+      "size_bytes": 1500560
     },
     "runtime_state": {
       "exists": true,
@@ -25,7 +25,7 @@
       "size_bytes": 557
     }
   },
-  "generated_at": "2026-04-12T22:17:09.957004Z",
+  "generated_at": "2026-04-12T22:19:19.459984Z",
   "log_tails": {
     "machine_run_log": [
       "2026-03-31 15:36:59 STATE -> MINI15_PUSH_FWD",
@@ -151,49 +151,6 @@
     ]
   },
   "recent_events": [
-    {
-      "cmd": "MANUAL_OUT",
-      "mode": "IDLE",
-      "note": "sponge_down=OFF",
-      "ts": 1774819783.4697087,
-      "ts_str": "2026-03-29 23:29:43",
-      "type": "command"
-    },
-    {
-      "cmd": "START",
-      "mode": "RUNNING",
-      "note": "RUNNING",
-      "ts": 1774820471.654796,
-      "ts_str": "2026-03-29 23:41:11",
-      "type": "command"
-    },
-    {
-      "bottles": 6,
-      "count_sensor_time_s": 2.671,
-      "cycle_time_adj_s": 212327.886,
-      "cycle_time_s": 212330.558,
-      "cycles": 1,
-      "profile": "15L",
-      "recipe_state": "CYCLE_DONE",
-      "ts": 1774820575.1071074,
-      "ts_str": "2026-03-29 23:42:55",
-      "type": "cycle_complete"
-    },
-    {
-      "lap_s": 31.19,
-      "profile": "15L",
-      "ts": 1774820577.681647,
-      "ts_str": "2026-03-29 23:42:57",
-      "type": "lap_complete"
-    },
-    {
-      "cmd": "STOP",
-      "mode": "IDLE",
-      "note": "STOP -> IDLE",
-      "ts": 1774820579.971672,
-      "ts_str": "2026-03-29 23:42:59",
-      "type": "command"
-    },
     {
       "cmd": "START",
       "mode": "RUNNING",
@@ -3801,6 +3758,46 @@
       "ts": 1776032209.460813,
       "ts_str": "2026-04-13 00:16:49",
       "type": "command"
+    },
+    {
+      "cmd": "MANUAL_OUT",
+      "mode": "IDLE",
+      "note": "side_fence=OFF",
+      "ts": 1776032240.3999012,
+      "ts_str": "2026-04-13 00:17:20",
+      "type": "command"
+    },
+    {
+      "cmd": "MANUAL_OUT",
+      "mode": "IDLE",
+      "note": "side_fence=ON",
+      "ts": 1776032285.2302186,
+      "ts_str": "2026-04-13 00:18:05",
+      "type": "command"
+    },
+    {
+      "cmd": "MANUAL_OUT",
+      "mode": "IDLE",
+      "note": "transfer_fwd=ON",
+      "ts": 1776032301.3003762,
+      "ts_str": "2026-04-13 00:18:21",
+      "type": "command"
+    },
+    {
+      "cmd": "MANUAL_OUT",
+      "mode": "IDLE",
+      "note": "transfer_fwd=OFF",
+      "ts": 1776032306.8685932,
+      "ts_str": "2026-04-13 00:18:26",
+      "type": "command"
+    },
+    {
+      "cmd": "MANUAL_OUT",
+      "mode": "IDLE",
+      "note": "side_fence=OFF",
+      "ts": 1776032329.391392,
+      "ts_str": "2026-04-13 00:18:49",
+      "type": "command"
     }
   ],
   "recent_gpio_changes": [
@@ -6000,14 +5997,14 @@
     "updated_ts_str": "2026-03-31 15:39:29"
   },
   "runtime_summary": {
-    "avg_count_sensor_time_s": 2.75,
-    "avg_cycle_time_adj_s": 2309.601,
-    "avg_cycle_time_s": 2312.351,
+    "avg_count_sensor_time_s": 2.751,
+    "avg_cycle_time_adj_s": 936.932,
+    "avg_cycle_time_s": 939.683,
     "avg_lap_s": 31.195,
-    "last_event_ts": "2026-04-13 00:16:49",
+    "last_event_ts": "2026-04-13 00:18:49",
     "last_event_type": "command",
-    "recent_cycle_events": 154,
-    "recent_lap_events": 154
+    "recent_cycle_events": 153,
+    "recent_lap_events": 153
   },
   "service_status": {
     "active_state": "active",
@@ -6054,9 +6051,9 @@
   ],
   "system": {
     "loadavg": [
-      0.643,
-      0.415,
-      0.368
+      0.156,
+      0.304,
+      0.332
     ]
   }
 }
