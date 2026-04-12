@@ -14,9 +14,9 @@
     },
     "runtime_events": {
       "exists": true,
-      "modified_at": "2026-04-12T21:45:48.682888Z",
+      "modified_at": "2026-04-12T22:16:49.459464Z",
       "path": "/home/pi/Desktop/machine/v9/runtime_stats/events.jsonl",
-      "size_bytes": 1499709
+      "size_bytes": 1499849
     },
     "runtime_state": {
       "exists": true,
@@ -25,7 +25,7 @@
       "size_bytes": 557
     }
   },
-  "generated_at": "2026-04-12T22:14:39.877002Z",
+  "generated_at": "2026-04-12T22:17:09.957004Z",
   "log_tails": {
     "machine_run_log": [
       "2026-03-31 15:36:59 STATE -> MINI15_PUSH_FWD",
@@ -151,14 +151,6 @@
     ]
   },
   "recent_events": [
-    {
-      "cmd": "MANUAL_OUT",
-      "mode": "IDLE",
-      "note": "sponge_down=ON",
-      "ts": 1774819772.104127,
-      "ts_str": "2026-03-29 23:29:32",
-      "type": "command"
-    },
     {
       "cmd": "MANUAL_OUT",
       "mode": "IDLE",
@@ -3801,6 +3793,14 @@
       "ts": 1776030348.684341,
       "ts_str": "2026-04-12 23:45:48",
       "type": "command"
+    },
+    {
+      "cmd": "MANUAL_OUT",
+      "mode": "IDLE",
+      "note": "side_fence=ON",
+      "ts": 1776032209.460813,
+      "ts_str": "2026-04-13 00:16:49",
+      "type": "command"
     }
   ],
   "recent_gpio_changes": [
@@ -6004,7 +6004,7 @@
     "avg_cycle_time_adj_s": 2309.601,
     "avg_cycle_time_s": 2312.351,
     "avg_lap_s": 31.195,
-    "last_event_ts": "2026-04-12 23:45:48",
+    "last_event_ts": "2026-04-13 00:16:49",
     "last_event_type": "command",
     "recent_cycle_events": 154,
     "recent_lap_events": 154
@@ -6054,9 +6054,9 @@
   ],
   "system": {
     "loadavg": [
-      0.559,
-      0.33,
-      0.334
+      0.643,
+      0.415,
+      0.368
     ]
   }
 }
