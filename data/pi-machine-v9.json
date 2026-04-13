@@ -25,7 +25,7 @@
       "size_bytes": 556
     }
   },
-  "generated_at": "2026-04-13T04:24:01.021916Z",
+  "generated_at": "2026-04-13T04:26:06.952357Z",
   "log_tails": {
     "machine_run_log": [
       "2026-03-31 15:37:11 STATE -> FINAL_CYL_UP_DELAY_BEFORE_SIDE",
@@ -6009,9 +6009,9 @@
     "description": "Machine UI v9 (Flask)",
     "exec_status": "0",
     "id": "machine-v9.service",
-    "main_pid": "986",
+    "main_pid": "28837",
     "service": "machine-v9.service",
-    "started_at": "Mon 2026-04-13 05:20:43 CEST",
+    "started_at": "Mon 2026-04-13 06:24:15 CEST",
     "sub_state": "running"
   },
   "source": {
@@ -6049,9 +6049,9 @@
   ],
   "system": {
     "loadavg": [
-      0.302,
-      0.458,
-      0.605
+      0.357,
+      0.432,
+      0.577
     ]
   }
 }
