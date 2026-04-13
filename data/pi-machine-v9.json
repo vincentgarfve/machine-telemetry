@@ -25,7 +25,7 @@
       "size_bytes": 557
     }
   },
-  "generated_at": "2026-04-13T00:02:39.697968Z",
+  "generated_at": "2026-04-13T00:05:19.405553Z",
   "log_tails": {
     "machine_run_log": [
       "2026-03-31 15:36:59 STATE -> MINI15_PUSH_FWD",
@@ -6051,9 +6051,9 @@
   ],
   "system": {
     "loadavg": [
-      0.19,
-      0.314,
-      0.286
+      0.396,
+      0.296,
+      0.28
     ]
   }
 }
