@@ -25,7 +25,7 @@
       "size_bytes": 557
     }
   },
-  "generated_at": "2026-04-13T01:09:16.450390Z",
+  "generated_at": "2026-04-13T01:11:40.277758Z",
   "log_tails": {
     "machine_run_log": [
       "2026-03-31 15:37:06 PULSE ok 0.41s -> bottle_count=1",
@@ -6050,9 +6050,9 @@
   ],
   "system": {
     "loadavg": [
-      2.537,
-      1.19,
-      0.457
+      1.277,
+      1.17,
+      0.556
     ]
   }
 }
