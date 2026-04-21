@@ -25,7 +25,7 @@
       "size_bytes": 556
     }
   },
-  "generated_at": "2026-04-21T09:30:43.242502Z",
+  "generated_at": "2026-04-21T09:33:13.219074Z",
   "log_tails": {
     "machine_run_log": [
       "2026-03-31 15:37:11 STATE -> FINAL_CYL_UP_DELAY_BEFORE_SIDE",
@@ -6049,9 +6049,9 @@
   ],
   "system": {
     "loadavg": [
-      0.305,
-      0.192,
-      0.185
+      0.377,
+      0.238,
+      0.197
     ]
   }
 }
